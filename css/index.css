@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+}
+
+header{
+    background-color: #2C2C32;;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.navbar{
+    background-color: #2C2C32;
+}
+
+.navbar div a p:hover{
+    color: #F1F6F9;
+    
+}
+
+.navbar ul li a{
+    color: #F1F6F9;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.navbar ul li a:hover{
+    color: #00BCD4;
+}
+
+.smallviewport{
+    display: none;
+}
+
+@media (max-width: 600px){
+    .smallviewport{
+        display: inline-block;
+    }
+    .largeviewport{
+        display: none;
+    }
+
+}
+
+header .btn{
+    background-color: #00BCD4;
+    color: #F1F6F9;
+    font-weight: 500;
+    outline: none;
+    border-radius: 0%;
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
+
+  .jumbotron {
+    background: url("css/images/index/Candidate-A.gif") !important;
+    background-image: url("https://i.ibb.co/4dfgvrt/Candidate-A.png");
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .jumbotron h5 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 2px;
+    /* Adjust as needed */
+    animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+    font-size: 4vw;
+    color: black;
+    
+  }
+  
+  .jumbotron p {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 1px;
+    /* Adjust as needed */
+    font-size: 2vw;
+    color: black;
+  }
+
+  @media (max-width: 800px){
+    .jumbotron h5 {
+        font-size: 6vw;
+    }
+    
+    .jumbotron p {
+        font-size: 3vw;
+    }
+  }
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+      border-color: transparent;
+    }
+  
+    50% {
+      border-color: transparent;
+    }
+  }
+
+/* .animated{
+    border-right: solid 3px black;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 5vw;
+    font-weight: 500;
+    color: black;
+    margin: 0 auto;
+}
+
+.animated {
+animation: animated-text 3s steps(29,end) 1s 1 normal both, animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{
+    from{
+        width: 0;
+    }
+    to{
+        width: 600px;
+    }
+}
+
+@keyframes animated-cursor{
+    from{
+        border-right-color: black;
+    }
+    to {
+        border-right-color: transparent;
+    }
+} */

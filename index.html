@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/x-icon" href="css/images/index/Wolfcraft.png"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Font Aswsome Symbols-->
+    <script src="https://kit.fontawesome.com/e4fd338ca7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>WOLFCRAFT: A MINECRAFT COMMUNITY</title>
+  </head>
+  <body>
+
+      <header style="padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0; height: 50px;">
+          <div class="largeviewport" style="padding-top: 0px; padding-bottom: 0px; float: right; height: 100%; padding-right: 20px;">
+            <button class="btn" style="font-size: 14px; height: 100%;">
+              <p style="display: inline; padding-left: 3px;">APPLY NOW</p>
+            </button>
+          </div>
+          <div class="smallviewport" style="padding-top: 0px; padding-bottom: 0px; float: right; height: 100%; padding-right: 20px;">
+            <button class="btn" style="font-size: 14px; height: 100%;">
+              <p style="display: inline; padding-left: 3px;"><i class="fas fa-file-export"></i></p>
+            </button>
+          </div>
+          <nav class="navbar navbar-expand-xl" style="padding-left: 10vw; padding-right: 2vw; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0;">
+            <div style="margin-top: 5px; margin-bottom: 5px; padding-top: 2px;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #2C2C32; float: left; margin-top: 2px; margin-right: 10px; padding: 4px; border-radius: 0%;">
+                  <i class="fas fa-bars" style="color: white;"></i>
+                </button>
+
+                <a href="#" style="color: #F1F6F9; font-size: 13px; font-weight: 600; text-decoration: none;">
+                  <img src="css/images/index/Wolfcraft.png" width="40px" alt="WolfCraft Logo">
+                  <p style="display: inline; padding-left: 3px;">WOLFCRAFT: A MINECRAFT COMMUNITY</p>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 50px; margin-top: 5px; margin-bottom: 5px;">
+              <ul class="navbar-nav mr-auto">
+                 <li class="nav-item">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">MANAGEMENT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PHOTO GALLERY</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ADDITIONAL RESOURCES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding-top: 5px; padding-bottom: 5px;">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </header>
+
+      <div class="jumbotron jumbotron-fluid vertical-center">
+        <div class="container-fluid">
+          <h5 style="font-weight: bold;">WELCOME TO <span style="color: deepskyblue;">WOLFCRAFT</span>
+          </h5>
+          <p><span class="txt-rotate" data-period="2000" data-rotate='[ "A MINECRAFT", "AN INTERNATIONAL", "AN ACTIVE" ]'></span> COMMUNITY</p>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- JUMBOTRON p TEXT-WRITER SCRIPT -->
+    <script>
+      var TxtRotate = function(el, toRotate, period) {
+      this.toRotate = toRotate;
+      this.el = el;
+      this.loopNum = 0;
+      this.period = parseInt(period, 10) || 2000;
+      this.txt = '';
+      this.tick();
+      this.isDeleting = false;
+    };
+
+    TxtRotate.prototype.tick = function() {
+      var i = this.loopNum % this.toRotate.length;
+      var fullTxt = this.toRotate[i];
+
+      if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+      } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+      }
+
+      this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+      var that = this;
+      var delta = 300 - Math.random() * 100;
+
+      if (this.isDeleting) { delta /= 2; }
+
+      if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+      } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+      }
+
+      setTimeout(function() {
+        that.tick();
+      }, delta);
+    };
+
+    window.onload = function() {
+      var elements = document.getElementsByClassName('txt-rotate');
+      for (var i=0; i<elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-rotate');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtRotate(elements[i], JSON.parse(toRotate), period);
+        }
+      }
+      // INJECT CSS
+      var css = document.createElement("style");
+      css.type = "text/css";
+      css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+      document.body.appendChild(css);
+    };
+  </script>
+
+    <!--Auto Drop Dropdown On Hover-->
+    <!-- <script>
+      const $dropdown = $(".dropdown");
+      const $dropdownToggle = $(".dropdown-toggle");
+      const $dropdownMenu = $(".dropdown-menu");
+      const showClass = "show";
+
+      $(window).on("load resize", function() {
+        if (this.matchMedia("(min-width: 768px)").matches) {
+          $dropdown.hover(
+            function() {
+              const $this = $(this);
+              $this.addClass(showClass);
+              $this.find($dropdownToggle).attr("aria-expanded", "true");
+              $this.find($dropdownMenu).addClass(showClass);
+            },
+            function() {
+              const $this = $(this);
+              $this.removeClass(showClass);
+              $this.find($dropdownToggle).attr("aria-expanded", "false");
+              $this.find($dropdownMenu).removeClass(showClass);
+            }
+          );
+        } else {
+          $dropdown.off("mouseenter mouseleave");
+        }
+      });
+    </script> -->
+
+  </body>
+</html>
