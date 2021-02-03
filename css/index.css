@@ -59,13 +59,16 @@ header .btn{
     align-items: center;
   }
 
+
   .jumbotron {
-    background: url("css/images/index/Candidate-A.gif") !important;
-    background-image: url("https://i.ibb.co/4dfgvrt/Candidate-A.png");
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("images/index/Backdrop.png");
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    background-position: center;
-    background-size: cover;
+    height: 50px !important;
   }
 
   .jumbotron h5 {
@@ -79,7 +82,7 @@ header .btn{
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: 2px;
     /* Adjust as needed */
-    animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
     font-size: 4vw;
     color: black;
     
