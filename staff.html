@@ -19,61 +19,71 @@
 </head>
 <body>
 
-    <!-- Header - Top Naviagtion Bar -->
-    <header style="padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0; height: 50px;">
-        <div class="largeviewport" style="padding-top: 0px; padding-bottom: 0px; float: right; height: 100%; padding-right: 20px;" >
-          <button class="btn" style="font-size: 14px; height: 100%;">
-            <p style="display: inline; padding-left: 3px;">APPLY NOW</p>
-          </button>
-        </div>
-        <div class="smallviewport" style="padding-top: 0px; padding-bottom: 0px; float: right; height: 100%; padding-right: 20px;">
-          <button class="btn" style="font-size: 14px; height: 100%;">
-            <p style="display: inline; padding-left: 3px;"><i class="fas fa-file-export"></i></p>
-          </button>
-        </div>
-        <nav class="navbar navbar-expand-xl" style="padding-left: 10vw; padding-right: 2vw; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0;">
-          <div style="margin-top: 5px; margin-bottom: 5px; padding-top: 2px;">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #2C2C32; float: left; margin-top: 2px; margin-right: 10px; padding: 4px; border-radius: 0%;">
-                <i class="fas fa-bars" style="color: white;"></i>
-              </button>
-
-              <a href="index.html" style="color: #F1F6F9; font-size: 13px; font-weight: 600; text-decoration: none;">
-                <img src="css/images/index/Wolfcraft.png" width="40px" alt="WolfCraft Logo">
-                <p style="display: inline; padding-left: 3px;">WOLFCRAFT</p>
-              </a>
+    <div id="navigation" class="container-fluid">
+        <nav class="navbar navbar-expand-xl">
+  
+          <div id="afterCollaspe" style="align-content: left;">
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fas fa-bars"></i></button>
+              <div class="dropdown-content">
+                <a href="#"><i class="fas fa-info-circle" style="padding-right: 10px;"></i>FEATURES</a>
+                <a href="#"><i class="fas fa-book" style="padding-right: 10px;"></i>RULES</a>
+                <a href="#"><i class="fa fa-crop-alt" style="padding-right: 10px;"></i>GALLERY</a>
+                <a href="staff.html"><i class="fas fa-users-cog" style="padding-right: 10px;"></i>MANAGEMENT TEAM</a>
+                <a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i>MAP</a>
+              </div>
+            </div>
           </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 140px; margin-top: 5px; margin-bottom: 5px;">
+  
+          <a href="index.html" style="color: #F1F6F9; font-size: 14px; font-weight: 600; text-decoration: none;">
+            <img src="css/images/index/Wolfcraft.png" width="50px" alt="WolfCraft Logo">
+            <p style="display: inline; padding-left: 3px;"></p>
+          </a>
+  
+          <div id="collapsableContent" class="collapse navbar-collapse" style="margin-left: 5vw;">
             <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="staff.html">MANAGEMENT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PHOTO GALLERY</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ADDITIONAL RESOURCES
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding-top: 5px; padding-bottom: 5px;">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+              <li><a href="#"><i class="fas fa-info-circle" style="padding-right: 10px;"></i>FEATURES</a></li>
+              <li><a href="#"><i class="fas fa-book" style="padding-right: 10px;"></i>RULES</a></li>
+              <li><a href="#"><i class="fa fa-crop-alt" style="padding-right: 10px;"></i>GALLERY</a></li>
+              <li><a href="staff.html"><i class="fas fa-users-cog" style="padding-right: 10px;"></i>MANAGEMENT TEAM</a></li>
+              <li><a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i>MAP</a></li>
+  
+              <li class="dropdown">
+                <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><i class="fas fa-chevron-circle-down" style="padding-right: 10px;"></i>MORE</a>
+  
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #0f0f18; border-radius: 0;">
+                  <a class="dropdown-item" href="#"><i class="fas fa-campground" style="padding-right: 10px;"></i>GROUND KEEPERS</i></a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-history" style="padding-right: 10px;"></i>SERVER HISTORY</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-scroll" style="padding-right: 10px;"></i>WOLFCRAFT STORIES</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-file-download" style="padding-right: 10px;"></i>DOWNLOADS</a>
                 </div>
               </li>
             </ul>
           </div>
+          
+          <div id="non-collapsableContent" style="margin-left: 10vw; display: inline;">
+  
+            <div class="largeViewPort-ApplyNow" >
+              <button class="btn" style="font-size: 14px; height: 100%;">
+                <p><i class="fas fa-pencil-ruler" style="padding-right: 10px;"></i>APPLY NOW</p>
+              </button>
+            </div>
+  
+            <div class="joinDiscord">
+              <a href="https://discord.gg/2PHQwkHxbs">
+                <button class="btn" style="font-size: 14px; height: 100%;">
+                  <i class="fab fa-discord"></i>
+                </button>
+              </a>
+            </div>
+            
+          </div>
+  
         </nav>
-    </header>
+      </div>
 
     <div id="bodyHeader" class="container-fluid">
-        <p style="font-size: 50px; font-weight: 800; color: white;">Meet our Moderation Team.</p>
+        <p style="font-size: 50px; font-weight: 800; color: white;">MEET OUR MANAGEMENT TEAM.</p>
         <p class="pageDescriptionLarge" style="font-size: 25px; font-weight: 400; width: 40vw; color: white;">Every great server needs an even better staff to guide and protect it. We have just that. Meet The Wolfcraft's staff team.</p>
         <p class="pageDescriptionSmall" style="font-size: 25px; font-weight: 400; width: 40vw; color: white;">Every great server needs an even better staff to guide and protect it. We have just that. Meet The Wolfcraft's staff team.</p>
     </div>
@@ -83,7 +93,7 @@
         <div class="card-deck justify-content-center">
 
             <!-- Flashfrost42 -->
-            <div class="card" style="margin: 0 20px 20px 20px;"  data-toggle="modal" data-target="#Flashfrost42">
+            <div class="card" style="margin: 0 30px 20px 30px;"  data-toggle="modal" data-target="#Flashfrost42">
                 <img class="card-img-top" src="css/images/management/Flashfrost42.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Flashfrost42</b></p>
@@ -92,7 +102,7 @@
             </div>
 
             <!-- BubblyBekah -->
-            <div class="card" style="margin: 0 20px 20px 20px;"  data-toggle="modal" data-target="#BubblyBekah">
+            <div class="card" style="margin: 0 30px 20px 30px;"  data-toggle="modal" data-target="#BubblyBekah">
               <img class="card-img-top" src="css/images/management/BubblyBekah.png" alt="Card image cap">
               <div class="card-body">
                 <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>BubblyBekah</b></p>
@@ -101,7 +111,7 @@
             </div>
 
             <!-- GnortsMrAl -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#GnortsMrAl">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#GnortsMrAl">
               <img class="card-img-top" src="css/images/management/GnortsMrAl.png" alt="Card image cap">
               <div class="card-body">
                 <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>GnortsMrAl</b></p>
@@ -110,7 +120,7 @@
             </div>
 
             <!-- Aeris0 -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#Aeris0">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#Aeris0">
                 <img class="card-img-top" src="css/images/management/Aeris0.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Aeris0</b></p>
@@ -119,7 +129,7 @@
             </div>
 
             <!-- SquidyBoy -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#SquidyBoy">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#SquidyBoy">
                 <img class="card-img-top" src="css/images/management/SquidyBoy.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>SquidyBoy</b></p>
@@ -128,7 +138,7 @@
             </div>
 
             <!-- Ghostfaceiscool -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#Ghostfaceiscool">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#Ghostfaceiscool">
                 <img class="card-img-top" src="css/images/management/GhostFaceisCool.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Ghostfaceiscool</b></p>
@@ -137,7 +147,7 @@
             </div>
 
             <!-- Captain_Ranger -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#Captain_Ranger">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#Captain_Ranger">
                 <img class="card-img-top" src="css/images/management/Captain_Ranger.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Captain_Ranger</b></p>
@@ -146,7 +156,7 @@
             </div>
 
             <!-- Corrupted_Matt -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#Corrupted_Matt">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#Corrupted_Matt">
                 <img class="card-img-top" src="css/images/management/Corrupted_Matt.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Corrupted_Matt</b></p>
@@ -155,7 +165,7 @@
             </div>
 
             <!-- Salchan_Husky -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#Salchan_Husky">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#Salchan_Husky">
                 <img class="card-img-top" src="css/images/management/Salchan_Husky.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Salchan_Husky</b></p>
@@ -164,7 +174,7 @@
             </div>
 
             <!-- FishJuices -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#FishJuices">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#FishJuices">
                 <img class="card-img-top" src="css/images/management/FishJuices.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>FishJuices</b></p>
@@ -173,7 +183,7 @@
             </div>
 
             <!-- Hunter_Killer68 -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#Hunter_Killer68">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#Hunter_Killer68">
                 <img class="card-img-top" src="css/images/management/Hunter_Killer68.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Hunter_Killer68</b></p>
@@ -182,7 +192,7 @@
             </div>
 
             <!-- jackieplayz1 -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#jackieplayz1">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#jackieplayz1">
                 <img class="card-img-top" src="css/images/management/jackieplayz1.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>jackieplayz1</b></p>
@@ -191,7 +201,7 @@
             </div>
 
             <!-- More_Pepper -->
-            <div class="card" style="margin: 0 20px 20px 20px;" data-toggle="modal" data-target="#More_Pepper">
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#More_Pepper">
                 <img class="card-img-top" src="css/images/management/More_Pepper.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>More_Pepper</b></p>
@@ -579,6 +589,36 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+        <!--Auto Drop Dropdown On Hover-->
+        <script>
+            const $dropdown = $(".dropdown");
+            const $dropdownToggle = $(".dropdown-toggle");
+            const $dropdownMenu = $(".dropdown-menu");
+            const showClass = "show";
+      
+            $(window).on("load resize", function() {
+              if (this.matchMedia("(min-width: 768px)").matches) {
+                $dropdown.hover(
+                  function() {
+                    const $this = $(this);
+                    $this.addClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "true");
+                    $this.find($dropdownMenu).addClass(showClass);
+                  },
+                  function() {
+                    const $this = $(this);
+                    $this.removeClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "false");
+                    $this.find($dropdownMenu).removeClass(showClass);
+                  }
+                );
+              } else {
+                $dropdown.off("mouseenter mouseleave");
+              }
+            });
+          </script>
 
 </body>
 </html>

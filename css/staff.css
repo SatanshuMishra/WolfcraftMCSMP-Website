@@ -1,55 +1,178 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body{
-    /* background-color: #14141F; */
-    background: url('PixelsBackground.png');
+    /* background: url('PixelsBackground.png'); */
+    background-color: #121212;
 }
 
-header{
-    background-color: #2C2C32;;
+#navigation {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
     font-family: 'Raleway', sans-serif;
   }
-
-.navbar{
-    background-color: #2C2C32;
-}
-
-.navbar div a p:hover{
-    color: #F1F6F9;
-    
-}
-
-.navbar ul li a{
-    color: #F1F6F9;
-    font-weight: 500;
-    font-size: 13px;
-}
-
-.navbar ul li a:hover{
-    color: #00BCD4;
-}
-
-.smallviewport{
+  
+  #navigation .navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #0f0f18 !important;
+    box-shadow: 80px;
+  }
+  
+  #collapsableContent .navbar-nav li a{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  #collapsableContent .navbar-nav li a:hover{
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0 5px 0;
+    font-weight: 600;
+    border-bottom: 3px solid white;
+  }
+  
+  #navigation .navbar .dropdown a{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  #navbarDropdown:hover{
+    color: white;
+    font-weight: 600;
+    padding: 10px 10px 10px 10px;
+    border-bottom: none !important;
+  }
+  
+  #navigation .navbar .dropdown .dropdown-menu {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  #navigation .navbar .dropdown .dropdown-menu a{
+    color: white;
+    background-color: #0f0f18;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: none !important;
+  }
+  
+  #navigation .navbar .dropdown .dropdown-menu a:hover{
+    color: white;
+    background-color: #0088FF;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: none !important;
+  }
+  
+  #non-collapsableContent .largeViewPort-ApplyNow{
+    background-color: #0f0f18;
+    display: inline;
+  }
+  
+  #non-collapsableContent .largeViewPort-ApplyNow button{
+    background-color: #0088FF;
+    color: white;
+    font-weight: 600;
+    padding: 8px 10px 8px 10px;
+    margin: 0px 15px 0px 15px;
+  }
+  
+  #non-collapsableContent .largeViewPort-ApplyNow button p{
+    display: inline;
+  }
+  
+  #non-collapsableContent .largeViewPort-ApplyNow button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 8px 10px 8px 10px;
+  }
+  
+  #non-collapsableContent .joinDiscord{
+    background-color: #0f0f18;
+    display: inline;
+  }
+  
+  #non-collapsableContent .joinDiscord button{
+    background-color: #7700ff;
+    color: white;
+    font-weight: 600;
+    padding: 8px 10px 8px 10px;
+  }
+  
+  #non-collapsableContent .joinDiscord button p{
+    display: inline ;
+  }
+  
+  #non-collapsableContent .joinDiscord button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 8px 10px 8px 10px;
+  }
+  
+  #afterCollaspe {
     display: none;
-}
-
-@media (max-width: 600px){
-    .smallviewport{
-        display: inline-block;
+  }
+  
+  @media (max-width: 1199.95px){
+  
+    #navigation a img {
+      margin-left: 40px !important;
     }
-    .largeviewport{
-        display: none;
+  
+    #afterCollaspe {
+      display: inline;
+      position: fixed;
+      align-items: left !important;
+      /* padding-right: -50em !important; */
+      margin-right: -50px !important;
     }
-
-}
-
-header .btn{
-    background-color: #00BCD4;
-    color: #F1F6F9;
-    font-weight: 500;
-    outline: none;
-    border-radius: 0%;
-}
+  
+    #afterCollaspe .dropbtn {
+      background-color: #0f0f18;
+      font-size: 20px;
+      color: white;
+      border: none;
+    }
+  
+    
+    /* Dropdown Content (Hidden by Default) */
+    #afterCollaspe .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 250px;
+      background-color: #0f0f18;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    #afterCollaspe .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      font-size: 14px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    #afterCollaspe .dropdown-content a:hover {background-color: #0088FF;}
+    
+    /* Show the dropdown menu on hover */
+    #afterCollaspe .dropdown:hover .dropdown-content {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    #afterCollaspe .dropdown:hover .dropbtn {background-color: #0f0f18;}
+  
+    }
 
 #bodyHeader {
     background: 
@@ -59,16 +182,19 @@ header .btn{
         rgba(0, 0, 0, 0.95)
     ),
     url('BackdropStaff.png');
-    margin-top: 40px;
+    background-position: 0 -200px;
+    margin-top: 0px;
     padding-left: 5vw; 
     padding-right: 5vw; 
-    padding-top: 40px; 
-    padding-bottom: 40px;  
+    padding-top: 300px; 
+    padding-bottom: 60px;  
     display: block; 
     align-items: left; 
     display: flex; 
     flex-direction: column; 
     overflow: hidden;
+    height: 700px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #bodyHeader .pageDescriptionLarge{
@@ -98,6 +224,7 @@ header .btn{
     align-items: center; 
     display: flex; 
     flex-direction: column;
+    z-index: 0;
 }
 
 #StaffCardDeck .card{

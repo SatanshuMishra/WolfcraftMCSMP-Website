@@ -1,166 +1,216 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body{
+  /* background: url('PixelsBackground.png'); */
+  background-color: #121212;
 }
 
-header{
-    background-color: #2C2C32;;
-    font-family: 'Raleway', sans-serif;
+#navigation {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#navigation .navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #0f0f18 !important;
+  box-shadow: 80px;
+}
+
+#collapsableContent .navbar-nav li a{
+  color: white;
+  padding: 10px 10px 10px 10px;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#collapsableContent .navbar-nav li a:hover{
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 0 5px 0;
+  font-weight: 600;
+  border-bottom: 3px solid white;
+}
+
+#navigation .navbar .dropdown a{
+  color: white;
+  padding: 10px 10px 10px 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#navbarDropdown:hover{
+  color: white;
+  font-weight: 600;
+  padding: 10px 10px 10px 10px;
+  border-bottom: none !important;
+}
+
+#navigation .navbar .dropdown .dropdown-menu {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#navigation .navbar .dropdown .dropdown-menu a{
+  color: white;
+  background-color: #0f0f18;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: none !important;
+}
+
+#navigation .navbar .dropdown .dropdown-menu a:hover{
+  color: white;
+  background-color: #0088FF;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: none !important;
+}
+
+#non-collapsableContent .largeViewPort-ApplyNow{
+  background-color: #0f0f18;
+  display: inline;
+}
+
+#non-collapsableContent .largeViewPort-ApplyNow button{
+  background-color: #0088FF;
+  color: white;
+  font-weight: 600;
+  padding: 8px 10px 8px 10px;
+  margin: 0px 15px 0px 15px;
+}
+
+#non-collapsableContent .largeViewPort-ApplyNow button p{
+  display: inline;
+}
+
+#non-collapsableContent .largeViewPort-ApplyNow button:hover {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 8px 10px 8px 10px;
+}
+
+#non-collapsableContent .joinDiscord{
+  background-color: #0f0f18;
+  display: inline;
+}
+
+#non-collapsableContent .joinDiscord button{
+  background-color: #7700ff;
+  color: white;
+  font-weight: 600;
+  padding: 8px 10px 8px 10px;
+}
+
+#non-collapsableContent .joinDiscord button p{
+  display: inline ;
+}
+
+#non-collapsableContent .joinDiscord button:hover{
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 8px 10px 8px 10px;
+}
+
+#afterCollaspe {
+  display: none;
+}
+
+@media (max-width: 1199.95px){
+
+  #navigation a img {
+    margin-left: 40px !important;
   }
 
-.navbar{
-    background-color: #2C2C32;
-}
+  #afterCollaspe {
+    display: inline;
+    position: fixed;
+    align-items: left !important;
+    /* padding-right: -50em !important; */
+    margin-right: -50px !important;
+  }
 
-.navbar div a p:hover{
-    color: #F1F6F9;
-    
-}
+  #afterCollaspe .dropbtn {
+    background-color: #0f0f18;
+    font-size: 20px;
+    color: white;
+    border: none;
+  }
 
-.navbar ul li a{
-    color: #F1F6F9;
-    font-weight: 500;
-    font-size: 13px;
-}
-
-.navbar ul li a:hover{
-    color: #00BCD4;
-}
-
-.smallviewport{
+  
+  /* Dropdown Content (Hidden by Default) */
+  #afterCollaspe .dropdown-content {
     display: none;
-}
-
-@media (max-width: 600px){
-    .smallviewport{
-        display: inline-block;
-    }
-    .largeviewport{
-        display: none;
-    }
-
-}
-
-header .btn{
-    background-color: #00BCD4;
-    color: #F1F6F9;
-    font-weight: 500;
-    outline: none;
-    border-radius: 0%;
-}
-
-.vertical-center {
-    min-height: 100%;
-    /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh;
-    /* These two lines are counted as one :-)       */
+    position: absolute;
+    min-width: 250px;
+    background-color: #0f0f18;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
   
-    display: flex;
-    align-items: center;
+  /* Links inside the dropdown */
+  #afterCollaspe .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  #afterCollaspe .dropdown-content a:hover {background-color: #0088FF;}
+  
+  /* Show the dropdown menu on hover */
+  #afterCollaspe .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  #afterCollaspe .dropdown:hover .dropbtn {background-color: #0f0f18;}
+
   }
 
-
-  .jumbotron {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+#bodyHeader {
+  background: 
+    linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.95)
     ),
-    url("images/index/Backdrop.png");
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    height: 50px !important;
-  }
-
-  .jumbotron h5 {
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: 0.15em solid orange;
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 2px;
-    /* Adjust as needed */
-    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
-    font-size: 4vw;
-    color: black;
-    
-  }
-  
-  .jumbotron p {
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 1px;
-    /* Adjust as needed */
-    font-size: 2vw;
-    color: black;
-  }
-
-  @media (max-width: 800px){
-    .jumbotron h5 {
-        font-size: 6vw;
-    }
-    
-    .jumbotron p {
-        font-size: 3vw;
-    }
-  }
-
-@keyframes typing {
-    from {
-      width: 0;
-    }
-  
-    to {
-      width: 100%;
-    }
+  url('BackdropHome.png');
+  background-position: 0 -200px;
+  padding-left: 5vw; 
+  padding-right: 5vw; 
+  padding-top: 300px; 
+  padding-bottom: 60px;  
+  display: block; 
+  align-items: left; 
+  display: flex; 
+  flex-direction: column; 
+  overflow: hidden;
+  height: 700px;
+  font-family: 'Raleway', sans-serif;
 }
 
-@keyframes blink-caret {
+#bodyHeader .pageDescriptionLarge{
+  width: 45% !important;
+}
 
-    from,
-    to {
-      border-color: transparent;
-    }
-  
-    50% {
-      border-color: transparent;
-    }
+#bodyHeader .pageDescriptionSmall{
+  display: none;
+}
+
+@media (max-width: 800px){
+  #bodyHeader .pageDescriptionSmall{
+      display: inline-block;
+      width: 70% !important;
+  }
+  #bodyHeader .pageDescriptionLarge{
+      display: none;
   }
 
-/* .animated{
-    border-right: solid 3px black;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 5vw;
-    font-weight: 500;
-    color: black;
-    margin: 0 auto;
 }
-
-.animated {
-animation: animated-text 3s steps(29,end) 1s 1 normal both, animated-cursor 600ms steps(29,end) infinite;
-}
-
-@keyframes animated-text{
-    from{
-        width: 0;
-    }
-    to{
-        width: 600px;
-    }
-}
-
-@keyframes animated-cursor{
-    from{
-        border-right-color: black;
-    }
-    to {
-        border-right-color: transparent;
-    }
-} */
