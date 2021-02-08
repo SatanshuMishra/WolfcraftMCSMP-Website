@@ -244,7 +244,7 @@ body{
 }
 
 #StaffCardDeck .card:hover{
-cursor: pointer;
+    cursor: pointer;
 }
 
 #PopupStaffCards .card{

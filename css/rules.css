@@ -182,7 +182,7 @@ body{
         rgba(0, 0, 0, 0.25),
         rgba(0, 0, 0, 0.95)
     ),
-  url('BackdropHome.png');
+  url('BackdropRulesC.png');
   background-position: 0 -200px;
   padding-left: 5vw; 
   padding-right: 5vw; 
@@ -218,4 +218,76 @@ body{
       font-size: 15px !important;
       width: 80% !important;
   }
+}
+
+#bodyContent {
+  background: 
+    linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.75)
+    ),
+  url('Pixels.png');
+  background-position: 0 -200px;
+  /* margin-left: 10px; */
+  margin-right: 5vw;
+  margin-top: -50px;
+  padding-left: 5vw; 
+  padding-right: 5vw; 
+  padding-top: 5vw; 
+  padding-bottom: 60px;  
+  display: block; 
+  align-items: left; 
+  display: flex; 
+  flex-direction: column; 
+  overflow: hidden;
+  /* height: 700px; */
+  font-family: 'Raleway', sans-serif;
+  border-radius: 50px;
+}
+
+#bodyContent .sectionTitle {
+  padding-bottom: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+#bodyContent .sectionTitle p{
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+/* @media(max-width: 950px){
+  #bodyContent .sectionContent {
+    align-items: center; 
+    display: flex; 
+    flex-direction: column !important;
+  }
+} */
+
+#sectionContent {
+  display: flex; 
+  flex-direction: column; 
+  align-items: left; 
+}
+
+#sectionContent .card {
+  background-color: transparent;
+  margin: 0px 20px 20px 20px;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+#sectionContent .card .ruleTitle {
+  padding: 0px 20px 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+#sectionContent .card .ruleText {
+  padding: 0px 20px 0 20px;
+  font-size: 17px;
+  color: white;
 }
