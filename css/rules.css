@@ -232,7 +232,7 @@ body{
   /* margin-left: 10px; */
   margin-right: 5vw;
   margin-top: -50px;
-  padding-left: 5vw; 
+  padding-left: 2vw; 
   padding-right: 5vw; 
   padding-top: 5vw; 
   padding-bottom: 60px;  
@@ -247,7 +247,7 @@ body{
 }
 
 #bodyContent .sectionTitle {
-  padding-bottom: 25px;
+  margin-bottom: 10px;
   margin-left: 25px;
   margin-top: 15px;
 }
@@ -275,8 +275,8 @@ body{
 #sectionContent .card {
   background-color: transparent;
   margin: 0px 20px 20px 20px;
-  min-width: 400px;
-  max-width: 600px;
+  min-width: 350px;
+  max-width: 400px;
 }
 
 #sectionContent .card .ruleTitle {
@@ -290,4 +290,18 @@ body{
   padding: 0px 20px 0 20px;
   font-size: 17px;
   color: white;
+}
+
+#staffPermissions {
+  color: white;
+  margin: 0px 25px 35px 25px;
+  padding: 25px 20px 10px 20px;
+  border-left: 10px solid goldenrod;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f18;
+}
+
+#staffPermissions .staffPermissionContent {
+  font-size: 16px;
 }
