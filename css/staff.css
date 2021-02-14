@@ -2,7 +2,7 @@
 
 body{
     /* background: url('PixelsBackground.png'); */
-    background-color: #121212;
+    background-color: #09090e;
 }
 
 #navigation {
@@ -12,6 +12,7 @@ body{
     top: 0;
     font-family: 'Raleway', sans-serif;
     z-index: 999;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   }
   
   #navigation .navbar {
@@ -183,7 +184,6 @@ body{
         rgba(0, 0, 0, 0.95)
     ),
     url('BackdropStaff.png');
-    background-position: 0 -200px;
     margin-top: 0px;
     padding-left: 5vw; 
     padding-right: 5vw; 
@@ -195,6 +195,7 @@ body{
     flex-direction: column; 
     overflow: hidden;
     height: 700px;
+    background-size: cover;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -235,7 +236,7 @@ body{
 
 #StaffCardDeck .card{
     font-family: 'Raleway', sans-serif;
-    border-radius: 30px;
+    border-radius: 15px;
     min-width: 300px;
     max-width: 300px;
     /* background-color: #222230; */
