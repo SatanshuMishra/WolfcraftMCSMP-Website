@@ -91,6 +91,36 @@
         </div>
     </div>
 
+    <!-- Role Descriptors for Owner, Developer, WatchWolf, Admin, Helper -->
+    <div style="padding-left: 10vw; padding-right: 10vw; padding-top: 40px; padding-bottom: 40px; background-color: #88C7D2;">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-Owner" role="tab" aria-controls="pills-home" aria-selected="true" style="color: white; text-decoration: none; font-weight: 600;">Owner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-Developer" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: white; text-decoration: none; font-weight: 600;">Developer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-WatchWolf" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: white; text-decoration: none; font-weight: 600;">WatchWolf</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-Admin" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: white; text-decoration: none; font-weight: 600;">Admin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-Helper" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: white; text-decoration: none; font-weight: 600;">Helper</a>
+          </li>
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-Owner" role="tabpanel" aria-labelledby="pills-home-tab">Hello World</div>
+        <div class="tab-pane fade" id="pills-Developer" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+        <div class="tab-pane fade" id="pills-WatchWolf" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        <div class="tab-pane fade" id="pills-Admin" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        <div class="tab-pane fade" id="pills-Helper" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+      </div>
+
+    </div>
+
     <!-- Staff Card Deck -->
     <div id="StaffCardDeck" class="container-fluid" style="padding-left: 10vw; padding-right: 10vw; padding-top: 10px; display: block; align-items: center; display: flex; flex-direction: column;">
         <div class="card-deck justify-content-center">
@@ -209,6 +239,25 @@
                 <div class="card-body">
                     <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>More_Pepper</b></p>
                     <p class="card-text" style="padding-left: 30px;">Admin</p>
+                </div>
+            </div>
+
+            <!-- xLocutus -->
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#xLocutus">
+                <img class="card-img-top" src="css/images/management/xLocutus.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>xLocutus</b></p>
+                    <p class="card-text" style="padding-left: 30px;">Helper</p>
+                </div>
+            </div>
+
+
+            <!-- bbythatsdiamond -->
+            <div class="card" style="margin: 0 30px 20px 30px;" data-toggle="modal" data-target="#bbythatsdiamond">
+                <img class="card-img-top" src="css/images/management/bbythatsdiamond.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>bbythatsdiamond</b></p>
+                    <p class="card-text" style="padding-left: 30px;">Helper</p>
                 </div>
             </div>
         </div>
@@ -552,42 +601,86 @@
                 </div>
             </div>
         </div>
+
+        <!-- xLocutus Popup -->
+        <div class="modal fade" id="xLocutus" tabindex="-1" role="dialog"  aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content" style="border: none; background-color: rgba(255, 255, 255, 0)">
+                    <div class="card mb-3" style="max-width: 100%; padding: 10px 10px 10px 10px; background-color: rgba(255, 255, 255, 0); ">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="align-items: right; width: 10px; margin-left: 92%;">
+                            <span aria-hidden="true" style="font-size: 40px; color: white;">&times;</span>
+                        </button>
+                        <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="css/images/management/xLocutus.png" class="card-img" alt="xLocutus">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" style="padding-top: 10px;">
+                                <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>xLocutus</b></p>
+                                <p class="card-text" style="padding-left: 30px;">aka Dyl</p>
+                                <p class="card-text" style="padding-left: 20px; padding-top: 0;">From: Nazareth Pennsylvania </p>
+                                <p class="card-text" style="padding-left: 20px; padding-top: 0;">Meet Dyl! He spends the majority of his time on the server helping, advising players and spending time with his friends and girlfriend holly. He is also an excellent brainstormer and planner which allows him to be effective as one of the Ground Keeper Leaders.<br><br> He is interested in persuing a career in mortuary science and caring for the deceased families and loved ones.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- More_Pepper Popup -->
+        <div class="modal fade" id="bbythatsdiamond" tabindex="-1" role="dialog"  aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content" style="border: none; background-color: rgba(255, 255, 255, 0)">
+                    <div class="card mb-3" style="max-width: 100%; padding: 10px 10px 10px 10px; background-color: rgba(255, 255, 255, 0); ">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="align-items: right; width: 10px; margin-left: 92%;">
+                            <span aria-hidden="true" style="font-size: 40px; color: white;">&times;</span>
+                        </button>
+                        <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="css/images/management/bbythatsdiamond.png" class="card-img" alt="bbythatsdiamond">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" style="padding-top: 10px;">
+                                <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>bbythatsdiamond</b></p>
+                                <p class="card-text" style="padding-left: 30px;">aka Holly</p>
+                                <p class="card-text" style="padding-left: 20px; padding-top: 0;">From: United Kingdom</p>
+                                <p class="card-text" style="padding-left: 20px; padding-top: 0;">Meet Holly! Besides being one of the most social, kind and caring people in our community, she is also an excellent leader. She activelty engages with everyone making sure they are having fun and when working on projects makes sure no one is left behind giving her a skill set to be an effect Ground Keeper Leader. <br><br> Outside the server, Holly is fluent in British Sign Language and is in the process of touching up her ASL.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Role Descriptors for Owner, Developer, WatchWolf, Admin, Helper -->
-    <!-- <div style="padding-left: 10vw; padding-right: 10vw; padding-top: 2vw;">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="pills-Owner-tab" data-toggle="pill" href="#pills-Owner" role="tab" aria-controls="pills-Owner" aria-selected="true">Owner</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-Developer-tab" data-toggle="pill" href="#pills-Developer" role="tab" aria-controls="pills-Developer" aria-selected="false">Developer</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-WatchWolf-tab" data-toggle="pill" href="#pills-WatchWolf" role="tab" aria-controls="pills-WatchWolf" aria-selected="false">WatchWolf</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-Admin-tab" data-toggle="pill" href="#pills-Admin" role="tab" aria-controls="pills-Admin" aria-selected="false">Admin</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-Helper-tab" data-toggle="pill" href="#pills-Helper" role="tab" aria-controls="pills-Helper" aria-selected="false">Helper</a>
-            </li>
-        </ul>
-
-        <div class="tab-content" id="pills-tabContent">
-
-            <div class="tab-pane fade show active" id="pills-Owner" role="tabpanel" aria-labelledby="pills-Owner-tab">This is the Owner Tab.</div>
-
-            <div class="tab-pane fade" id="pills-Developer" role="tabpanel" aria-labelledby="pills-Developer-tab">This is the Developer Tab.</div>
-
-            <div class="tab-pane fade" id="pills-WatchWolf" role="tabpanel" aria-labelledby="pills-WatchWolf-tab">This is the WatchWolf Tab.</div>
-            
-            <div class="tab-pane fade" id="pills-Admin" role="tabpanel" aria-labelledby="pills-Admin-tab">This is the Admin Tab.</div>
-            
-            <div class="tab-pane fade" id="pills-Helper" role="tabpanel" aria-labelledby="pills-Helper-tab">This is the Helper Tab.</div>
-
+      <!-- Footer -->
+      <div class="mt-5 pt-5 footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xs-12 about-wolfcraft">
+              <p style="font-size: 22px;"><b>WOLFCRAFT</b></p>
+              <p class="pr-5 text-white-50" style="font-size: 15px;">A Minecraft-Focused Gaming Community.</p>
+            </div>
+            <div class="col-lg-3 col-xs-12 links">
+            </div>
+            <div class="col-lg-4 col-xs-12 getintouch">
+              <p class="mt-lg-0 mt-sm-4" style="font-size: 18px;"><b>STAY CONNECTED</b></p>
+              <a href="https://www.youtube.com/channel/UCQvi6iimR51SUcCRvGR6YYQ" class="fa fa-youtube" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
+              <a href="https://www.facebook.com/WolfCraft-MC-110649397468237/" class="fa fa-facebook" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
+              <a href="https://twitter.com/Wolf_CraftMC" class="fa fa-twitter" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
+              <a href="https://instagram.com/wolfcraft_mc?igshid=1bwgo6miq70f9" class="fa fa-instagram" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
+            </div>
+            <div class="row mt-5">
+              <div class="col copyright" style="padding-left: 20px;">
+                <p class=""><small class="text-white-50"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" style="text-decoration: underline; color: white;">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</small></p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div> -->
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

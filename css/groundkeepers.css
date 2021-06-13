@@ -3,6 +3,7 @@
 body{
   /* background: url('PixelsBackground.png'); */
   background-color: #09090e;
+  font-family: 'Raleway', sans-serif;
 }
 
 #navigation {
@@ -266,4 +267,62 @@ body{
   /* background-color: #222230; */
   background: url('Pixels.png');
   color: white;
+}
+
+.footer{
+  padding-left: 20px;
+  background: #0E8FFF;
+  color:white;
+  .about-wolfcraft{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .getintouch{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-youtube:hover{
+  color: #bb0000;
+  background: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-twitter:hover {
+  color: #55ACEE;
+  background: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+  background: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-instagram:hover {
+  color: #125688;
+  background: white;
 }
