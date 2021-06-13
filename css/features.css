@@ -186,8 +186,8 @@ body{
     ),
   url('BackdropFeatures.png');
   background-size: cover;
-  padding-left: 5vw; 
-  padding-right: 5vw; 
+  padding-left: 3vw; 
+  padding-right: 3vw; 
   padding-top: 250px; 
   padding-bottom: 60px;  
   display: block; 
@@ -227,7 +227,7 @@ body{
 }
 
 #bodyFeatures .card{
-  margin: 20px 10px 20px 10px;
+  margin: 10px 5px 5px 5px;
   padding: 20px 10px 20px 10px;
   min-width: 350px;
   max-width: 810px;
