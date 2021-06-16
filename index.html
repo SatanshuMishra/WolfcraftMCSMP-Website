@@ -24,64 +24,121 @@
     <title>WOLFCRAFT: A MINECRAFT COMMUNITY</title>
   </head>
   <body>
-    <!-- Navigation Bar -->
+    
+
+    <!-- SIDE-NAVEBAR -->
+    <div id="mySidenav" class="sidenav" style="z-index: 1; background-color: #0f0f18;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: white;">&times;</a>
+      <nav id="sidebar" style="background-color: #0f0f18;">
+        <div class="sidebar-header">
+            <h3>INDEX</h3>
+        </div>
+        <ul class="list-unstyled components" style="background-color: #0f0f18; border: none;">
+            <li>
+              <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-sitemap" style="padding-right: 5px;"></i>ABOUT</b></a>
+                <ul class="collapse list-unstyled" id="aboutSubmenu">
+                    <li>
+                        <a href="features.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>FEATURES</b></a>
+                    </li>
+                    <li>
+                        <a href="rules.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-book" style="padding-right: 5px;"></i>RULES</b></a>
+                    </li>
+                    <li>
+                        <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-history" style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
+                    </li>
+                    <li>
+                      <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-scroll" style="padding-right:5px;"></i>WOLFCRAFT TESTIMONIALS</b></a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+              <a href="#personnelSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-user-cog" style="padding-right: 5px;"></i>SERVER PERSONNEL</b></a>
+              <ul class="collapse list-unstyled" id="personnelSubmenu">
+                  <li>
+                      <a href="staff.html" style="color: white;"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>STAFF TEAM</b></a>
+                  </li>
+                  <li>
+                      <a href="groundkeepers.html" style="color: white;"><b><i class="fas fa-hammer" style="padding-right: 5px;"></i>BUILD TEAM</b></a>
+                  </li>
+              </ul>
+            </li>
+            <li>
+              <a href="gallery.html" style="padding-left: 30px; color: white;"><b><i class="fa fa-crop-alt" style="padding-right: 5px;"></i>GALLERY</b></a>
+            </li>
+            <li>
+              <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-map-marker-alt" style="padding-right: 5px;"></i>MAP</b></a>
+            </li>
+            <li>
+              <a href="#resourcesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-archive" style="padding-right: 5px;"></i>RESOURCES</b></a>
+              <ul class="collapse list-unstyled" id="resourcesSubmenu">
+                  <li>
+                      <a href="staff.html" style="color: white;"><b><i class="fas fa-file-download" style="padding-right: 5px;"></i>DOWNLOADS</b></a>
+                  </li>
+              </ul>
+            </li>
+        </ul>
+    </nav>
+    </div>
+
+    <!-- TOP - NAVIGATION BAR -->
     <div id="navigation" class="container-fluid">
       <nav class="navbar navbar-expand-xl">
-
-        <div id="afterCollaspe">
+  
+        <div id="afterCollaspe" style="align-content: left;">
           <div class="dropdown">
-            <button class="dropbtn"><i class="fas fa-bars"></i></button>
-            <div class="dropdown-content">
-              <a href="features.html"><i class="fas fa-info-circle" style="padding-right: 10px;"></i><b>FEATURES</b></a>
-              <a href="rules.html"><i class="fas fa-book" style="padding-right: 10px;"></i><b>RULES</b></a>
-              <a href="gallery.html"><i class="fa fa-crop-alt" style="padding-right: 10px;"></i><b>GALLERY</b></a>
-              <a href="staff.html"><i class="fas fa-users-cog" style="padding-right: 10px;"></i><b>STAFF TEAM</b></a>
-              <a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i><b>MAP</b></a>
-                <a href="" class="submenuDropdown" id="submenuDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;">MORE</a>
-                <div class="dropdown-menu" aria-labelledby="submenuDropdownMenu" style="background-color: rgba(0, 27, 53, 0.9); border-radius: 0; border-top: 5px solid #4d9de0; left: 150px; top: 83.3333333333%">
-                  <a class="dropdown-item" href="groundkeepers.html"><i class="fas fa-campground" style="padding-right: 10px;"></i><b>GROUND KEEPERS</b></i></a>
-                  <a class="dropdown-item" href="#"><i class="fas fa-history" style="padding-right: 10px;"></i><b>SERVER HISTORY</b></a>
-                  <a class="dropdown-item" href="#"><i class="fas fa-scroll" style="padding-right: 10px;"></i><b>WOLFCRAFT STORIES</b></a>
-                  <a class="dropdown-item" href="#"><i class="fas fa-file-download" style="padding-right: 10px;"></i><b>DOWNLOADS</b></a>
-                </div>
-            </div>
+            <button class="dropbtn" onclick="openNav()"><i class="fas fa-align-left"></i></button>
           </div>
         </div>
-
+  
         <a href="index.html" style="color: #F1F6F9; font-size: 14px; font-weight: 600; text-decoration: none;">
           <img src="css/images/index/Wolfcraft.png" width="50px" alt="WolfCraft Logo">
           <p style="display: inline; padding-left: 3px;"></p>
         </a>
-
+  
         <div id="collapsableContent" class="collapse navbar-collapse" style="margin-left: 5vw;">
           <ul class="navbar-nav mr-auto">
-            <li><a href="features.html"><i class="fas fa-info-circle" style="padding-right: 10px;"></i><b>FEATURES</b></a></li>
-            <li><a href="rules.html"><i class="fas fa-book" style="padding-right: 10px;"></i><b>RULES</b></a></li>
-            <li><a href="gallery.html"><i class="fa fa-crop-alt" style="padding-right: 10px;"></i><b>GALLERY</b></a></li>
-            <li><a href="staff.html"><i class="fas fa-users-cog" style="padding-right: 10px;"></i><b>STAFF TEAM</b></a></li>
-            <li><a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i><b>MAP</b></a></li>
+            <!-- <li><a href="features.html"><i class="fas fa-info-circle" style="padding-right: 10px;"></i>FEATURES</a></li>
+            <li><a href="rules.html"><i class="fas fa-book" style="padding-right: 10px;"></i>RULES</a></li>
+            <li><a href="staff.html"><i class="fas fa-users-cog" style="padding-right: 10px;"></i>STAFF TEAM</a></li> -->
+            <li class="dropdown">
+              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-sitemap" style="padding-right: 5px;"></i>ABOUT</b></a>
+  
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 220px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
+                <a class="dropdown-item" href="features.html"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>FEATURES</b></a>
+                <a class="dropdown-item" href="rules.html"><b><i class="fas fa-book" style="padding-right: 5px;"></i>RULES</b></a>
+                <a class="dropdown-item" href="#"><b><i class="fas fa-history" style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
+                <a class="dropdown-item" href="#"><b><i class="fas fa-scroll" style="padding-right:5px;"></i>PLAYER TESTIMONIALS</b></a>
+              </div>
+            </li>
 
             <li class="dropdown">
-              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><i class="fas fa-chevron-circle-down" style="padding-right: 10px;"></i><b>MORE</b></a>
-
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0, 27, 53, 0.9); border-radius: 0; border-top: 5px solid #4d9de0;">
-                <a class="dropdown-item" href="groundkeepers.html"><i class="fas fa-campground" style="padding-right: 10px;"></i><b>GROUND KEEPERS</b></i></a>
-                <a class="dropdown-item" href="#"><i class="fas fa-history" style="padding-right: 10px;"></i><b>SERVER HISTORY</b></a>
-                <a class="dropdown-item" href="#"><i class="fas fa-scroll" style="padding-right: 10px;"></i><b>WOLFCRAFT STORIES</b></a>
-                <a class="dropdown-item" href="#"><i class="fas fa-file-download" style="padding-right: 10px;"></i><b>DOWNLOADS</b></a>
+              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-user-cog" style="padding-right: 5px;"></i>SERVER PERSONNEL</b></a>
+  
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 150px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
+                <a class="dropdown-item" href="staff.html"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>STAFF TEAM</b></a>
+                <a class="dropdown-item" href="groundkeepers.html"><b><i class="fas fa-hammer" style="padding-right: 5px;"></i>BUILD TEAM</b></a>
+              </div>
+            </li>
+            <li><a href="gallery.html"><i class="fa fa-crop-alt" style="padding-right: 10px;"></i><b>GALLERY</b></a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i><b>MAP</b></a></li>
+            <li class="dropdown">
+              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-archive" style="padding-right: 5px;"></i>RESOURCES</b></a>
+  
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 150px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
+                <a class="dropdown-item" href="#"><b><i class="fas fa-file-download" style="padding-right: 5px;"></i>DOWNLOADS</b></a>
               </div>
             </li>
           </ul>
         </div>
         
         <div id="non-collapsableContent" style="margin-left: 10vw; display: inline;">
-
+  
           <div class="largeViewPort-ApplyNow" >
             <button class="btn" style="font-size: 14px; height: 100%;">
-              <p><i class="fas fa-pencil-ruler" style="padding-right: 10px;"></i><b>APPLY NOW</b></p>
+              <p><i class="fas fa-pencil-ruler" style="padding-right: 10px;"></i>APPLY NOW</p>
             </button>
           </div>
-
+  
           <div class="joinDiscord">
             <a href="https://discord.gg/2PHQwkHxbs">
               <button class="btn" style="font-size: 14px; height: 100%;">
@@ -91,7 +148,7 @@
           </div>
           
         </div>
-
+  
       </nav>
     </div>
 
@@ -106,7 +163,7 @@
       <!-- News Section -->
       <div style="margin-left: 15vw; margin-right: 15vw; margin-top: 40px; margin-bottom: 40px; align-items: center;">
         <div class="row row-cols-1 row-cols-md-3">
-          <div class="col md-4">
+          <div class="col md-4" style="z-index: -1;">
             <div class="card" style="min-width: 300px; max-width: 350px;margin-top: 10px; margin-bottom: 10px; border: none; background-color: #09090E; color: white;">
               <img src="css/images/index/ServerChanglogDark.png" class="card-img-top" alt="ServerChangelogs">
               <div class="card-body">
@@ -115,7 +172,7 @@
               </div>
             </div>
           </div>
-          <div class="col md-4">
+          <div class="col md-4" style="z-index: -1;">
             <div class="card" style="min-width: 300px; max-width: 350px;margin-top: 10px; margin-bottom: 10px; border: none; background-color: #09090E; color: white;">
               <img src="css/images/index/HalloweenHeader.jpg" class="card-img-top" alt="Halloween">
               <div class="card-body">
@@ -125,7 +182,7 @@
             </div>
           </div>
           
-          <div class="col md-4">
+          <div class="col md-4" style="z-index: -1;">
             <div class="card" style="min-width: 300px; max-width: 350px;margin-top: 10px; margin-bottom: 10px; border: none; background-color: #09090E; color: white;">
               <img src="" class="card-img-top" alt="">
               <div class="card-body">
@@ -173,6 +230,17 @@
           </div>
         </div>
       </div>
+
+      <!-- SIDENAV-BUTTON SCRIPT -->
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
