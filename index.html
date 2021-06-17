@@ -17,7 +17,10 @@
     <script src="https://kit.fontawesome.com/e4fd338ca7.js" crossorigin="anonymous"></script>
 
     <!-- Animated.css -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <!-- CSS Document Link -->
     <link rel="stylesheet" href="css/index.css">
@@ -153,15 +156,21 @@
     </div>
 
       <div id="bodyHeader" class="container-fluid">
-        <div class="pageTitle">
-          <p>WELCOME TO THE <span><br><mark style="background-color: #0088FF; color: white;">WOLFCRAFT</mark></span> COMMUNITY</p>
+        <div class="pageTitle animate__animated animate__fadeInLeft">
+          <p>WELCOME TO THE <span><br><mark style="background-color: #0088FF; color: white;">WOLFCRAFT COMMUNITY</mark></span></p>
+        </div>
+        <!-- <div class="pageDescription">
+          <p>We are a <mark><b>Gaming Community</b></mark> centered around our <mark><b>Minecraft Servers</b></mark>. We allow players with the freedom to play and explore the world as they see fit while providing them and their builds a secure multiplayer environment with anti-grief/stealing and server optimizations ensureing smooth gameplay.</p>
+        </div> -->
       </div>
-      <div class="pageDescription">
-        <p>We are a <mark><b>Gaming Community</b></mark> centered around our <mark><b>Minecraft Servers</b></mark>. We allow players with the freedom to play and explore the world as they see fit while providing them and their builds a secure multiplayer environment with anti-grief/stealing and server optimizations ensureing smooth gameplay.</p></div>
+
+      <div style="padding-left: 10vw; padding-right: 10vw; padding-top: 80px; padding-bottom: 40px; background: linear-gradient(to left,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.75)), url('/css/Pixels.png'); min-height: 300px;">
+        <h2 style="color: white;">WHO ARE WE?</h2>
+        <p style="font-size: 18px; color: white; padding-top: 10px;">We are a gaming community aimed at providing players with a casual, engaging and mature environment in unwind and have fun. Our community is centered around our three Minecraft servers - each providing you with an unique playing experience. Check out our <a href="features.html" style="color: #0088FF; text-decoration: none;"><b>features</b></a> section for more information on our servers.</p>
       </div>
 
       <!-- News Section -->
-      <div style="margin-left: 15vw; margin-right: 15vw; margin-top: 40px; margin-bottom: 40px; align-items: center;">
+      <!-- <div style="margin-left: 15vw; margin-right: 15vw; margin-top: 40px; margin-bottom: 40px; align-items: center;">
         <div class="row row-cols-1 row-cols-md-3">
           <div class="col md-4" style="z-index: -1;">
             <div class="card" style="min-width: 300px; max-width: 350px;margin-top: 10px; margin-bottom: 10px; border: none; background-color: #09090E; color: white;">
@@ -191,9 +200,11 @@
               </div>
             </div>
           </div>
-
-          <!-- New News Card Template -->
-          <!-- <div class="col md-4">
+        </div>
+      </div> -->
+      
+      <!-- New News Card Template -->
+      <!-- <div class="col md-4">
             <div class="card" style="min-width: 300px; max-width: 350px;margin-top: 10px; margin-bottom: 10px; border: none; background-color: #09090E; color: white;">
               <img src="..." class="card-img-top" alt="...">
               <div class="card-body">
@@ -202,9 +213,7 @@
               </div>
             </div>
           </div> -->
-        </div>
-      </div>
-      
+
       <!-- Footer -->
       <div class="mt-5 pt-5 footer">
         <div class="container">
@@ -231,8 +240,8 @@
         </div>
       </div>
 
-      <!-- SIDENAV-BUTTON SCRIPT -->
-      <script>
+    <!-- SIDENAV-BUTTON SCRIPT -->
+    <script>
         function openNav() {
           document.getElementById("mySidenav").style.width = "250px";
         }
@@ -240,7 +249,7 @@
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
         }
-        </script>
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -276,5 +285,6 @@
         }
       });
     </script>
+
   </body>
 </html>
