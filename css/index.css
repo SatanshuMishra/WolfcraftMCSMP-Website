@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 body{
   /* background: url('PixelsBackground.png'); */
   background-color: #09090e;
@@ -283,11 +283,7 @@ a[aria-expanded="true"] {
 #bodyHeader {
   background: 
     linear-gradient(
-        to left,
-        rgba(0, 0, 0, 0.25),
-        rgba(0, 0, 0, 0.95)
-    ),
-  url('BackdropHome.png');
+        to left,rgba(0, 136, 255, 0.30),rgba(0, 136, 255, 0.30)), url('BackdropHome.png');
   padding-left: 5vw; 
   padding-right: 5vw; 
   padding-top: 300px; 
@@ -300,9 +296,11 @@ a[aria-expanded="true"] {
   height: 760px;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
+  background-attachment: fixed;
 }
 
 #bodyHeader .pageTitle{
+  text-align: left;
   font-size: 60px; 
   font-weight: 800; 
   color: white;
@@ -324,6 +322,88 @@ a[aria-expanded="true"] {
       width: 80% !important;
   }
 }
+
+#serverListCards .row .col .card:hover .card-body{
+  transition: all 0.001s ease;
+  transform: translate(0, -5px) !important;
+}
+
+#serverListCards .row .col .card:hover img{
+  transition: all 0.5s ease;
+  transform: translatey(-10px) translatex(-5px) scale(1.05)
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #0f0f18;
+  color: white;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #0f0f18;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #0088FF;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
 
 .footer{
   padding-left: 20px;
