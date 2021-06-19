@@ -286,8 +286,8 @@ a[aria-expanded="true"] {
         to left,rgba(0, 136, 255, 0.30),rgba(0, 136, 255, 0.30)), url('BackdropHome.png');
   padding-left: 5vw; 
   padding-right: 5vw; 
-  padding-top: 300px; 
-  padding-bottom: 60px;  
+  padding-top: 19.53125vw; 
+  padding-bottom: 3.90625vw;  
   display: block; 
   align-items: left; 
   display: flex; 
