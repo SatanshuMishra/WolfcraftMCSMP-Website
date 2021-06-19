@@ -405,6 +405,12 @@ q {font-style: italic;}
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
 
+.readMoreQuotes:hover{
+  transition: all 0.3s ease;
+  background-color: #0088FF !important;
+  color: white !important;
+}
+
 .footer{
   padding-left: 20px;
   background: #0E8FFF;
