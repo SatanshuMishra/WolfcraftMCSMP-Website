@@ -293,7 +293,7 @@ a[aria-expanded="true"] {
   display: flex; 
   flex-direction: column; 
   overflow: hidden;
-  height: 760px;
+  height: 52vw;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
   background-attachment: fixed;
