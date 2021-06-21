@@ -10,7 +10,7 @@ body{
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   top: 0;
   left: 0;
   background-color: #111;
@@ -113,7 +113,7 @@ a[aria-expanded="true"] {
   position: fixed;
   top: 0;
   font-family: 'Raleway', sans-serif;
-  z-index: 0.8;
+  z-index: 999;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -283,8 +283,7 @@ a[aria-expanded="true"] {
   background: 
     linear-gradient(
         to left,
-        rgba(0, 0, 0, 0.25),
-        rgba(0, 0, 0, 0.95)
+        rgba(0, 136, 255, 0.20),rgba(0, 136, 255, 0.20)
     ),
   url('BackdropGK.png');
   background-size: cover;
@@ -369,6 +368,43 @@ a[aria-expanded="true"] {
   /* background-color: #222230; */
   background: url('Pixels.png');
   color: white;
+}
+
+#gkRD .nav-link {
+  color: #ffffff;
+  border-radius: 0;
+}
+#gkRD .nav-link:hover {
+  background-color: #fffaff;
+  color: #000000;
+}
+
+#v-netherendteam {
+  color: #ffffff;
+  border-radius: 0;
+}
+#v-netherendteam:hover{
+  background-color: #fb6107;
+  color: #ffffff;
+}
+
+#v-netherendteam.nav-link.active{
+  background-color: #fb6107;
+  color: #ffffff;
+}
+
+#v-overworldteam {
+  color: #ffffff;
+  border-radius: 0;
+}
+#v-overworldteam:hover{
+  background-color: #0E8FFF;
+  color: #ffffff;
+}
+
+#v-overworldteam.nav-link.active{
+  background-color: #0E8FFF;
+  color: #ffffff;
 }
 
 .footer{

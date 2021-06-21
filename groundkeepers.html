@@ -10,6 +10,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- BOOTSTRAP V5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <!--Font Aswsome Symbols-->
     <script src="https://kit.fontawesome.com/e4fd338ca7.js" crossorigin="anonymous"></script>
 
@@ -145,74 +149,168 @@
       </nav>
     </div>
 
+    <!-- BODY HEADER SECTION -->
     <div id="bodyHeader" class="container-fluid">
         <div class="pageTitle">
             <p">WOLFCRAFT'S<br> GROUND KEEPERS</p>
         </div>
         <div class="pageDescription">
-            <p>Learn all about the WolfCraft's Build Team which helps develop the Server for the entire Community to enjoy.</p>
+            <p>Learn all about the WolfCraft's Build Team which designs, builds and maintains the server's infrastructure for the entire Community to enjoy.</p>
         </div>
     </div>
 
+      <!-- GROUND KEEPER ROLE DESCRIPTORS -->
+      <div
+        style="padding-left: 10vw; padding-right: 10vw; padding-top: 80px; padding-bottom: 100px; background-color: #0f0f18; min-height: 300px;">
+        <h2 style="color: white; padding-top: 20px;"><b>GROUND KEEPER ROLE DESCRIPTIONS</b></h2>
+        <div id="gkRD" class="d-flex align-items-start" style="font-size: 15px; letter-spacing: 1px; padding-top: 20px;">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="width: 300px;">
+            <button class="nav-link active" id="v-groundkeeperleader" data-bs-toggle="pill" data-bs-target="#v-gkl"
+              type="button" role="tab" aria-controls="v-gkl" aria-selected="true"><b>GROUND KEEPER LEADER</b></button>
+            <button class="nav-link" id="v-groundkeepers" data-bs-toggle="pill" data-bs-target="#v-gk"
+              type="button" role="tab" aria-controls="v-gk" aria-selected="false"><b>GROUND KEEPER</b></button>
+            <button class="nav-link" id="v-groundkeepertrainees" data-bs-toggle="pill" data-bs-target="#v-gkt"
+              type="button" role="tab" aria-controls="v-gkt" aria-selected="false"><b>GROUND KEEPER TRAINEE</b></button>
+          </div>
+          <div class="tab-content" id="v-groundkeeperleader" style="color: white; font-size: 15px; width: 100%;">
+            <div class="tab-pane fade show active" id="v-gkl" role="tabpanel" aria-labelledby="v-groundkeeperleader">Ground Keeper Leaders are responsible for managing and coordinating the Ground Keepers and their action. They are outside the influence of the Staff Team and are capable of making independant decisions when the team is conflicted. The Ground Keeper Leaders also server as a bridge between Staff and the Ground Keepers for the exchange of progress updates, world updates, and more.
+            </div>
+            <div class="tab-pane fade" id="v-gk" role="tabpanel" aria-labelledby="v-groundkeepers">Ground Keepers are official members of the build-team. Following their time as a Ground Keeper-Trainee, they have increased responsibility within the team and on the server now having access to basic CoreProtect commands such as /co inspect which can be used to check shops or bases (only upon request by player or staff member) for theft or griefing. As a ground keeper, they can take initiatives on projects with approval from the Ground Keeper Leaders and help maitain or improve existing server infrastructure.</div>
+            <div class="tab-pane fade" id="v-gkt" role="tabpanel" aria-labelledby="v-groundkeepertrainees">Ground Keeper Trainee's are the newest inductions into the Ground Keeper's. To be inducted, they needed to have demonstrated creative skills and an intent to help the community. During their time as a Ground Keepers Trainee, they will learn how the Ground Keepers work, help on projects and prove their value as a Ground Keepers by participating in projects, suggesting ideas for new projects, etc. These people do not have access to CoreProtect commands.</div>
+          </div>
+        </div>
+        <h2 style="color: white; padding-top: 40px;"><b>TEAM DESCRIPTIONS</b></h2>
+        <div id="gkTD" class="d-flex align-items-start" style="font-size: 15px; letter-spacing: 1px; padding-top: 20px;">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical"
+            style="width: 300px;">
+            <button class="nav-link active" id="v-overworldteam" data-bs-toggle="pill" data-bs-target="#v-ot"
+              type="button" role="tab" aria-controls="v-ot" aria-selected="true"><b><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></button>
+            <button class="nav-link" id="v-netherendteam" data-bs-toggle="pill" data-bs-target="#v-net" type="button" role="tab"
+              aria-controls="v-net" aria-selected="false"><b><i class="fas fa-fill"></i> NETHER/END TEAM</b></button>
+          </div>
+          <div class="tab-content" id="v-pills-tabContent" style="color: white; font-size: 15px; width: 100%;">
+            <div class="tab-pane fade show active" id="v-ot" role="tabpanel" aria-labelledby="v-overworldteam">
+              The Overworld Team is responsible for the designing, building and mantaining of Overworld Server Infrastructures. These include Spwan, Shopping and Gaming Districts, and other communal areas and projects.
+            </div>
+            <div class="tab-pane fade" id="v-net" role="tabpanel" aria-labelledby="v-netherendteam">The Nether/End Team is responsible for designing, building and mantaining of Overworld Server Infrastructures. These can inclide the creation of a nether hub, nether highways connecting the four corners of the world, creation of nether roof access points, end portal room, amongst other things.</div>
+          </div>
+        </div>
+      </div>
 
+    <!-- GROUND KEEPERS CARDS -->
     <div id="GKCardDeck" class="container-fluid" style="padding-left: 10vw; padding-right: 10vw; padding-top: 10px; display: block; align-items: center; display: flex; flex-direction: column;">
       <div class="card-deck justify-content-center">
         <div class="card" style="margin: 0 10px 20px 10px;">
-          <img class="card-img-top" src="css/images/groundkeepers/xLocutus.png" alt="Card image cap">
+          <img class="card-img-top" src="css/images/groundkeepers/xLocutus.png" alt="xLocutus">
           <div class="card-body">
               <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>xLocutus</b></p>
               <p class="card-text" style="padding-left: 30px;">Ground Keeper Leader</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
           </div>
         </div>
         <div class="card" style="margin: 0 10px 20px 10px;">
-          <img class="card-img-top" src="css/images/groundkeepers/bbythatsdiamond.png" alt="Card image cap">
+          <img class="card-img-top" src="css/images/groundkeepers/bbythatsdiamond.png" alt="bbythatsdiamond">
           <div class="card-body">
               <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>bbythatsdiamond</b></p>
               <p class="card-text" style="padding-left: 30px;">Ground Keeper Leader</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
           </div>
           </div>
         <div class="card" style="margin: 0 10px 20px 10px;">
-              <img class="card-img-top" src="css/images/groundkeepers/Nador86.png" alt="Card image cap">
+              <img class="card-img-top" src="css/images/groundkeepers/Nador86.png" alt="Nador86">
               <div class="card-body">
                   <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Nador86</b></p>
                   <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
               </div>
         </div>
           <div class="card" style="margin: 0 10px 20px 10px;">
-        <img class="card-img-top" src="css/images/groundkeepers/M_elonMusk.png" alt="Card image cap">
+        <img class="card-img-top" src="css/images/groundkeepers/M_elonMusk.png" alt="M_elonMusk">
         <div class="card-body">
             <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>M_elonMusk</b></p>
             <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
         </div>
           </div>
           <div class="card" style="margin: 0 10px 20px 10px;">
-        <img class="card-img-top" src="css/images/groundkeepers/TacoBellez.png" alt="Card image cap">
+        <img class="card-img-top" src="css/images/groundkeepers/TacoBellez.png" alt="TacoBellez">
         <div class="card-body">
             <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>TacoBellez</b></p>
-            <p class="card-text" style="padding-left: 30px;">Ground Keeper Traineer</p>
+            <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+            <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
         </div>
           </div>
           <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/Jeremiah0730.png" alt="Card image cap">
+            <img class="card-img-top" src="css/images/groundkeepers/Jeremiah0730.png" alt="Jeremiah0730">
             <div class="card-body">
                 <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Jeremiah0730</b></p>
                 <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
             </div>
           </div>
           <div class="card" style="margin: 0 10px 20px 10px;">
-        <img class="card-img-top" src="css/images/groundkeepers/Yargsnarph.png" alt="Card image cap">
-        <div class="card-body">
+            <img class="card-img-top" src="css/images/groundkeepers/Yargsnarph.png" alt="Yargsnarph">
+            <div class="card-body">
             <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Yargsnarph</b></p>
             <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-        </div>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+          </div>
           </div>
           <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/iMutson.png" alt="Card image cap">
+            <img class="card-img-top" src="css/images/groundkeepers/iMutson.png" alt="iMutson">
             <div class="card-body">
                 <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>iMutson</b></p>
                 <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
             </div>
-              </div>
+          </div>
+          <div class="card" style="margin: 0 10px 20px 10px;">
+            <img class="card-img-top" src="css/images/groundkeepers/GhostFaceisCool.png" alt="GhostFaceisCool">
+            <div class="card-body">
+              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+                <b>GhostFaceisCool</b></p>
+              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+            </div>
+          </div>
+          <div class="card" style="margin: 0 10px 20px 10px;">
+            <img class="card-img-top" src="css/images/groundkeepers/Captain_Ranger.png" alt="Captain_Ranger">
+            <div class="card-body">
+              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+                <b>Captain_Ranger</b></p>
+              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+            </div>
+          </div>
+          <div class="card" style="margin: 0 10px 20px 10px;">
+            <img class="card-img-top" src="css/images/groundkeepers/Hunter_Killer68.png" alt="Hunter_Killer68">
+            <div class="card-body">
+              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+                <b>Hunter_Killer68</b></p>
+              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+            </div>
+          </div>
+          <div class="card" style="margin: 0 10px 20px 10px;">
+            <img class="card-img-top" src="css/images/groundkeepers/More_Pepper.png" alt="More_Pepper">
+            <div class="card-body">
+              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+                <b>More_Pepper</b>
+              </p>
+              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+            <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
+            </div>
+          </div>
+          <div class="card" style="margin: 0 10px 20px 10px;">
+            <img class="card-img-top" src="css/images/groundkeepers/jackieplayz1.png" alt="jackieplayz1">
+            <div class="card-body">
+              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+                <b>jackieplayz1</b>
+              </p>
+              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+            </div>
+          </div>
       </div>
     </div>
 
@@ -287,6 +385,10 @@
               }
             });
           </script>
+
+<!-- BOOTSTRAP JAVASCRIP -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </body>
 </html>
