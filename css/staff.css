@@ -374,6 +374,14 @@ a[aria-expanded="true"] {
     color: white;
 }
 
+#staffRD .nav-link {
+  color: #ffffff;
+  border-radius: 0;
+}
+#staffRD .nav-link:hover {
+  background-color: #fffaff;
+  color: #000000;
+}
 
 .modal-backdrop {
     background-color: #191927;

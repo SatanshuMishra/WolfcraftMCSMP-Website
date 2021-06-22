@@ -157,33 +157,39 @@
         </div>
     </div>
 
-    <!-- Role Descriptors for Owner, Developer, WatchWolf, Admin, Helper -->
-    <div style="padding-left: 10vw; padding-right: 10vw; padding-top: 40px; padding-bottom: 40px; background-color: #3BB273;">
-        <h2 style="color: white"><b>RANK DESCRIPTORS</b></h2><br>
-        <div class="d-flex align-items-start">
-            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <button class="nav-link active" id="v-pills-Owner-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Owner" type="button" role="tab" aria-controls="v-pills-Owner" aria-selected="true" style="color: white;"><b>Owner</b></button>
-              <button class="nav-link" id="v-pills-Developer-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Developer" type="button" role="tab" aria-controls="v-pills-Developer" aria-selected="false" style="color: white;"><b>Developer</b></button>
-              <button class="nav-link" id="v-pills-WatchWolf-tab" data-bs-toggle="pill" data-bs-target="#v-pills-WatchWolf" type="button" role="tab" aria-controls="v-pills-WatchWolf" aria-selected="false" style="color: white;"><b>WatchWolf</b></button>
-              <button class="nav-link" id="v-pills-Admin-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Admin" type="button" role="tab" aria-controls="v-pills-Admin" aria-selected="false" style="color: white;"><b>Admin</b></button>
-              <button class="nav-link" id="v-pills-Helper-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Helper" type="button" role="tab" aria-controls="v-pills-Helper" aria-selected="false" style="color: white;"><b>Helper</b></button>
-            </div>
-            <div class="tab-content" id="v-pills-tabContent" style="padding-left: 25px; max-width: 950px; color: white;">
-              <div class="tab-pane fade show active" id="v-pills-Owner" role="tabpanel" aria-labelledby="v-pills-Owner-tab">Owners are the main administrative power on the server. They overlook the activies of the entire Staff Team and moniter the server to ensure its running properly.</div>
-              <div class="tab-pane fade" id="v-pills-Developer" role="tabpanel" aria-labelledby="v-pills-Developer-tab">These are the creative, "go-getters" on all fronts to make WolfCraft a more fun, enjoyable experience. They aren't required to do as much of the administration work as the other staff roles however they have the appropriate permissions to do so when needed. Their main job is to develop the server by organising community events, implementing popular community requested changes, and more. </div>
-              <div class="tab-pane fade" id="v-pills-WatchWolf" role="tabpanel" aria-labelledby="v-pills-WatchWolf-tab">These are the server's police force. They deal with cases involving item duplication, item loss, griefing, hacking, stealing and more. They are the final authority for ban or punishment appeals as well as for determining whether or not players have broken the server rules.</div>
-              <div class="tab-pane fade" id="v-pills-Admin" role="tabpanel" aria-labelledby="v-pills-Admin-tab">They are members of the staff team who have learnt the basic of console commands and the duties associated with being a Staff Member. In addition to the tasks they performed as a Helper, they now have access to higher moderation commands.</div>
-              <div class="tab-pane fade" id="v-pills-Helper" role="tabpanel" aria-labelledby="v-pills-Helper-tab">They are often the newest members of the Staff Team. Have access to coreprotect and teleport commands to help players in need. They can kick players and mute players, but cannot ban. They are to be the main workforce for checking the Shopping District/Player bases for Theif. They do no hold as many permisions as higher levels of Staff.</div>
-            </div>
+     <!-- STAFF MEMBER ROLE DESCRIPTIONS SECTION -->
+      <div style="padding-left: 10vw; padding-right: 10vw; padding-top: 80px; padding-bottom: 100px; background-color: #0f0f18; min-height: 300px;">
+        <h2 style="color: white; padding-top: 20px;"><b>STAFF MEMBER ROLE DESCRIPTIONS</b></h2>
+        <div id="staffRD" class="d-flex align-items-start" style="font-size: 15px; letter-spacing: 1px; padding-top: 20px;">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="width: 300px;">
+            <button class="nav-link active" id="v-owner" data-bs-toggle="pill" data-bs-target="#v-o"
+              type="button" role="tab" aria-controls="v-o" aria-selected="true"><b>OWNER</b></button>
+            <button class="nav-link" id="v-developer" data-bs-toggle="pill" data-bs-target="#v-d"
+              type="button" role="tab" aria-controls="v-d" aria-selected="false"><b>DEVELOPER</b></button>
+            <button class="nav-link" id="v-watchwolf" data-bs-toggle="pill" data-bs-target="#v-ww"
+              type="button" role="tab" aria-controls="v-ww" aria-selected="false"><b>WATCHWOLF</b></button>
+              <button class="nav-link" id="v-admin" data-bs-toggle="pill" data-bs-target="#v-a"
+              type="button" role="tab" aria-controls="v-a" aria-selected="false"><b>ADMIN</b></button>
+              <button class="nav-link" id="v-helper" data-bs-toggle="pill" data-bs-target="#v-h"
+              type="button" role="tab" aria-controls="v-h" aria-selected="false"><b>HELPER</b></button>
           </div>
-    </div>
+          <div class="tab-content" id="" style="color: white; font-size: 15px; width: 100%;">
+            <div class="tab-pane fade show active" id="v-o" role="tabpanel" aria-labelledby="v-owner">Owners are the main administrative power on the server. They overlook the activies of the entire Staff Team and moniter the server to ensure its runn ing properly.
+            </div>
+            <div class="tab-pane fade" id="v-d" role="tabpanel" aria-labelledby="v-developer">These are the creative, "go-getters" on all fronts to make WolfCraft a more fun, enjoyable experience. They aren't required to do as much of the administration work as the other staff roles however they have the appropriate permissions to do so when needed. Their main job is to develop the server by organising community events, implementing popular community requested changes, and more.</div>
+            <div class="tab-pane fade" id="v-ww" role="tabpanel" aria-labelledby="v-watchwolf">They are the server's police force. They deal with cases involving item duplication, item loss, griefing, hacking, stealing and more. They are the final authority for ban or punishment appeals as well as for determining whether or not players have broken the server rules.</div>
+            <div class="tab-pane fade" id="v-a" role="tabpanel" aria-labelledby="v-admin">They are members of the staff team who have learnt the basic of console commands and the duties associated with being a staff member. In addition to the tasks they performed as a Helper, they now have access to higher moderation commands.</div>
+            <div class="tab-pane fade" id="v-h" role="tabpanel" aria-labelledby="v-helper">They are often the newest members of the Staff Team. Have access to coreprotect and teleport commands to help players in need. They can kick players and mute players, but cannot ban. They are to be the main workforce for checking the shopping district/player bases for Theif. They do no hold as many permisions as higher levels of Staff.</div>
+          </div>
+        </div>
+      </div>
 
 
     <!-- TIP -->
     <div style="margin-left: 2vw; margin-right: 7vw; margin-top: 2vw;">
         <div id="staffPermissions" class="container-fluid" >
-            <div class="staffPermissionContent">
-              <p><i class="fas fa-info-circle"></i> Click on Individual Staff Cards to see more details about them!</p>
+            <div class="staffPermissionContent" style="font-size: 18px;">
+              <p><i class="fas fa-info-circle" style="padding-right: 5px;"></i> To learn more about each staff member   , click on their individual cards.</p>
             </div>
           </div>
     </div>

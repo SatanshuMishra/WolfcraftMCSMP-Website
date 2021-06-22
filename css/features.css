@@ -284,7 +284,8 @@ a[aria-expanded="true"] {
   background: 
     linear-gradient(
         to left,
-        rgba(0, 136, 255, 0.25),rgba(0, 136, 255, 0.25)),
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.95)),
   url('BackdropFeatures.png');
   background-size: cover;
   padding-left: 3vw; 
@@ -348,6 +349,7 @@ a[aria-expanded="true"] {
   font-size: 15px;
   color: white;
 }
+
 
 .footer{
   padding-left: 20px;
