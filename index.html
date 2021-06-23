@@ -1,400 +1,896 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="shortcut icon" type="image/x-icon" href="css/images/index/Wolfcraft.png"/>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="css/images/index/Wolfcraft.png" />
 
-    <!-- Bootstrap v5.0 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-    <!--Font Aswsome Symbols-->
-    <script src="https://kit.fontawesome.com/e4fd338ca7.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap v5.0 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
 
-    <!-- Animated.css -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <!--Font Aswsome Symbols-->
+  <script src="https://kit.fontawesome.com/e4fd338ca7.js" crossorigin="anonymous"></script>
 
-    <!-- CSS Document Link -->
-    <link rel="stylesheet" href="css/index.css">
-    <title>WOLFCRAFT: A MINECRAFT COMMUNITY</title>
-  </head>
-  <body>
-    
+  <!-- Animated.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- SIDE-NAVEBAR -->
-    <div id="mySidenav" class="sidenav" style="z-index: 1; background-color: #0f0f18;">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: white;">&times;</a>
-      <nav id="sidebar" style="background-color: #0f0f18;">
-        <div class="sidebar-header">
-            <h3>INDEX</h3>
-        </div>
-        <ul class="list-unstyled components" style="background-color: #0f0f18; border: none;">
+  <!-- CSS Document Link -->
+  <link rel="stylesheet" href="css/index.css" />
+  <title>WOLFCRAFT: A MINECRAFT COMMUNITY</title>
+</head>
+
+<body>
+  <!-- SIDE-NAVEBAR -->
+  <div id="mySidenav" class="sidenav" style="z-index: 1; background-color: #0f0f18">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: white">&times;</a>
+    <nav id="sidebar" style="background-color: #0f0f18">
+      <div class="sidebar-header">
+        <h3>INDEX</h3>
+      </div>
+      <ul class="list-unstyled components" style="background-color: #0f0f18; border: none">
+        <li>
+          <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+            style="padding-left: 30px; color: white"><b><i class="fas fa-sitemap"
+                style="padding-right: 5px"></i>ABOUT</b></a>
+          <ul class="collapse list-unstyled" id="aboutSubmenu">
             <li>
-              <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-sitemap" style="padding-right: 5px;"></i>ABOUT</b></a>
-                <ul class="collapse list-unstyled" id="aboutSubmenu">
-                    <li>
-                        <a href="features.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>FEATURES</b></a>
-                    </li>
-                    <li>
-                        <a href="rules.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-book" style="padding-right: 5px;"></i>RULES</b></a>
-                    </li>
-                    <li>
-                        <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-history" style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
-                    </li>
-                    <li>
-                      <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-scroll" style="padding-right:5px;"></i>WOLFCRAFT TESTIMONIALS</b></a>
-                    </li>
-                </ul>
+              <a href="features.html" style="padding-left: 30px; color: white"><b><i class="fas fa-cogs"
+                    style="padding-right: 5px"></i>FEATURES</b></a>
             </li>
             <li>
-              <a href="#personnelSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-user-cog" style="padding-right: 5px;"></i>SERVER PERSONNEL</b></a>
-              <ul class="collapse list-unstyled" id="personnelSubmenu">
-                  <li>
-                      <a href="staff.html" style="color: white;"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>STAFF TEAM</b></a>
-                  </li>
-                  <li>
-                      <a href="groundkeepers.html" style="color: white;"><b><i class="fas fa-hammer" style="padding-right: 5px;"></i>BUILD TEAM</b></a>
-                  </li>
-              </ul>
+              <a href="rules.html" style="padding-left: 30px; color: white"><b><i class="fas fa-book"
+                    style="padding-right: 5px"></i>RULES</b></a>
             </li>
             <li>
-              <a href="gallery.html" style="padding-left: 30px; color: white;"><b><i class="fa fa-crop-alt" style="padding-right: 5px;"></i>GALLERY</b></a>
+              <a href="#" style="padding-left: 30px; color: white"><b><i class="fas fa-history"
+                    style="padding-right: 5px"></i>SERVER HISTORY</b></a>
             </li>
             <li>
-              <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-map-marker-alt" style="padding-right: 5px;"></i>MAP</b></a>
-            </li>
-            <li>
-              <a href="#resourcesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-archive" style="padding-right: 5px;"></i>RESOURCES</b></a>
-              <ul class="collapse list-unstyled" id="resourcesSubmenu">
-                  <li>
-                      <a href="staff.html" style="color: white;"><b><i class="fas fa-file-download" style="padding-right: 5px;"></i>DOWNLOADS</b></a>
-                  </li>
-              </ul>
-            </li>
-        </ul>
-    </nav>
-    </div>
-
-    <!-- TOP - NAVIGATION BAR -->
-    <div id="navigation" class="container-fluid">
-      <nav class="navbar navbar-expand-xl">
-  
-        <div id="afterCollaspe" style="align-content: left;">
-          <div class="dropdown">
-            <button class="dropbtn" onclick="openNav()"><i class="fas fa-align-left"></i></button>
-          </div>
-        </div>
-  
-        <a href="index.html" style="color: #F1F6F9; font-size: 14px; font-weight: 600; text-decoration: none;">
-          <img src="css/images/index/Wolfcraft.png" width="50px" alt="WolfCraft Logo">
-          <p style="display: inline; padding-left: 3px;"></p>
-        </a>
-  
-        <div id="collapsableContent" class="collapse navbar-collapse" style="margin-left: 5vw;">
-          <ul class="navbar-nav mr-auto">
-            <!-- <li><a href="features.html"><i class="fas fa-info-circle" style="padding-right: 10px;"></i>FEATURES</a></li>
-            <li><a href="rules.html"><i class="fas fa-book" style="padding-right: 10px;"></i>RULES</a></li>
-            <li><a href="staff.html"><i class="fas fa-users-cog" style="padding-right: 10px;"></i>STAFF TEAM</a></li> -->
-            <li class="dropdown">
-              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-sitemap" style="padding-right: 5px;"></i>ABOUT</b></a>
-  
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 220px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
-                <a class="dropdown-item" href="features.html"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>FEATURES</b></a>
-                <a class="dropdown-item" href="rules.html"><b><i class="fas fa-book" style="padding-right: 5px;"></i>RULES</b></a>
-                <a class="dropdown-item" href="#"><b><i class="fas fa-history" style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
-                <a class="dropdown-item" href="#"><b><i class="fas fa-scroll" style="padding-right:5px;"></i>PLAYER TESTIMONIALS</b></a>
-              </div>
-            </li>
-
-            <li class="dropdown">
-              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-user-cog" style="padding-right: 5px;"></i>SERVER PERSONNEL</b></a>
-  
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 150px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
-                <a class="dropdown-item" href="staff.html"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>STAFF TEAM</b></a>
-                <a class="dropdown-item" href="groundkeepers.html"><b><i class="fas fa-hammer" style="padding-right: 5px;"></i>BUILD TEAM</b></a>
-              </div>
-            </li>
-            <li><a href="gallery.html"><i class="fa fa-crop-alt" style="padding-right: 10px;"></i><b>GALLERY</b></a></li>
-            <li><a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i><b>MAP</b></a></li>
-            <li class="dropdown">
-              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-archive" style="padding-right: 5px;"></i>RESOURCES</b></a>
-  
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 150px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
-                <a class="dropdown-item" href="#"><b><i class="fas fa-file-download" style="padding-right: 5px;"></i>DOWNLOADS</b></a>
-              </div>
+              <a href="playertestimonials.html" style="padding-left: 30px; color: white"><b><i class="fas fa-scroll"
+                    style="padding-right: 5px"></i>PLAYER TESTIMONIALS</b></a>
             </li>
           </ul>
-        </div>
-        
-        <div id="non-collapsableContent" style="margin-left: 10vw; display: inline;">
-  
-          <div class="largeViewPort-ApplyNow" >
-            <button class="btn" style="font-size: 14px; height: 100%;">
-              <p><i class="fas fa-pencil-ruler" style="padding-right: 10px;"></i>APPLY NOW</p>
-            </button>
-          </div>
-  
-          <div class="joinDiscord">
-            <a href="https://discord.gg/2PHQwkHxbs">
-              <button class="btn" style="font-size: 14px; height: 100%;">
-                <i class="fab fa-discord"></i>
-              </button>
-            </a>
-          </div>
-          
-        </div>
-  
-      </nav>
-    </div>
+        </li>
+        <li>
+          <a href="#personnelSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+            style="padding-left: 30px; color: white"><b><i class="fas fa-user-cog" style="padding-right: 5px"></i>SERVER
+              PERSONNEL</b></a>
+          <ul class="collapse list-unstyled" id="personnelSubmenu">
+            <li>
+              <a href="staff.html" style="color: white"><b><i class="fas fa-cogs" style="padding-right: 5px"></i>STAFF
+                  TEAM</b></a>
+            </li>
+            <li>
+              <a href="groundkeepers.html" style="color: white"><b><i class="fas fa-hammer"
+                    style="padding-right: 5px"></i>BUILD TEAM</b></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="gallery.html" style="padding-left: 30px; color: white"><b><i class="fa fa-crop-alt"
+                style="padding-right: 5px"></i>GALLERY</b></a>
+        </li>
+        <li>
+          <a href="#" style="padding-left: 30px; color: white"><b><i class="fas fa-map-marker-alt"
+                style="padding-right: 5px"></i>MAP</b></a>
+        </li>
+        <li>
+          <a href="#resourcesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+            style="padding-left: 30px; color: white"><b><i class="fas fa-archive"
+                style="padding-right: 5px"></i>RESOURCES</b></a>
+          <ul class="collapse list-unstyled" id="resourcesSubmenu">
+            <li>
+              <a href="staff.html" style="color: white"><b><i class="fas fa-file-download"
+                    style="padding-right: 5px"></i>DOWNLOADS</b></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-      <!-- HEADER SECTION -->
-      <div id="bodyHeader" class="container-fluid">
-        <div class="pageTitle">
-          <p style="font-size: 70px; color: #ffffff;" class="animate__animated animate__fadeInDown">WELCOME TO WOLFCRAFT</p>
-          <p style="font-size: 30px;" class="animate__animated animate__fadeInLeftBig">A MINECRAFT GAMING COMMUNITY</p>
+  <!-- TOP - NAVIGATION BAR -->
+  <div id="navigation" class="container-fluid">
+    <nav class="navbar navbar-expand-xl">
+      <div id="afterCollaspe" style="align-content: left">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="openNav()">
+            <i class="fas fa-align-left"></i>
+          </button>
         </div>
-        <!-- <div class="pageDescription">
+      </div>
+
+      <a href="index.html" style="
+            color: #f1f6f9;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+          ">
+        <img src="css/images/index/Wolfcraft.png" width="50px" alt="WolfCraft Logo" />
+        <p style="display: inline; padding-left: 3px"></p>
+      </a>
+
+      <div id="collapsableContent" class="collapse navbar-collapse" style="margin-left: 5vw">
+        <ul class="navbar-nav mr-auto">
+          <li class="dropdown">
+            <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i class="fas fa-sitemap"
+                  style="padding-right: 5px"></i>ABOUT</b></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                  min-width: 220px;
+                  background-color: #0f0f18;
+                  border-radius: 0;
+                ">
+              <a class="dropdown-item" href="features.html"><b><i class="fas fa-cogs"
+                    style="padding-right: 5px"></i>FEATURES</b></a>
+              <a class="dropdown-item" href="rules.html"><b><i class="fas fa-book"
+                    style="padding-right: 5px"></i>RULES</b></a>
+              <a class="dropdown-item" href="#"><b><i class="fas fa-history" style="padding-right: 5px"></i>SERVER
+                  HISTORY</b></a>
+              <a class="dropdown-item" href="playertestimonials.html"><b><i class="fas fa-scroll"
+                    style="padding-right: 5px"></i>PLAYER TESTIMONIALS</b></a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i class="fas fa-user-cog"
+                  style="padding-right: 5px"></i>SERVER PERSONNEL</b></a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                  min-width: 150px;
+                  background-color: #0f0f18;
+                  border-radius: 0;
+                ">
+              <a class="dropdown-item" href="staff.html"><b><i class="fas fa-cogs" style="padding-right: 5px"></i>STAFF
+                  TEAM</b></a>
+              <a class="dropdown-item" href="groundkeepers.html"><b><i class="fas fa-hammer"
+                    style="padding-right: 5px"></i>BUILD TEAM</b></a>
+            </div>
+          </li>
+          <li>
+            <a href="gallery.html"><i class="fa fa-crop-alt" style="padding-right: 10px"></i><b>GALLERY</b></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px"></i><b>MAP</b></a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i class="fas fa-archive"
+                  style="padding-right: 5px"></i>RESOURCES</b></a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                  min-width: 150px;
+                  background-color: #0f0f18;
+                  border-radius: 0;
+                ">
+              <a class="dropdown-item" href="#"><b><i class="fas fa-file-download"
+                    style="padding-right: 5px"></i>DOWNLOADS</b></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div id="non-collapsableContent" style="margin-left: 10vw; display: inline">
+        <div class="largeViewPort-ApplyNow">
+          <button class="btn" style="font-size: 14px; height: 100%">
+            <p>
+              <i class="fas fa-pencil-ruler" style="padding-right: 10px"></i><b>APPLY NOW</b>
+            </p>
+          </button>
+        </div>
+
+        <div class="joinDiscord">
+          <a href="https://discord.gg/2PHQwkHxbs">
+            <button class="btn" style="font-size: 14px; height: 100%">
+              <i class="fab fa-discord"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- HEADER SECTION -->
+  <div id="bodyHeader" class="container-fluid">
+    <div class="pageTitle">
+      <p style="font-size: 70px; color: #ffffff" class="animate__animated animate__fadeInDown">
+        WELCOME TO WOLFCRAFT
+      </p>
+      <p style="font-size: 30px" class="animate__animated animate__fadeInLeftBig">
+        A MINECRAFT GAMING COMMUNITY
+      </p>
+    </div>
+    <!-- <div class="pageDescription">
           <p>We are a <mark><b>Gaming Community</b></mark> centered around our <mark><b>Minecraft Servers</b></mark>. We allow players with the freedom to play and explore the world as they see fit while providing them and their builds a secure multiplayer environment with anti-grief/stealing and server optimizations ensureing smooth game-play.</p>
         </div> -->
-      </div>
+  </div>
 
-      <!-- WHO ARE WE SECTION -->
-      <div style="padding-left: 10vw; padding-right: 10vw; padding-top: 80px; padding-bottom: 100px; background-color: #0f0f18; min-height: 300px;">
-        <h2 style="color: white; padding-top: 20px;"><b>WHO ARE WE?</b></h2>
-        <p style="font-size: 18px; color: white; padding-top: 10px;">We are a gaming community aimed at providing players with a casual, engaging and mature environment in unwind and have fun.</p>
-      </div>
+  <!-- WHO ARE WE SECTION -->
+  <div style="
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        background-color: #0f0f18;
+        min-height: 300px;
+      ">
+    <h2 style="color: white; padding-top: 20px"><b>WHO ARE WE?</b></h2>
+    <p style="font-size: 18px; color: white; padding-top: 10px">
+      We are a gaming community aimed at providing players with a casual,
+      engaging and mature environment in unwind and have fun. Our community provies an opportunity for players explore many games and meet new people in a overall caring and supportive community.
+    </p>
+  </div>
 
-      <!-- EXPLORE WOLFCRAFT AND SERVER LIST SECTION -->
-      <div id="serverList" class="container-fluid" style="padding-left: 2vw; padding-right: 2vw; padding-top: 80px; padding-bottom: 80px; height: auto; margin-bottom: 0; background: linear-gradient(to left,rgba(0, 106, 199, 0.35),rgba(0, 106, 199, 0.35)), url('css/images/gallery/Picture8.png'); background-attachment: fixed;">
-        <h2 style="color: white; padding-top: 50px; padding-left: 10vw;"><b>EXPLORE THE VAST WORLD OF WOLFCRAFT</b></h2>
-        <p style="font-size: 18px; padding-left: 10vw; padding-right: 10vw; color: white; padding-top: 10px;">Wolfcraft provides players with an opportunity to experience a variety of game-play styles - all in one place. Our community is centered around our three Minecraft servers - each providing you with an unique playing experience. Check out our <a href="features.html" style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px;"><b>features</b></a> section for more information on our servers and community.</p>
-        <div id="serverListCards" class="container" style="margin-top: 40px; align-content: center !important;">
-          <div class="row row-cols-1 row-cols-md-3 g-4" style="justify-content: center;">
-            <div class="col" style="min-width: 550px; max-width: 750px;height: auto;">
-              <div class="card" style=" border: none; height: auto; background-color: transparent; min-width: 350px; max-width: 450px; overflow: hidden;">
-                <img src="css/images/index/SurvivalHeader.png" class="card-img-top" alt="..." style="border-radius: 0; width: 100%; height: auto; z-index: 1; transition: all 0.5s ease;">
-                <div class="card-body" style="padding: 40px; background: url('css/Pixels.png'); color: white; transform: translate(0px, -50px); z-index: 3; padding-top: 40px; transition: all 0.5s ease;">
-                  <h5 class="card-title"><b>SURVIVAL</b></h5>
-                  <p class="card-text">This is the server you are after if your looking for a near-perfect vanilla experience while being assured that your builds and actions are protected. Additionally, you will find many game-play easing datapacks that help make some challenging tasks easier to accomplish. These datapacks are voted for by the community and are evaluated regularly to ensure our server meets our player's expectations.</p>
-                  <div class="container_infos" style="display: flex; justify-content: space-between; padding-top: 25px; padding-left: 20px; padding-right: 20px;">
-                    <div class="postedBy" style="display: flex; flex-direction: column; letter-spacing: 1px; font-size: 12px;">
-                        <span><b>VERSION</b></span>
-                        1.16.5
-                    </div>
-
-                    <div class="container_tags" style="display: flex; flex-direction: column; letter-spacing: 1px; font-size: 12px;">
-                        <span><b>SERVER ADDRESS</b></span>
-                        <div class="tags">
-                          <p>play.wolfcraftmc.com</p>
-                        </div>
-
-                    </div>
+  <!-- EXPLORE WOLFCRAFT AND SERVER LIST SECTION -->
+  <div id="serverList" class="container-fluid" style="
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        height: auto;
+        margin-bottom: 0;
+        background: linear-gradient(
+            to left,
+            rgba(0, 106, 199, 0.35),
+            rgba(0, 106, 199, 0.35)
+          ),
+          url('css/images/gallery/Picture8.png');
+        background-attachment: fixed;
+      ">
+    <h2 style="color: white; padding-top: 50px; padding-left: 10vw">
+      <b>EXPLORE THE VAST WORLD OF WOLFCRAFT</b>
+    </h2>
+    <p style="
+          font-size: 18px;
+          padding-left: 10vw;
+          padding-right: 10vw;
+          color: white;
+          padding-top: 10px;
+        ">
+      Wolfcraft provides players with an opportunity to experience a variety
+      of game-play styles - all in one place. Our community is centered around
+      our three Minecraft servers - each providing you with an unique playing
+      experience. Check out our
+      <a href="features.html" style="
+            color: #cefdff;
+            border-bottom: 2px dotted #cefdff;
+            text-decoration: none;
+            letter-spacing: 1px;
+          "><b>features</b></a>
+      section for more information on our servers and community.
+    </p>
+    <div id="serverListCards" class="container" style="margin-top: 40px; align-content: center !important">
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="justify-content: center !important;">
+        <div class="col" style="min-width: 550px; max-width: 750px; height: auto">
+          <div class="card" style="
+                border: none;
+                height: auto;
+                background-color: transparent;
+                min-width: 350px;
+                max-width: 450px;
+                overflow: hidden;
+                margin-left: 40px;
+              ">
+            <img src="css/images/index/SurvivalHeader.png" class="card-img-top" alt="..." style="
+                  border-radius: 0;
+                  width: 100%;
+                  height: auto;
+                  z-index: 1;
+                  transition: all 0.5s ease;
+                " />
+            <div class="card-body" style="
+                  padding: 40px;
+                  background: url('css/Pixels.png');
+                  color: white;
+                  transform: translate(0px, -50px);
+                  z-index: 3;
+                  padding-top: 40px;
+                  transition: all 0.5s ease;
+                ">
+              <h5 class="card-title"><b>SURVIVAL</b></h5>
+              <p class="card-text">
+                This is the server you are after if your looking for a
+                near-perfect vanilla experience while being assured that your
+                builds and actions are protected. Additionally, you will find
+                many game-play easing datapacks that help make some
+                challenging tasks easier to accomplish. These datapacks are
+                voted for by the community and are evaluated regularly to
+                ensure our server meets our player's expectations.
+              </p>
+              <div class="container_infos" style="
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 25px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                  ">
+                <div class="postedBy" style="
+                      display: flex;
+                      flex-direction: column;
+                      letter-spacing: 1px;
+                      font-size: 12px;
+                    ">
+                  <span><b>VERSION</b></span>
+                  1.16.5
                 </div>
+
+                <div class="container_tags" style="
+                      display: flex;
+                      flex-direction: column;
+                      letter-spacing: 1px;
+                      font-size: 12px;
+                    ">
+                  <span><b>SERVER ADDRESS</b></span>
+                  <div class="tags">
+                    <p>play.wolfcraftmc.com</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col" style="min-width: 550px; max-width: 750px;height: auto;">
-              <div class="card" style=" border: none; height: auto; background-color: transparent; min-width: 350px; max-width: 450px; overflow: hidden;">
-                <img src="css/images/index/CreativeHeader.png" class="card-img-top" alt="..." style="border-radius: 0; width: 100%; height: auto; z-index: 1; transition: all 0.5s ease;">
-                <div class="card-body" style="padding: 40px; background: url('css/Pixels.png'); color: white; transform: translate(0px, -50px); z-index: 3; padding-top: 40px; transition: all 0.5s ease;">
-                  <h5 class="card-title"><b>CREATIVE</b></h5>
-                  <p class="card-text">Want to explore the creative boundaries of minecraft with others? Then this is the server for you. Our creative server offers players with a vast expansive flat-world where you can freely collaberate with friends on projects, plan your future bases, or have a little fun.</p>
-                  <div class="container_infos" style="display: flex; justify-content: space-between; padding-top: 25px; padding-left: 20px; padding-right: 20px;">
-                    <div class="postedBy" style="display: flex; flex-direction: column; letter-spacing: 1px; font-size: 12px;">
-                        <span><b>VERSION</b></span>
-                        1.16.5
-                    </div>
-
-                    <div class="container_tags" style="display: flex; flex-direction: column; letter-spacing: 1px; font-size: 12px;">
-                        <span><b>SERVER ADDRESS</b></span>
-                        <div class="tags">
-                          <p>creative.wolfcraftmc.com</p>
-                        </div>
-
-                    </div>
+          </div>
+        </div>
+        <div class="col" style="min-width: 550px; max-width: 750px; height: auto">
+          <div class="card" style="
+                border: none;
+                height: auto;
+                background-color: transparent;
+                min-width: 350px;
+                max-width: 450px;
+                overflow: hidden;
+                margin-left: 40px;
+              ">
+            <img src="css/images/index/CreativeHeader.png" class="card-img-top" alt="..." style="
+                  border-radius: 0;
+                  width: 100%;
+                  height: auto;
+                  z-index: 1;
+                  transition: all 0.5s ease;
+                " />
+            <div class="card-body" style="
+                  padding: 40px;
+                  background: url('css/Pixels.png');
+                  color: white;
+                  transform: translate(0px, -50px);
+                  z-index: 3;
+                  padding-top: 40px;
+                  transition: all 0.5s ease;
+                ">
+              <h5 class="card-title"><b>CREATIVE</b></h5>
+              <p class="card-text">
+                Want to explore the creative boundaries of minecraft with
+                others? Then this is the server for you. Our creative server
+                offers players with a vast expansive flat-world where you can
+                freely collaberate with friends on projects, plan your future
+                bases, or have a little fun.
+              </p>
+              <div class="container_infos" style="
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 25px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                  ">
+                <div class="postedBy" style="
+                      display: flex;
+                      flex-direction: column;
+                      letter-spacing: 1px;
+                      font-size: 12px;
+                    ">
+                  <span><b>VERSION</b></span>
+                  1.16.5
                 </div>
-                </div>
-              </div>
-            </div>
-            <div class="col" style="min-width: 550px; max-width: 750px;height: auto;">
-              <div class="card" style=" border: none; height: auto; background-color: transparent; min-width: 350px; max-width: 450px; overflow: hidden;">
-                <img src="css/images/index/SurvivalHeader.png" class="card-img-top" alt="..." style="border-radius: 0; width: 100%; height: auto; z-index: 1; transition: all 0.5s ease;">
-                <div class="card-body" style="padding: 40px; background: url('css/Pixels.png'); color: white; transform: translate(0px, -50px); z-index: 3; padding-top: 40px; transition: all 0.5s ease;">
-                  <h5 class="card-title"><b>MODDED</b></h5>
-                  <p class="card-text">Need a place to get away from the vanilla experience or recharge your batteires after a long build? Our new modded server is now open for business. With this server we provide our players with new engaging game-play options that help expand the creative horizons of possibilities in minecraft. With new mod's voted for by the community every few months, you can be assured to always have something new to experience.</p>
-                  <div class="container_infos" style="display: flex; justify-content: space-between; padding-top: 25px; padding-left: 20px; padding-right: 20px;">
-                    <div class="postedBy" style="display: flex; flex-direction: column; letter-spacing: 1px; font-size: 12px;">
-                        <span><b>CURRENT MOD</b></span>
-                        QTech
-                    </div>
 
-                    <div class="container_tags" style="display: flex; flex-direction: column; letter-spacing: 1px; font-size: 12px;">
-                        <span><b>SERVER ADDRESS</b></span>
-                        <div class="tags">
-                          <p>modded.wolfcraftmc.com</p>
-                        </div>
-
-                    </div>
-                </div>
+                <div class="container_tags" style="
+                      display: flex;
+                      flex-direction: column;
+                      letter-spacing: 1px;
+                      font-size: 12px;
+                    ">
+                  <span><b>SERVER ADDRESS</b></span>
+                  <div class="tags">
+                    <p>creative.wolfcraftmc.com</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
-      </div>
+        <div class="col" style="min-width: 550px; max-width: 750px; height: auto">
+          <div class="card" style="
+                border: none;
+                height: auto;
+                background-color: transparent;
+                min-width: 350px;
+                max-width: 450px;
+                overflow: hidden;
+                margin-left: 40px;
+              ">
+            <img src="css/images/index/SurvivalHeader.png" class="card-img-top" alt="..." style="
+                  border-radius: 0;
+                  width: 100%;
+                  height: auto;
+                  z-index: 1;
+                  transition: all 0.5s ease;
+                " />
+            <div class="card-body" style="
+                  padding: 40px;
+                  background: url('css/Pixels.png');
+                  color: white;
+                  transform: translate(0px, -50px);
+                  z-index: 3;
+                  padding-top: 40px;
+                  transition: all 0.5s ease;
+                ">
+              <h5 class="card-title"><b>MODDED</b></h5>
+              <p class="card-text">
+                Need a place to get away from the vanilla experience or
+                recharge your batteires after a long build? Our new modded
+                server is now open for business. With this server we provide
+                our players with new engaging game-play options that help
+                expand the creative horizons of possibilities in minecraft.
+                With new mod's voted for by the community every few months,
+                you can be assured to always have something new to experience.
+              </p>
+              <div class="container_infos" style="
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 25px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                  ">
+                <div class="postedBy" style="
+                      display: flex;
+                      flex-direction: column;
+                      letter-spacing: 1px;
+                      font-size: 12px;
+                    ">
+                  <span><b>CURRENT MOD</b></span>
+                  QTech
+                </div>
 
-      <!-- PLAYER TESTIMONIALS SECTION -->
-      <div style="padding-left: 10vw; padding-right: 10vw; padding-top: 80px; padding-bottom: 50px; margin-bottom: 0; background-color: #0f0f18; min-height: 300px; transition: all 0.3s ease;">
-        <h2 style="color: white; padding-top: 20px;"><b>WHAT DO OUR PLAYERS SAY?</b></h2>
-        <p style="font-size: 18px; color: white; padding-top: 10px;">Sometimes the best way to learn about something is from those who have experienced it first had. Learn what our player base has to say about their experience of being part of the Wolfcraft community!</p>
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-                <!-- Full-width slides/quotes -->
-                <div class="mySlides">
-                  <q>I came here recently, and I was welcomed with open arms by our excellent community. I have never seen such a loving and caring community. Though I have only been here a short time, I feel I have been here forever. These people have given me advice, helped me out, and most of all, gave me hope...</q>
-                  <p class="author">- Nador86</p>
+                <div class="container_tags" style="
+                      display: flex;
+                      flex-direction: column;
+                      letter-spacing: 1px;
+                      font-size: 12px;
+                    ">
+                  <span><b>SERVER ADDRESS</b></span>
+                  <div class="tags">
+                    <p>modded.wolfcraftmc.com</p>
+                  </div>
                 </div>
-                <div class="mySlides">
-                  <q>...I’m a casual Minecraft player that like redstones and farms. I’ve only been to the server for a week, but I really like it! Most staff members are nice and reasonable, and rules are obeyed by everyone. Players are nice and happy to help...</q>
-                  <p class="author">- Mutty</p>
-                </div>
-                <div class="mySlides">
-                  <q>Before I joined this server, I was bouncing from server to server. Every server I joined was either super toxic, or I got bored after a couple days because I was the only one playing on it. When I joined Wolfcraft, I expected the same thing, but instead of pushing me out, the server welcomed me. After being in this server for multiple seasons this group really feels like a second family to me. When I needed someone to talk to, everyone was willing to listen. Some of my best friends are from this server, and I’m so glad I found this server.</q>
-                  <p class="author">- JackiePlayz1</p>
-                </div>
-                <div class="mySlides">
-                  <q>This server helped significantly to pull me out of my depression when quarantine kicked off. Just before joining I had been diagnosed with depression after a mysterious disease had left me exhausted for months on end. It helped me connect with people who I consider great friends to this day and people who helped me get through my issues in a healthy and safe way.</q>
-                  <p class="author">- xploder52</p>
-                </div>
-                <div class="mySlides">
-                  <q>I came to this server looking for a loving community and Minecraft lovers, this was a great community to me because everytime I log into Minecraft, on the server people would say “Welcome back!” Or “Hello” and that sparked me up everyday, this server gives me a great thing, which is letting the stress go away. The owner is amazing and all the staff are too! They get me through day which I can’t. Thanks to this server and it’s wonderful people.</q>
-                  <p class="author">- Spiniestsum154</p>
-                </div>
-                <!-- Next/prev buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <!-- Dots/bullets/indicators -->
-        <div class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-        </div>
-        <button class="readMoreQuotes" style="padding: 12px; border-radius: 20px; border-color: cornflowerblue; background-color: transparent; color: white;" onclick="window.location.href='#'">READ MORE</button>
-      </div>
-
-      <!-- FOOTER SECTION -->
-      <div class="mt-5 pt-5 footer" style="margin-top: 0 !important">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5 col-xs-12 about-wolfcraft">
-              <p style="font-size: 22px;"><b>WOLFCRAFT</b></p>
-              <p class="pr-5 text-white-50" style="font-size: 15px;">A Minecraft-Focused Gaming Community.</p>
-            </div>
-            <div class="col-lg-3 col-xs-12 links">
-            </div>
-            <div class="col-lg-4 col-xs-12 getintouch">
-              <p class="mt-lg-0 mt-sm-4" style="font-size: 18px;"><b>STAY CONNECTED</b></p>
-              <a href="https://www.youtube.com/channel/UCQvi6iimR51SUcCRvGR6YYQ" class="fa fa-youtube" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
-              <a href="https://www.facebook.com/WolfCraft-MC-110649397468237/" class="fa fa-facebook" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
-              <a href="https://twitter.com/Wolf_CraftMC" class="fa fa-twitter" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
-              <a href="https://instagram.com/wolfcraft_mc?igshid=1bwgo6miq70f9" class="fa fa-instagram" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
-            </div>
-            <div class="row mt-5">
-              <div class="col copyright" style="padding-left: 20px;">
-                <p class=""><small class="text-white-50"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" style="text-decoration: underline; color: white;">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</small></p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-    <!-- SIDENAV-BUTTON SCRIPT -->
-    <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
+  <!-- PLAYER TESTIMONIALS SECTION -->
+  <div style="
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        margin-bottom: 0;
+        background-color: #0f0f18;
+        min-height: 300px;
+        transition: all 0.3s ease;
+      ">
+    <h2 style="color: white; padding-top: 20px">
+      <b>WHAT DO OUR PLAYERS SAY?</b>
+    </h2>
+    <p style="font-size: 18px; color: white; padding-top: 10px">
+      Sometimes the best way to learn about something is from those who have
+      experienced it first had. Learn what our player base has to say about
+      their experience of being part of the Wolfcraft community!
+    </p>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width slides/quotes -->
+      <div class="mySlides">
+        <q>I came here recently, and I was welcomed with open arms by our
+          excellent community. I have never seen such a loving and caring
+          community. Though I have only been here a short time, I feel I have
+          been here forever. These people have given me advice, helped me out,
+          and most of all, gave me hope...</q>
+        <p class="author">- Nador86</p>
+      </div>
+      <div class="mySlides">
+        <q>...I’m a casual Minecraft player that like redstones and farms.
+          I’ve only been to the server for a week, but I really like it! Most
+          staff members are nice and reasonable, and rules are obeyed by
+          everyone. Players are nice and happy to help...</q>
+        <p class="author">- Mutty</p>
+      </div>
+      <div class="mySlides">
+        <q>Before I joined this server, I was bouncing from server to server.
+          Every server I joined was either super toxic, or I got bored after a
+          couple days because I was the only one playing on it. When I joined
+          Wolfcraft, I expected the same thing, but instead of pushing me out,
+          the server welcomed me. After being in this server for multiple
+          seasons this group really feels like a second family to me. When I
+          needed someone to talk to, everyone was willing to listen. Some of
+          my best friends are from this server, and I’m so glad I found this
+          server.</q>
+        <p class="author">- JackiePlayz1</p>
+      </div>
+      <div class="mySlides">
+        <q>This server helped significantly to pull me out of my depression
+          when quarantine kicked off. Just before joining I had been diagnosed
+          with depression after a mysterious disease had left me exhausted for
+          months on end. It helped me connect with people who I consider great
+          friends to this day and people who helped me get through my issues
+          in a healthy and safe way.</q>
+        <p class="author">- xploder52</p>
+      </div>
+      <div class="mySlides">
+        <q>I came to this server looking for a loving community and Minecraft
+          lovers, this was a great community to me because everytime I log
+          into Minecraft, on the server people would say “Welcome back!” Or
+          “Hello” and that sparked me up everyday, this server gives me a
+          great thing, which is letting the stress go away. The owner is
+          amazing and all the staff are too! They get me through day which I
+          can’t. Thanks to this server and it’s wonderful people.</q>
+        <p class="author">- Spiniestsum154</p>
+      </div>
+      <!-- Next/prev buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!-- Dots/bullets/indicators -->
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <button class="readMoreQuotes" style="
+          padding: 12px;
+          border-radius: 20px;
+          border-color: cornflowerblue;
+          background-color: transparent;
+          color: white;
+        " onclick="window.location.href='playertestimonials.html'">
+      READ MORE
+    </button>
+  </div>
 
-    <!-- PLAYER TESTIMONIALS SLIDESHOW SCRIPT -->
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
+  <!-- NEWS SECTION -->
+  <div id="serverList" class="container-fluid" style="
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 180px;
+            padding-bottom: 180px;
+            min-height: 800px;
+            margin-bottom: 0;
+            background: linear-gradient(
+                to left,
+                rgba(0, 106, 199, 0.35),
+                rgba(0, 106, 199, 0.35)
+              ),
+              url('css/images/gallery/Picture33.png');
+              background-position: -100px;
+            background-attachment: fixed;
+          ">
+    <h2 style="color: white; padding-top: 50px; padding-left: 10vw; padding-right: 10vw">
+      <b>LATEST NEWS & UPDATES FROM WOLFCRAFT</b>
+    </h2>
+    <div id="newsCards" class="container" style="margin-top: 40px; align-content: center !important;">
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="justify-content: center;">
+        <div class="col" style="width: 370px;">
+          <div class="card" style="width: 350px; border: none; border-radius: 0; background-color: transparent;">
+            <!-- <img src="css/images/index/Season8Header.png" class="card-img-top" alt="..." style="border-radius: 0;"> -->
+            <div class="card-body" style="background-color: rgba(15, 20, 24, 0.2); color: #fdfffc; padding: 40px 25px;">
+              <h6 class="card-title">SEASON 8 IS NOW LIVE!</h6>
+              <p class="card-text" style="font-size: 13px;">Find out everything you need to know about wolfcraft season
+                8.</p>
+              <p style="font-size: 12px; padding-left: 5px;"><a href=""
+                  style="text-decoration: none; letter-spacing: 1px; color: red !important;"> READ MORE <i
+                    class="fas fa-arrow-right"></i></a></p>
+              <p style="font-size: 12px; text-align: left; padding-left: 5px; padding: 0 0;">NULL POINTER</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="width: 370px;">
+          <div class="card" style="width: 350px; border: none; border-radius: 0; background-color: transparent;">
+            <!-- <img src="css/images/index/ServerChanglogs.png" class="card-img-top" alt="..." style="border-radius: 0;"> -->
+            <div class="card-body" style="background-color: rgba(15, 20, 24, 0.2); color: #fdfffc; padding: 40px 25px;">
+              <h6 class="card-title">DEVELOPER DIARIES</h6>
+              <p class="card-text" style="font-size: 13px;">Learn about the latest round of changes and upcomming
+                features to WolfCraft.</p>
+              <p style="font-size: 12px; padding-left: 5px;"><a href=""
+                  style="text-decoration: none; letter-spacing: 1px; color: red !important;"> READ MORE <i
+                    class="fas fa-arrow-right"></i></a></p>
+              <p style="font-size: 12px; text-align: left; padding-left: 5px; padding: 0 0;">01/06/2021</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="width: 370px;">
+          <div class="card" style="max-width: 350px; border: none; border-radius: 0; background-color: transparent;">
+            <!-- <img src="css/images/index/HalloweenHeader.jpg" class="card-img-top" alt="..." style="border-radius: 0;"> -->
+            <div class="card-body" style="background-color: rgba(15, 20, 24, 0.2); color: #fdfffc; padding: 40px 25px;">
+              <h6 class="card-title">HALLOWEEN BUILD CONTEST WINNERS</h6>
+              <p class="card-text" style="font-size: 13px;">Winning Builds from the Spooky Halloween Build Contest.</p>
+              <p style="font-size: 12px; padding-left: 5px;"><a href=""
+                  style="text-decoration: none; letter-spacing: 1px; color: red !important;"> READ MORE <i
+                    class="fas fa-arrow-right"></i></a></p>
+              <p style="font-size: 12px; text-align: left; padding-left: 5px; padding: 0 0;">03/11/2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <button class="readMoreQuotes" style="
+              margin-top: 50px;
+              padding: 12px;
+              border-radius: 20px;
+              border-color: cornflowerblue;
+              background-color: transparent;
+              color: white;
+            " onclick="window.location.href='#'">
+      READ MORE
+    </button> -->
+    </div>
+  </div>
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
+  <!-- SUPPORT US SECTION -->
+  <div style="
+          padding-left: 10vw;
+          padding-right: 10vw;
+          padding-top: 80px;
+          padding-bottom: 80px;
+          margin-bottom: 0;
+          background-color: #0f0f18;
+          min-height: 300px;
+          transition: all 0.3s ease;
+        ">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <!-- SUPPORT US SECTION -->
+      <div class="col" style="padding: 0 50px;">
+        <h2 style="color: white; padding-top: 20px">
+          <b>SUPPORT OUR COMMUNITY</b>
+        </h2>
+        <p style="font-size: 18px; color: white; padding-top: 10px">
+          Supporting us through these websites improves our standing within them and helps us further build and grow our community.
+        </p>
+        <ul style="list-style-type: circle !important; color: white; text-transform: uppercase;">
+          <li style="padding: 4px 0;"><a href="https://www.reddit.com/user/CaptainMidRanger/"
+              style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px; padding: 1px 0;"><b>Reddit</a></b>
+          </li>
+          <li style="padding: 4px 0;"><a href="https://topg.org/minecraft-servers/server-626187"
+              style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px; padding: 1px 0;"><b>TopG.org</a></b>
+          </li>
+          <li style="padding: 4px 0;"><a href="https://minecraft-mp.com/server/280630/vote/"
+              style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px; padding: 1px 0;"><b>Minecraft
+                Multiplayer</a></b>
+          </li>
+          <li style="padding: 4px 0;"><a href="https://minecraftservers.org/vote/610004"
+              style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px; padding: 1px 0;"><b>
+                MinecraftServers.org</a></b>
+          </li>
+          <li style="padding: 4px 0;"><a href="https://mclike.com/vote-190914"
+              style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px; padding: 1px 0;"><b>MCLIKE
+            </a></b>
+          </li>
+          <li style="padding: 4px 0;"><a href="https://minecraft-server.net/vote/Captain_Ranger/"
+              style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px; padding: 1px 0;"><b>Minecraft-Server.net
+            </a></b>
+          </li>
+        </ul>
+      </div>
+      <!-- DONATE SECTION -->
+      <div class="col" style="padding: 0 50px;">
+        <h2 style="color: white; padding-top: 20px">
+          <b>DONATE</b>
+        </h2>
+        <p style="font-size: 18px; color: white; padding-top: 10px">
+          Donating helps provide the funding required to add new server or maintain and improve current servers. Learn
+          more
+          about donating and its benefits <a href="#"
+            style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px;"><b>here</b></a>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWS SECTION -->
+  <div id="serverList" class="container-fluid" style="
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 260px;
+            padding-bottom: 180px;
+            min-height: 800px;
+            margin-bottom: 0;
+            background: linear-gradient(
+                to left,
+                rgba(0, 106, 199, 0.35),
+                rgba(0, 106, 199, 0.35)
+              ),
+              url('css/images/gallery/Picture29.png');
+            background-position: -100px;
+            background-attachment: fixed;
+          ">
+    <p style="font-size: 50px; color: white; text-align: center;"><b>JOIN OUR COMMUNITY TODAY <br>AND GET READY AMAZING ADVENTURE!</b></p>
+    <button class="joinToday" style="
+    margin-left: 45%;
+              padding: 12px;
+              border-radius: 20px;
+              border-color: #0088FF;
+              background-color: #0088FF;
+              color: white;
+              font-size: 14px;
+              letter-spacing: 2px;
+            " onclick="window.location.href='#'">
+      APPLY NOW
+    </button>
+  </div>
+
+  <!-- FOOTER SECTION -->
+  <div class="mt-5 pt-5 footer" style="margin-top: 0 !important">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-wolfcraft">
+          <p style="font-size: 22px"><b>WOLFCRAFT</b></p>
+          <p class="pr-5 text-white-50" style="font-size: 15px">
+            A Minecraft-Focused Gaming Community.
+          </p>
+        </div>
+        <div class="col-lg-3 col-xs-12 links"></div>
+        <div class="col-lg-4 col-xs-12 getintouch">
+          <p class="mt-lg-0 mt-sm-4" style="font-size: 18px">
+            <b>STAY CONNECTED</b>
+          </p>
+          <a href="https://www.youtube.com/channel/UCQvi6iimR51SUcCRvGR6YYQ" class="fa fa-youtube" style="
+                font-size: 12px;
+                width: 52px;
+                height: 52px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 50%;
+                text-decoration: none;
+              "></a>
+          <a href="https://www.facebook.com/WolfCraft-MC-110649397468237/" class="fa fa-facebook" style="
+                font-size: 12px;
+                width: 52px;
+                height: 52px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 50%;
+                text-decoration: none;
+              "></a>
+          <a href="https://twitter.com/Wolf_CraftMC" class="fa fa-twitter" style="
+                font-size: 12px;
+                width: 52px;
+                height: 52px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 50%;
+                text-decoration: none;
+              "></a>
+          <a href="https://instagram.com/wolfcraft_mc?igshid=1bwgo6miq70f9" class="fa fa-instagram" style="
+                font-size: 12px;
+                width: 52px;
+                height: 52px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 50%;
+                text-decoration: none;
+              "></a>
+        </div>
+        <div class="row mt-5">
+          <div class="col copyright" style="padding-left: 20px">
+            <p class="">
+              <small class="text-white-50"><a rel="license"
+                  href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br />This work is licensed under a
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                  style="text-decoration: underline; color: white">Creative Commons
+                  Attribution-NonCommercial-NoDerivatives
+                  4.0 International License</a>.</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIDENAV-BUTTON SCRIPT -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+  <!-- PLAYER TESTIMONIALS SLIDESHOW SCRIPT -->
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1;
       }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
+      if (n < 1) {
+        slideIndex = slides.length;
       }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
 
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!--Auto Drop Dropdown On Hover-->
+  <script>
+    const $dropdown = $(".dropdown");
+    const $dropdownToggle = $(".dropdown-toggle");
+    const $dropdownMenu = $(".dropdown-menu");
+    const showClass = "show";
+
+    $(window).on("load resize", function () {
+      if (this.matchMedia("(min-width: 768px)").matches) {
+        $dropdown.hover(
+          function () {
+            const $this = $(this);
+            $this.addClass(showClass);
+            $this.find($dropdownToggle).attr("aria-expanded", "true");
+            $this.find($dropdownMenu).addClass(showClass);
+          },
+          function () {
+            const $this = $(this);
+            $this.removeClass(showClass);
+            $this.find($dropdownToggle).attr("aria-expanded", "false");
+            $this.find($dropdownMenu).removeClass(showClass);
           }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
+        );
+      } else {
+        $dropdown.off("mouseenter mouseleave");
       }
-    </script>
+    });
+  </script>
+</body>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-    <!--Auto Drop Dropdown On Hover-->
-    <script>
-      const $dropdown = $(".dropdown");
-      const $dropdownToggle = $(".dropdown-toggle");
-      const $dropdownMenu = $(".dropdown-menu");
-      const showClass = "show";
-
-      $(window).on("load resize", function() {
-        if (this.matchMedia("(min-width: 768px)").matches) {
-          $dropdown.hover(
-            function() {
-              const $this = $(this);
-              $this.addClass(showClass);
-              $this.find($dropdownToggle).attr("aria-expanded", "true");
-              $this.find($dropdownMenu).addClass(showClass);
-            },
-            function() {
-              const $this = $(this);
-              $this.removeClass(showClass);
-              $this.find($dropdownToggle).attr("aria-expanded", "false");
-              $this.find($dropdownMenu).removeClass(showClass);
-            }
-          );
-        } else {
-          $dropdown.off("mouseenter mouseleave");
-        }
-      });
-    </script>
-
-  </body>
 </html>

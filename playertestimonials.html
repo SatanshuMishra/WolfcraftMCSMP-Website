@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="css/images/index/Wolfcraft.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap v5.0 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--Font Aswsome Symbols-->
+    <script src="https://kit.fontawesome.com/e4fd338ca7.js" crossorigin="anonymous"></script>
+    <!-- Animated.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS Document Link -->
+    <link rel="stylesheet" href="css/playertestimonials.css">
+    <title>WOLFCRAFT: A MINECRAFT COMMUNITY</title>
+</head>
+
+<body>
+    <!-- SIDE-NAVEBAR -->
+    <div id="mySidenav" class="sidenav" style="z-index: 1; background-color: #0f0f18;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: white;">&times;</a>
+        <nav id="sidebar" style="background-color: #0f0f18;">
+            <div class="sidebar-header">
+                <h3>INDEX</h3>
+            </div>
+            <ul class="list-unstyled components" style="background-color: #0f0f18; border: none;">
+                <li>
+                    <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+                        style="padding-left: 30px; color: white;"><b><i class="fas fa-sitemap"
+                                style="padding-right: 5px;"></i>ABOUT</b></a>
+                    <ul class="collapse list-unstyled" id="aboutSubmenu">
+                        <li>
+                            <a href="features.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-cogs"
+                                        style="padding-right: 5px;"></i>FEATURES</b></a>
+                        </li>
+                        <li>
+                            <a href="rules.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-book"
+                                        style="padding-right: 5px;"></i>RULES</b></a>
+                        </li>
+                        <li>
+                            <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-history"
+                                        style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
+                        </li>
+                        <li>
+                            <a href="playertestimonials.html" style="padding-left: 30px; color: white;"><b><i
+                                        class="fas fa-scroll" style="padding-right:5px;"></i>PLAYER TESTIMONIALS</b></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#personnelSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+                        style="padding-left: 30px; color: white;"><b><i class="fas fa-user-cog"
+                                style="padding-right: 5px;"></i>SERVER PERSONNEL</b></a>
+                    <ul class="collapse list-unstyled" id="personnelSubmenu">
+                        <li>
+                            <a href="staff.html" style="color: white;"><b><i class="fas fa-cogs"
+                                        style="padding-right: 5px;"></i>STAFF TEAM</b></a>
+                        </li>
+                        <li>
+                            <a href="groundkeepers.html" style="color: white;"><b><i class="fas fa-hammer"
+                                        style="padding-right: 5px;"></i>BUILD TEAM</b></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gallery.html" style="padding-left: 30px; color: white;"><b><i class="fa fa-crop-alt"
+                                style="padding-right: 5px;"></i>GALLERY</b></a>
+                </li>
+                <li>
+                    <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-map-marker-alt"
+                                style="padding-right: 5px;"></i>MAP</b></a>
+                </li>
+                <li>
+                    <a href="#resourcesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+                        style="padding-left: 30px; color: white;"><b><i class="fas fa-archive"
+                                style="padding-right: 5px;"></i>RESOURCES</b></a>
+                    <ul class="collapse list-unstyled" id="resourcesSubmenu">
+                        <li>
+                            <a href="staff.html" style="color: white;"><b><i class="fas fa-file-download"
+                                        style="padding-right: 5px;"></i>DOWNLOADS</b></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- TOP - NAVIGATION BAR -->
+    <div id="navigation" class="container-fluid">
+        <nav class="navbar navbar-expand-xl">
+            <div id="afterCollaspe" style="align-content: left">
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="openNav()">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                </div>
+            </div>
+
+            <a href="index.html" style="
+            color: #f1f6f9;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+          ">
+                <img src="css/images/index/Wolfcraft.png" width="50px" alt="WolfCraft Logo" />
+                <p style="display: inline; padding-left: 3px"></p>
+            </a>
+
+            <div id="collapsableContent" class="collapse navbar-collapse" style="margin-left: 5vw">
+                <ul class="navbar-nav mr-auto">
+                    <li class="dropdown">
+                        <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i
+                                    class="fas fa-sitemap" style="padding-right: 5px"></i>ABOUT</b></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                  min-width: 220px;
+                  background-color: #0f0f18;
+                  border-radius: 0;
+                ">
+                            <a class="dropdown-item" href="features.html"><b><i class="fas fa-cogs"
+                                        style="padding-right: 5px"></i>FEATURES</b></a>
+                            <a class="dropdown-item" href="rules.html"><b><i class="fas fa-book"
+                                        style="padding-right: 5px"></i>RULES</b></a>
+                            <a class="dropdown-item" href="#"><b><i class="fas fa-history"
+                                        style="padding-right: 5px"></i>SERVER
+                                    HISTORY</b></a>
+                            <a class="dropdown-item" href="playertestimonials.html"><b><i class="fas fa-scroll"
+                                        style="padding-right: 5px"></i>PLAYER TESTIMONIALS</b></a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i
+                                    class="fas fa-user-cog" style="padding-right: 5px"></i>SERVER PERSONNEL</b></a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                  min-width: 150px;
+                  background-color: #0f0f18;
+                  border-radius: 0;
+                ">
+                            <a class="dropdown-item" href="staff.html"><b><i class="fas fa-cogs"
+                                        style="padding-right: 5px"></i>STAFF
+                                    TEAM</b></a>
+                            <a class="dropdown-item" href="groundkeepers.html"><b><i class="fas fa-hammer"
+                                        style="padding-right: 5px"></i>BUILD TEAM</b></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="gallery.html"><i class="fa fa-crop-alt"
+                                style="padding-right: 10px"></i><b>GALLERY</b></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px"></i><b>MAP</b></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i
+                                    class="fas fa-archive" style="padding-right: 5px"></i>RESOURCES</b></a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                  min-width: 150px;
+                  background-color: #0f0f18;
+                  border-radius: 0;
+                ">
+                            <a class="dropdown-item" href="#"><b><i class="fas fa-file-download"
+                                        style="padding-right: 5px"></i>DOWNLOADS</b></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="non-collapsableContent" style="margin-left: 10vw; display: inline">
+                <div class="largeViewPort-ApplyNow">
+                    <button class="btn" style="font-size: 14px; height: 100%">
+                        <p>
+                            <i class="fas fa-pencil-ruler" style="padding-right: 10px"></i><b>APPLY NOW</b>
+                        </p>
+                    </button>
+                </div>
+
+                <div class="joinDiscord">
+                    <a href="https://discord.gg/2PHQwkHxbs">
+                        <button class="btn" style="font-size: 14px; height: 100%">
+                            <i class="fab fa-discord"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- HEADER SECTION -->
+    <div id="bodyHeader" class="container-fluid">
+        <div class="pageTitle">
+            <p style="font-size: 70px; color: #ffffff;" class="animate__animated animate__fadeInDown">WELCOME TO
+                WOLFCRAFT
+            </p>
+            <p style="font-size: 30px;" class="animate__animated animate__fadeInLeftBig">A MINECRAFT GAMING COMMUNITY
+            </p>
+        </div>
+        <!-- <div class="pageDescription">
+              <p>We are a <mark><b>Gaming Community</b></mark> centered around our <mark><b>Minecraft Servers</b></mark>. We allow players with the freedom to play and explore the world as they see fit while providing them and their builds a secure multiplayer environment with anti-grief/stealing and server optimizations ensureing smooth game-play.</p>
+            </div> -->
+    </div>
+
+    <div id="playerTestimonialsColumn" style="padding: 2vw 2vw;">
+        <div class="card-columns">
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        When it comes to finding a good SMP server to play on, it took me many countless hours of simply
+                        searching for one where the players were nice and admins were humble.
+                        <br><br>
+                        When I first found WolfCraft, it was through an apparent Reddit post. Upon discovering their
+                        website, I was amazed by the incredible builds and how long it had been up.
+                        <br><br>
+                        And that was just the beginning. At first, I thought the server would be just like simply
+                        playing with many random people who treated each other like strangers. On the day I joined along
+                        with a few new other mates, we talked to each other a bit but still unsure about this new
+                        discovery.
+                        <br><br>
+                        However, one thing I didn't realize the server often doesn't seem to take enough credit of is
+                        their wonderous community. If i had to make a comparison, it would be like being a well-known
+                        member on HermitCraft.
+                        <br><br>
+                        While that was one of the main reasons I decided to stay, there were even more that makes
+                        WolfCraft stunning. Players follow the rules and guidelines. I have yet to be griefed and not a
+                        day has gone by where I didn't enjoy playing on the server.
+                        <br><br>
+                        As for someone who isn't a dedicated gamer, I really have to say, Wolfcraft is its own unique
+                        and wonderful experience. And if you are someone who has been searching around for that perfect
+                        server, then I, Vilanti, will be the first one here to welcome you to the WolfCraft family as
+                        they all welcomed me~♡
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Vilanti
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Well... its time for a great story... the story of me on wolfcraft s7 and how i reached being
+                        the king of sparta... day 1 i started swimming to find a perfect spot to start my adventure.
+                        Someone let me stay in his house... i started mining on the nearby area.. i got full iron and
+                        then logged off.. when i came back on i died for some reason. After that i tried to find a place
+                        to start building my base... i found an unclaimed village where there was a big house on the
+                        middle of the village. I left a chest there with my stuff. I started surrounding my village with
+                        cobble walls.... someone came on my village to make a breeder i told him that he can use my
+                        villagers... but he abandoned his plan and left the villagers free... they died :( ... but this
+                        was the start ... the new start... of a new village... i got his idea and started making my own
+                        breeder... then a guy... Mewtem... hoped on the server for first time and helped me to build the
+                        breeder... then i searched for a name for my village... and here we are SPARTA
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            GR_k15
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Season 6 might’ve been the best season for me. I became friends with More_Pepper, and we now
+                        play together for 2-6 hours every night. There is almost never a night I’m not in a vc in this
+                        server. I might be carrying FuzzyCactus, Ghost, and More_Pepper in bedwars or chilling on
+                        Stardew Valley with More_Pepper. I became such good friends, even family, with everyone on the
+                        server. I’ll never forget the friends I made on this server for the rest of my life, and I’m
+                        looking forwards to what we can do in season 7.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            JackiePlayz1
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        So season 6 of wolfcraft....... Where do I even start? This season was quite possibly the best
+                        one iv personally had, iv met so many people and made so many friends and I can very easily call
+                        this community my second family. This year has been....... Well interesting to say the least and
+                        it's been amazing to just come play and talk with everyone and forget about the outside world
+                        and its problems. To be quite honast if it wasn't for wolfcraft I would have died of boredom
+                        very quickly :smile:. The best part of this season has got to be playing bedwars, wynncraft and
+                        tf2 with pepper, white, fuzzy, nador, cap and jack.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Ghostfaceiscool
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        In review of this last season, season six... how can I describe it?
+                        <br><br>
+                        For starters, I met one of my closest friends on Wolfcraft this season. She was called gracekj,
+                        and for some time she was the light of my life, she was my closest friend and we talked about
+                        anything; she helped me grow as a person. I enjoyed playing Wolfcraft with her... She left, but
+                        we still talk from time to time.
+                        <br><br>
+                        In the way of projects, I remember building two houses: both on the same lake. The first house I
+                        built was a small wooden house, just a box, suspended above shallow water. The main room had a
+                        bunch of chests and to the left was the workstation room, to the right was a bedroom, and above
+                        was a furnace array. That house is gone now; I allowed Exel to blow it up LOL.
+                        <br><br>
+                        Anyway, after a long time away from Wolfcraft, I came back and settled on the same lake I built
+                        my house. Called it Lake Nador. I did a fun project, which was damming up and draining the part
+                        of the lake I previously lived on. On the east side of the lake stood my new house, and it was
+                        beautiful. If you want to check it out on the S6 world download, the coords are (-2310, 270).
+                        <br><br>
+                        Near the end of the season, my favorite thing was the spawn. I had a newfound affinity for the
+                        spawn no one else shared, so I made a scavenger hunt that had people going all around spawn so
+                        people could appreciate it!! I also hosted a Christmas event. Staff is very happy to let people
+                        host their own events and I love that
+                        <br><br>
+                        I think the most alluring thing for me joining was a server economy. For a while, I ran a
+                        company, the Nador Delivery Company. I remember how much fun I had delivering parcels from base
+                        to base!
+                        <br><br>
+                        I don't recollect how, but at a certain point I knew I was at home in this community.
+                        <br><br>
+                        Joining Wolfcraft is perhaps the best choice I have made in the way of Minecraft. It gave me new
+                        friends and community, gave me good times, and helped me when I needed it. I recommend anyone to
+                        join!
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Nador86
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Every single server I have tried to join, be it an SMP, or a regular survival world which i find
+                        on discord, it never works out for me. The people lure me in and actually bully me when I join.
+                        You might not know this, but this server was my last try, I said to myself "If this server is
+                        toxic like the others, just leave it. Stop hurting yourself." So I applied for the server and I
+                        made it! It has been 5 days now, and all i have to say that this server is even better than the
+                        Dream SMP or HermitCraft! Everyone here is so kind and welcoming. Most importantly, the chat is
+                        not dead! If I am not playin, I just chill and talk with everyone. So all I wanted to say is,
+                        thank you WolfCraft, and I hope to have a great time in Season7!
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            DarkNinja_2009
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Wow, can't believe it's been a year now. This server has been a huge part of my life and helped
+                        me go though the toughest periods of my life, these people have helped me immensely and I don't
+                        know where would I be if not for them. For the year I've been here I've seen some wonderful
+                        people come and go, from perspective of both of a normal player as well as from a high rank
+                        staff member and I had a whole bunch of experiences, good and bad, laugh-inducing and
+                        heart-breaking, awesome collaborations and minor annoyances, rises and falls. For all of those
+                        wonderful experiences I'd like to thank everyone who plays, have played or will play on this
+                        server and be a part of this community as well as our wonderful staff team, current as well as
+                        those who are no longer with us, for keeping this thing going, as well as emphasise the part of
+                        owner and initiator of this whole endeavour - Flashfrost - he made this whole thing happen as
+                        well as sustained this community and the server it's centred around despite the struggles it
+                        went through
+                        <br><br>
+                        I'm not very good at writing long essays as some of our members but I've done my best, thank you
+                        for all the good time I had in here, and hope it keeps going for years to come :hearts:
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228);">
+                        <small>
+                            Corrupted Matt
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card bg-gradient p-3" style="background-color: #0088FF;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Ladies and Gentlemen i present you this story as a parting gift
+                        <br><br>
+                        This is the story of an old man - as told by scribble_goat
+                        <br><br>
+                        An old man lived in a village. He was one of the most unfortunate people in the world. The whole
+                        village was tired of him; he was always gloomy, he constantly complained and was always in a bad
+                        mood.
+                        The longer he lived, the more bile he was becoming and the more poisonous were his words. People
+                        avoided him, because his misfortune became contagious. It was even unnatural and insulting to be
+                        happy next to him
+                        He created the feeling of unhappiness in others
+                        But one day, when he turned eighty years old an incredible thing happened. Instantly everyone
+                        started hearing the rumour:"an old man is happy today,he doesnt complain about anything, smiles,
+                        and even his face freshened up".
+                        the whole village gathered together. The old man was asked:
+                        <br><br>
+                        Villager: "what happened to you?"
+                        <br><br>
+                        "nothing special. Eighty years I've been chasing happiness, and it was useless. And now i have
+                        decided to live without happiness and just enjoy life. That's why im happy now." - An old man
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Benjyman
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        This server.. amazing helped me get tru many moments and stuff. its amazing how hearth warmed
+                        the community is. i love this server and i hope i can always be a part from this server.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228);">
+                        <small>
+                            Twitch_Leqshi
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Alright so it all started like 5 mins before everyone entered the end. Ghost wasn't able to come
+                        online and give me my gear, so i was like "whatever i'm grabbing the best possible gear from our
+                        chests and heading over". Unfortunately, all i found was some half-durability iron armour,
+                        golden boots, a sharpness IV golden sword and a shield. I rushed to the nether and in the
+                        attempt to find the way up to the hub i got hopelessly lost. I msged epic to tp me to him
+                        because i assumed he wasn't in the end yet, but when he teleported me i found myself on a small
+                        platform with creeper, aeris, karateking and epic. I asked them if i can join them in their hunt
+                        for the wings and they agreed to take me with them. After several attempts we finally managed to
+                        get our ship going and slowly but surely we started moving towards the end islands. The whole
+                        flight took us about 10-15 mins and it was scary but fun. Arriving in the end we bumped into
+                        some tall chorus flowers which broke our flying machine and forced us to jump off. We dug out a
+                        small room to hide from the endermen and get our stuff out of the enderchests. It was at this
+                        point that i joined their call btw. We were about to start looking for a city as we noticed that
+                        aeris was missing. Note: He had all of our ship parts. Luckily we were able to find him pretty
+                        quickly. We kept on moving for a little while until we reached another big void gap. We decided
+                        that it was a great idea to start our ship from here. We pillared to about y=114 (i used
+                        furnaces because why not), made a platform, and waited for aeris to reconstruct the flying
+                        machine. When everyone was aboard karateking updated the observer. This is when things went
+                        terribly wrong. Epic somehow managed to punch creeper out of his minecart and he fell into the
+                        void. Than i somehow fell out of the flying machine but managed to break my fall using a water
+                        bucket. The flying machine kept going and it seemed like i had to chance to catch up with it.
+                        The people left in the flying machine stopped it as soon as they reached another end island. At
+                        this point i was about 500 blocks away from it and all there was between me and our ship was
+                        void. I started bridging over but halfway in i ran out of blocks. Luckily aeris saw me and
+                        started bridging towards me (i'd like to mention that before they attemptend to save me they
+                        tried to shoot me with a bow as a joke). We climbed up to the flying machine and started
+                        thinking about what to do and after a short discussion we decided to keep moving. Unfortunately
+                        creeper couldn't return because he was too far away from us and we had to continue without him.
+                        After about 15 mins we finally found an endcity! Our excitement was immeasurable.. Maybe we got
+                        a little too excited... Right before we stopped our ship epic fell out and died. It was only
+                        aeris, karateking and me left. We 3 rushed to the city, only to find that there wasnt a ship
+                        there. However we still killed all the shulkers in there and splitted our shulker shells. Now
+                        all that was left to do was wait for epic to come back. After about 20 mins epic actually
+                        managed to return and we we're able to resume our journey. We flew for maybe 30 mins without
+                        finding any end cities or anything. It got even worse when epic fell out a 2nd time because of a
+                        glitch. Everyone aboard got more and more tired. We decided to stop our ship, put all of our
+                        items into an enderchest and jump off into the void to get back to spawn... Even though we
+                        didn't find any elytra and our mission resulted in us dying in the void, we still had a ton of
+                        fun together and that's what matters 😄
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            _WhiteLight
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        To be honest, my experience on the server has been a very unique one in many ways. However,
+                        rather than jumping straight in , lets rewind the clock back to about 3 - 4 months. By this
+                        time, I had played on about 2 servers ever since I made a come back into the game. However the
+                        one thing both of these had in common where really large player group, the lack of a vanilla
+                        gameplay experience, and well pay to win elements. As a enthusiast of redstone, I wanted to
+                        learn how to build massive farms that could automate everything I could ever need on the server.
+                        It has always been my single goal in any survival world to build every single farm possible.
+                        However neither of these servers really allowed that as they either had restrictions on
+                        automated farms or changed the redstone behaviour all together to the point you could not even
+                        call it redstone. After months of playing with these limitations, I had begun to really not
+                        enjoy redstone as many of the amazing builds that where possible were simple thrown out of the
+                        window unless heavily modified (Which I didn't have the time nor the knowledge to do).
+                        <br><br>
+                        The one good thing that did come of these servers were the friends I made. Ghostfaceiscool,
+                        CoolRosalie are all people I played with back then and it is because of Ghost, I was able to
+                        find Wolfcraft and at the end of my first day on the server, I knew I had found an amazing
+                        server. As a fan of the Hermitcraft Series, this server was something of a dream find - A pure
+                        vanilla experience, friendly folks, and most importantly, no redstone limitations. However, what
+                        followed would be considered a very stressful period for me.
+                        <br><br>
+                        On the pervious server, me Ghost, Rosalie and a couple others formed a group we called the
+                        Architects - a fun group that would focus on automation and just enjoying the game. Me and Ghost
+                        looked to continue this group on this server and with the start of the War event, our 2 person
+                        group became a 8 - 9 person group over night. At first I was happy with the idea of having a
+                        large group because I would get to know more people and work on larger builds. While our focus
+                        was mostly on the War event, we still tried to have a few builds happening here and there but
+                        the one thing that differentiated this group from the small group I had before was that I simply
+                        didn't know anyone. Ghost who at the time had been on the server longer than me and had made
+                        friends with most of the folks however I barely even got to know em. In fact, it wasn't till a
+                        day or two after that I knew we had 8 people in the group and not a couple days after day till I
+                        got to meet most of em in person. Furthermore, while I tried to get to know everyone, I never
+                        really connected. The fun enjoyable group had turned into a big group where I really ever got to
+                        know 2 people - Ghost and Whitelight. Even during projects, there would be so little
+                        communication that I wouldn't know what someone was up to and they what I was doing. It got to a
+                        point where I really began to feel alone. Around this time, was when I finally shared my
+                        feelings with Ghost and we collectively decided to break the Architects to a maximum of 4
+                        people: Myself, Ghost, White, and Jack. While we made sure that we kept good ties with the other
+                        folks, we wanted the group to be smaller so we could get the feel of a collective group. This is
+                        where the Architects truly took shape forming the base for the inclusion of Rosalie a week later
+                        and More_Pepper in Season 6.
+                        <br><br>
+                        Fast forward a few weeks and we are pretty much into season 6. By this time, I am living my
+                        minecraft dream - I was playing on an amazing community centred server, I had made some amazing
+                        friends to play with, and I was doing redstone freely away from any limitations. Things really
+                        couldn't get any better you would think right? Well this is when I found out about the Wolfcraft
+                        Website - notably that a rework was in progress. As a person who had learnt HTML, CSS and
+                        Bootstrap 4 (All Web Development Languages) I decided to lend a hand. Flash (The man behind
+                        Wolfcraft and now a good friend) to my surprise game me the opportunity to help make the
+                        website. He and the staff put a lot of trust in me which I doubt I will ever be able to repay.
+                        Even on the server, the trust I put in my friends and the trust they put on me is one of if not
+                        the most valuable things to me.
+                        <br><br>
+                        So what was the point of everything I said above? Well for me at-least most important thing for
+                        me is that a server can be a place to just come on where you are forced to protect your builds
+                        from the fear of other or it can be a place where you come on, interact with a community that is
+                        always welcoming and friendly and walk away at the end of each day with memorable experiences
+                        and always something new to look forwards to the next day - and Wolfcraft can most definitely be
+                        described as the latter one 🙂.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Captain_Ranger
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Hi my name is SpiniestSum154 or Mr.Monopolyman, I came to this server looking for a loving
+                        community and Minecraft lovers, this was a great community to me because everytime I log into
+                        Minecraft, on the server people would say “Welcome back!” Or “Hello” and that sparked me up
+                        everyday, this server gives me a great thing, which is letting the stress go away. The owner is
+                        amazing and all the staff are too! They get me through day which I can’t. Thanks to this server
+                        and it’s wonderful people.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Spiniestsum154
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Hi my name is SpiniestSum154 or Mr.Monopolyman, I came to this server looking for a loving
+                        community and Minecraft lovers, this was a great community to me because everytime I log into
+                        Minecraft, on the server people would say “Welcome back!” Or “Hello” and that sparked me up
+                        everyday, this server gives me a great thing, which is letting the stress go away. The owner is
+                        amazing and all the staff are too! They get me through day which I can’t. Thanks to this server
+                        and it’s wonderful people.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Spiniestsum154
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        I joined this server just over 5 months ago now, looking for a nice smp, hermitcraft-like
+                        experience. i first started playing minecraft on my ps3 in the early days (cant remember when
+                        idk) and i loved playing survival and exploring this never before seen atmosphere in the form of
+                        a game. about a year and a half ago my friend showed me a redstone video from mumbo and i liked
+                        mumbo's content, eventually after a about a month or so of watching mumbo all of mumbo's
+                        redstone videos, i found mumbo's hermitcraft series, and after that i have been wanting to play
+                        on an smp server. i think i tried out 4 or 5 different servers before finding wolfcraft. After i
+                        joined this server it was pretty close to the end of the server so i didnt play much (in season
+                        4) when i got a notification about a new season. i got excited and start playing again. in that
+                        season i met so many more friends, like phoenix, swastik, benjy and more. great community, great
+                        people. :slight_smile: overall this server has been a stunning experience for me, and i hope to
+                        do the best for it as a watchwolf.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            FishJuices
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        I’ve joined this server in around the middle of season 4, many of you will think like how but I
+                        was called Sacul16 then.
+                        <br><br>
+                        When I logged on for the first time I saw great builds and shops and thought: This community
+                        will be great. And as expected it was and still is.
+                        <br><br>
+                        Before I even left the sd to go start Epic flew by and gave me a shulker with great loot just
+                        for free. I also knew that we had player TPing enabled. It is good to have it removed now to
+                        behonest:joy:
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Hunter
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        Hi, for those of you who don’t know me, I’m a casual minecraft player that like redstones and
+                        farms. I’ve only been to the server for a week, but I really like it! Most staff members are
+                        nice and reasonable, and rules are obeyed by everyone. Players are nice and happy to help.
+                        Occasionally noobs does get in, but that’s very rare, people have a somewhat average to high
+                        skill level, and everyone is very creative.
+                        <br><br>
+                        Since I joined, most players were friendly and included me really fast, they offered help, but I
+                        did most stuff myself. For a new player, grinding for gear is rather straight forward. Mine for
+                        diamonds, buy fortune, mine more diamonds, call someone boss, make farms.
+                        <br><br>
+                        I have big plans on the server, I plan to make a item soarter that can soart everything in
+                        minecraft, (which is easier said then done btw), something I never done before.
+                        <br><br>
+                        I would say this is the best vanilla survival server I’ve seen, to those who are new, welcome to
+                        WolfCraft!
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Monsieur Mutsoni
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        This server helped significantly to pull me out of my depression when quarantine kicked off.
+                        Just before joining I had been diagnosed with depression after a mysterious disease had left me
+                        exhausted for months on end. It helped me connect with people who I consider great friends to
+                        this day and people who helped me get through my issues in a healthy and safe way.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            xploder52
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        I cant write big paragraphs but i love this community, its my favorite community, and i love
+                        this so much i am actually scared if I accidentally leave the server. Which is the reason i dont
+                        leave the discord even if i am not playing, because the community i know is more than only mc,
+                        its on discord too, and i can interact with in game peeps too! I hope we can always stay
+                        together.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Phoenix
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card p-3" style="background-color: #0f0f18;">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p style="font-size: 16px; letter-spacing: 0.5px; color: white;">
+                        I cant write big paragraphs but i love this community, its my favorite community, and i love
+                        this so much i am actually scared if I accidentally leave the server. Which is the reason i dont
+                        leave the discord even if i am not playing, because the community i know is more than only mc,
+                        its on discord too, and i can interact with in game peeps too! I hope we can always stay
+                        together.
+                    </p>
+                    <footer class="blockquote-footer" style="padding-top: 20px; color: rgb(228, 228, 228)">
+                        <small>
+                            Phoenix
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div class="mt-5 pt-5 footer" style="margin-top: 0 !important">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xs-12 about-wolfcraft">
+                    <p style="font-size: 22px"><b>WOLFCRAFT</b></p>
+                    <p class="pr-5 text-white-50" style="font-size: 15px">
+                        A Minecraft-Focused Gaming Community.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-xs-12 links"></div>
+                <div class="col-lg-4 col-xs-12 getintouch">
+                    <p class="mt-lg-0 mt-sm-4" style="font-size: 18px">
+                        <b>STAY CONNECTED</b>
+                    </p>
+                    <a href="https://www.youtube.com/channel/UCQvi6iimR51SUcCRvGR6YYQ" class="fa fa-youtube" style="
+                font-size: 12px;
+                width: 52px;
+                height: 52px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 50%;
+                text-decoration: none;
+              "></a>
+                    <a href="https://www.facebook.com/WolfCraft-MC-110649397468237/" class="fa fa-facebook" style="
+                font-size: 12px;
+                width: 52px;
+                height: 52px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 50%;
+                text-decoration: none;
+              "></a>
+                    <a href="https://twitter.com/Wolf_CraftMC" class="fa fa-twitter" style="
+                font-size: 12px;
+                width: 52px;
+                height: 52px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 50%;
+                text-decoration: none;
+              "></a>
+                    <a href="https://instagram.com/wolfcraft_mc?igshid=1bwgo6miq70f9" class="fa fa-instagram" style="
+                font-size: 12px;
+                width: 52px;
+                height: 52px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 50%;
+                text-decoration: none;
+              "></a>
+                </div>
+                <div class="row mt-5">
+                    <div class="col copyright" style="padding-left: 20px">
+                        <p class="">
+                            <small class="text-white-50"><a rel="license"
+                                    href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br />This work is
+                                licensed under a
+                                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                                    style="text-decoration: underline; color: white">Creative Commons
+                                    Attribution-NonCommercial-NoDerivatives
+                                    4.0 International License</a>.</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIDENAV-BUTTON SCRIPT -->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!--Auto Drop Dropdown On Hover-->
+    <script>
+        const $dropdown = $(".dropdown");
+        const $dropdownToggle = $(".dropdown-toggle");
+        const $dropdownMenu = $(".dropdown-menu");
+        const showClass = "show";
+
+        $(window).on("load resize", function () {
+            if (this.matchMedia("(min-width: 768px)").matches) {
+                $dropdown.hover(
+                    function () {
+                        const $this = $(this);
+                        $this.addClass(showClass);
+                        $this.find($dropdownToggle).attr("aria-expanded", "true");
+                        $this.find($dropdownMenu).addClass(showClass);
+                    },
+                    function () {
+                        const $this = $(this);
+                        $this.removeClass(showClass);
+                        $this.find($dropdownToggle).attr("aria-expanded", "false");
+                        $this.find($dropdownMenu).removeClass(showClass);
+                    }
+                );
+            } else {
+                $dropdown.off("mouseenter mouseleave");
+            }
+        });
+    </script>
+</body>
+
+</html>

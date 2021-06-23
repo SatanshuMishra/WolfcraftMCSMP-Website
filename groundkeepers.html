@@ -1,394 +1,518 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="shortcut icon" type="image/x-icon" href="css/images/index/Wolfcraft.png"/>
+  <link rel="shortcut icon" type="image/x-icon" href="css/images/index/Wolfcraft.png" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- BOOTSTRAP V5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- BOOTSTRAP V5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <!--Font Aswsome Symbols-->
-    <script src="https://kit.fontawesome.com/e4fd338ca7.js" crossorigin="anonymous"></script>
+  <!--Font Aswsome Symbols-->
+  <script src="https://kit.fontawesome.com/e4fd338ca7.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/groundkeepers.css">
+  <link rel="stylesheet" href="css/groundkeepers.css">
 
-    <title>WOLFCRAFT: GROUND KEEPERS</title>
+  <title>WOLFCRAFT: GROUND KEEPERS</title>
 </head>
+
 <body>
 
-    <!-- SIDE-NAVEBAR -->
-    <div id="mySidenav" class="sidenav" style="z-index: 1; background-color: #0f0f18;">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: white;">&times;</a>
-      <nav id="sidebar" style="background-color: #0f0f18;">
-        <div class="sidebar-header">
-            <h3>INDEX</h3>
-        </div>
-        <ul class="list-unstyled components" style="background-color: #0f0f18; border: none;">
+  <!-- SIDE-NAVEBAR -->
+  <div id="mySidenav" class="sidenav" style="z-index: 1; background-color: #0f0f18;">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: white;">&times;</a>
+    <nav id="sidebar" style="background-color: #0f0f18;">
+      <div class="sidebar-header">
+        <h3>INDEX</h3>
+      </div>
+      <ul class="list-unstyled components" style="background-color: #0f0f18; border: none;">
+        <li>
+          <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+            style="padding-left: 30px; color: white;"><b><i class="fas fa-sitemap"
+                style="padding-right: 5px;"></i>ABOUT</b></a>
+          <ul class="collapse list-unstyled" id="aboutSubmenu">
             <li>
-              <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-sitemap" style="padding-right: 5px;"></i>ABOUT</b></a>
-                <ul class="collapse list-unstyled" id="aboutSubmenu">
-                    <li>
-                        <a href="features.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>FEATURES</b></a>
-                    </li>
-                    <li>
-                        <a href="rules.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-book" style="padding-right: 5px;"></i>RULES</b></a>
-                    </li>
-                    <li>
-                        <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-history" style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
-                    </li>
-                    <li>
-                      <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-scroll" style="padding-right:5px;"></i>WOLFCRAFT TESTIMONIALS</b></a>
-                    </li>
-                </ul>
+              <a href="features.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-cogs"
+                    style="padding-right: 5px;"></i>FEATURES</b></a>
             </li>
             <li>
-              <a href="#personnelSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-user-cog" style="padding-right: 5px;"></i>SERVER PERSONNEL</b></a>
-              <ul class="collapse list-unstyled" id="personnelSubmenu">
-                  <li>
-                      <a href="staff.html" style="color: white;"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>STAFF TEAM</b></a>
-                  </li>
-                  <li>
-                      <a href="groundkeepers.html" style="color: white;"><b><i class="fas fa-hammer" style="padding-right: 5px;"></i>BUILD TEAM</b></a>
-                  </li>
-              </ul>
+              <a href="rules.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-book"
+                    style="padding-right: 5px;"></i>RULES</b></a>
             </li>
             <li>
-              <a href="gallery.html" style="padding-left: 30px; color: white;"><b><i class="fa fa-crop-alt" style="padding-right: 5px;"></i>GALLERY</b></a>
+              <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-history"
+                    style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
             </li>
             <li>
-              <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-map-marker-alt" style="padding-right: 5px;"></i>MAP</b></a>
-            </li>
-            <li>
-              <a href="#resourcesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="padding-left: 30px; color: white;"><b><i class="fas fa-archive" style="padding-right: 5px;"></i>RESOURCES</b></a>
-              <ul class="collapse list-unstyled" id="resourcesSubmenu">
-                  <li>
-                      <a href="staff.html" style="color: white;"><b><i class="fas fa-file-download" style="padding-right: 5px;"></i>DOWNLOADS</b></a>
-                  </li>
-              </ul>
-            </li>
-        </ul>
-    </nav>
-    </div>
-
-    <!-- TOP - NAVIGATION BAR -->
-    <div id="navigation" class="container-fluid">
-      <nav class="navbar navbar-expand-xl">
-  
-        <div id="afterCollaspe" style="align-content: left;">
-          <div class="dropdown">
-            <button class="dropbtn" onclick="openNav()"><i class="fas fa-align-left"></i></button>
-          </div>
-        </div>
-  
-        <a href="index.html" style="color: #F1F6F9; font-size: 14px; font-weight: 600; text-decoration: none;">
-          <img src="css/images/index/Wolfcraft.png" width="50px" alt="WolfCraft Logo">
-          <p style="display: inline; padding-left: 3px;"></p>
-        </a>
-  
-        <div id="collapsableContent" class="collapse navbar-collapse" style="margin-left: 5vw;">
-          <ul class="navbar-nav mr-auto">
-            <!-- <li><a href="features.html"><i class="fas fa-info-circle" style="padding-right: 10px;"></i>FEATURES</a></li>
-            <li><a href="rules.html"><i class="fas fa-book" style="padding-right: 10px;"></i>RULES</a></li>
-            <li><a href="staff.html"><i class="fas fa-users-cog" style="padding-right: 10px;"></i>STAFF TEAM</a></li> -->
-            <li class="dropdown">
-              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-sitemap" style="padding-right: 5px;"></i>ABOUT</b></a>
-  
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 220px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
-                <a class="dropdown-item" href="features.html"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>FEATURES</b></a>
-                <a class="dropdown-item" href="rules.html"><b><i class="fas fa-book" style="padding-right: 5px;"></i>RULES</b></a>
-                <a class="dropdown-item" href="#"><b><i class="fas fa-history" style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
-                <a class="dropdown-item" href="#"><b><i class="fas fa-scroll" style="padding-right:5px;"></i>PLAYER TESTIMONIALS</b></a>
-              </div>
-            </li>
-
-            <li class="dropdown">
-              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-user-cog" style="padding-right: 5px;"></i>SERVER PERSONNEL</b></a>
-  
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 150px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
-                <a class="dropdown-item" href="staff.html"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>STAFF TEAM</b></a>
-                <a class="dropdown-item" href="groundkeepers.html"><b><i class="fas fa-hammer" style="padding-right: 5px;"></i>BUILD TEAM</b></a>
-              </div>
-            </li>
-            <li><a href="gallery.html"><i class="fa fa-crop-alt" style="padding-right: 10px;"></i><b>GALLERY</b></a></li>
-            <li><a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i><b>MAP</b></a></li>
-            <li class="dropdown">
-              <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 400;"><b><i class="fas fa-archive" style="padding-right: 5px;"></i>RESOURCES</b></a>
-  
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 150px; background-color: rgba(0, 136, 255, 0.98); border-radius: 0;">
-                <a class="dropdown-item" href="#"><b><i class="fas fa-file-download" style="padding-right: 5px;"></i>DOWNLOADS</b></a>
-              </div>
+              <a href="playertestimonials.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-scroll"
+                    style="padding-right:5px;"></i>PLAYER TESTIMONIALS</b></a>
             </li>
           </ul>
-        </div>
-        
-        <div id="non-collapsableContent" style="margin-left: 10vw; display: inline;">
-  
-          <div class="largeViewPort-ApplyNow" >
-            <button class="btn" style="font-size: 14px; height: 100%;">
-              <p><i class="fas fa-pencil-ruler" style="padding-right: 10px;"></i>APPLY NOW</p>
-            </button>
-          </div>
-  
-          <div class="joinDiscord">
-            <a href="https://discord.gg/2PHQwkHxbs">
-              <button class="btn" style="font-size: 14px; height: 100%;">
-                <i class="fab fa-discord"></i>
-              </button>
-            </a>
-          </div>
-          
-        </div>
-  
-      </nav>
-    </div>
+        </li>
+        <li>
+          <a href="#personnelSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+            style="padding-left: 30px; color: white;"><b><i class="fas fa-user-cog"
+                style="padding-right: 5px;"></i>SERVER PERSONNEL</b></a>
+          <ul class="collapse list-unstyled" id="personnelSubmenu">
+            <li>
+              <a href="staff.html" style="color: white;"><b><i class="fas fa-cogs" style="padding-right: 5px;"></i>STAFF
+                  TEAM</b></a>
+            </li>
+            <li>
+              <a href="groundkeepers.html" style="color: white;"><b><i class="fas fa-hammer"
+                    style="padding-right: 5px;"></i>BUILD TEAM</b></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="gallery.html" style="padding-left: 30px; color: white;"><b><i class="fa fa-crop-alt"
+                style="padding-right: 5px;"></i>GALLERY</b></a>
+        </li>
+        <li>
+          <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-map-marker-alt"
+                style="padding-right: 5px;"></i>MAP</b></a>
+        </li>
+        <li>
+          <a href="#resourcesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+            style="padding-left: 30px; color: white;"><b><i class="fas fa-archive"
+                style="padding-right: 5px;"></i>RESOURCES</b></a>
+          <ul class="collapse list-unstyled" id="resourcesSubmenu">
+            <li>
+              <a href="staff.html" style="color: white;"><b><i class="fas fa-file-download"
+                    style="padding-right: 5px;"></i>DOWNLOADS</b></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-    <!-- BODY HEADER SECTION -->
-    <div id="bodyHeader" class="container-fluid">
-        <div class="pageTitle">
-            <p">WOLFCRAFT'S<br> GROUND KEEPERS</p>
-        </div>
-        <div class="pageDescription">
-            <p>Learn all about the WolfCraft's Build Team which designs, builds and maintains the server's infrastructure for the entire Community to enjoy.</p>
-        </div>
-    </div>
-
-      <!-- GROUND KEEPER ROLE DESCRIPTORS -->
-      <div
-        style="padding-left: 10vw; padding-right: 10vw; padding-top: 80px; padding-bottom: 100px; background-color: #0f0f18; min-height: 300px;">
-        <h2 style="color: white; padding-top: 20px;"><b>GROUND KEEPER ROLE DESCRIPTIONS</b></h2>
-        <div id="gkRD" class="d-flex align-items-start" style="font-size: 15px; letter-spacing: 1px; padding-top: 20px;">
-          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="width: 300px;">
-            <button class="nav-link active" id="v-groundkeeperleader" data-bs-toggle="pill" data-bs-target="#v-gkl"
-              type="button" role="tab" aria-controls="v-gkl" aria-selected="true"><b>GROUND KEEPER LEADER</b></button>
-            <button class="nav-link" id="v-groundkeepers" data-bs-toggle="pill" data-bs-target="#v-gk"
-              type="button" role="tab" aria-controls="v-gk" aria-selected="false"><b>GROUND KEEPER</b></button>
-            <button class="nav-link" id="v-groundkeepertrainees" data-bs-toggle="pill" data-bs-target="#v-gkt"
-              type="button" role="tab" aria-controls="v-gkt" aria-selected="false"><b>GROUND KEEPER TRAINEE</b></button>
-          </div>
-          <div class="tab-content" id="v-groundkeeperleader" style="color: white; font-size: 15px; width: 100%;">
-            <div class="tab-pane fade show active" id="v-gkl" role="tabpanel" aria-labelledby="v-groundkeeperleader">Ground Keeper Leaders are responsible for managing and coordinating the Ground Keepers and their action. They are outside the influence of the Staff Team and are capable of making independant decisions when the team is conflicted. The Ground Keeper Leaders also server as a bridge between Staff and the Ground Keepers for the exchange of progress updates, world updates, and more.
-            </div>
-            <div class="tab-pane fade" id="v-gk" role="tabpanel" aria-labelledby="v-groundkeepers">Ground Keepers are official members of the build-team. Following their time as a Ground Keeper-Trainee, they have increased responsibility within the team and on the server now having access to basic CoreProtect commands such as /co inspect which can be used to check shops or bases (only upon request by player or staff member) for theft or griefing. As a ground keeper, they can take initiatives on projects with approval from the Ground Keeper Leaders and help maitain or improve existing server infrastructure.</div>
-            <div class="tab-pane fade" id="v-gkt" role="tabpanel" aria-labelledby="v-groundkeepertrainees">Ground Keeper Trainee's are the newest inductions into the Ground Keeper's. To be inducted, they needed to have demonstrated creative skills and an intent to help the community. During their time as a Ground Keepers Trainee, they will learn how the Ground Keepers work, help on projects and prove their value as a Ground Keepers by participating in projects, suggesting ideas for new projects, etc. These people do not have access to CoreProtect commands.</div>
-          </div>
-        </div>
-        <h2 style="color: white; padding-top: 40px;"><b>TEAM DESCRIPTIONS</b></h2>
-        <div id="gkTD" class="d-flex align-items-start" style="font-size: 15px; letter-spacing: 1px; padding-top: 20px;">
-          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical"
-            style="width: 300px;">
-            <button class="nav-link active" id="v-overworldteam" data-bs-toggle="pill" data-bs-target="#v-ot"
-              type="button" role="tab" aria-controls="v-ot" aria-selected="true"><b><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></button>
-            <button class="nav-link" id="v-netherendteam" data-bs-toggle="pill" data-bs-target="#v-net" type="button" role="tab"
-              aria-controls="v-net" aria-selected="false"><b><i class="fas fa-fill"></i> NETHER/END TEAM</b></button>
-          </div>
-          <div class="tab-content" id="v-pills-tabContent" style="color: white; font-size: 15px; width: 100%;">
-            <div class="tab-pane fade show active" id="v-ot" role="tabpanel" aria-labelledby="v-overworldteam">
-              The Overworld Team is responsible for the designing, building and mantaining of Overworld Server Infrastructures. These include Spwan, Shopping and Gaming Districts, and other communal areas and projects.
-            </div>
-            <div class="tab-pane fade" id="v-net" role="tabpanel" aria-labelledby="v-netherendteam">The Nether/End Team is responsible for designing, building and mantaining of Overworld Server Infrastructures. These can inclide the creation of a nether hub, nether highways connecting the four corners of the world, creation of nether roof access points, end portal room, amongst other things.</div>
-          </div>
+  <!-- TOP - NAVIGATION BAR -->
+  <div id="navigation" class="container-fluid">
+    <nav class="navbar navbar-expand-xl">
+      <div id="afterCollaspe" style="align-content: left">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="openNav()">
+            <i class="fas fa-align-left"></i>
+          </button>
         </div>
       </div>
 
-    <!-- GROUND KEEPERS CARDS -->
-    <div id="GKCardDeck" class="container-fluid" style="padding-left: 10vw; padding-right: 10vw; padding-top: 10px; display: block; align-items: center; display: flex; flex-direction: column;">
-      <div class="card-deck justify-content-center">
-        <div class="card" style="margin: 0 10px 20px 10px;">
-          <img class="card-img-top" src="css/images/groundkeepers/xLocutus.png" alt="xLocutus">
-          <div class="card-body">
-              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>xLocutus</b></p>
-              <p class="card-text" style="padding-left: 30px;">Ground Keeper Leader</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
-          </div>
+      <a href="index.html" style="
+              color: #f1f6f9;
+              font-size: 14px;
+              font-weight: 600;
+              text-decoration: none;
+            ">
+        <img src="css/images/index/Wolfcraft.png" width="50px" alt="WolfCraft Logo" />
+        <p style="display: inline; padding-left: 3px"></p>
+      </a>
+
+      <div id="collapsableContent" class="collapse navbar-collapse" style="margin-left: 5vw">
+        <ul class="navbar-nav mr-auto">
+          <li class="dropdown">
+            <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i class="fas fa-sitemap"
+                  style="padding-right: 5px"></i>ABOUT</b></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                    min-width: 220px;
+                    background-color: #0f0f18;
+                    border-radius: 0;
+                  ">
+              <a class="dropdown-item" href="features.html"><b><i class="fas fa-cogs"
+                    style="padding-right: 5px"></i>FEATURES</b></a>
+              <a class="dropdown-item" href="rules.html"><b><i class="fas fa-book"
+                    style="padding-right: 5px"></i>RULES</b></a>
+              <a class="dropdown-item" href="#"><b><i class="fas fa-history" style="padding-right: 5px"></i>SERVER
+                  HISTORY</b></a>
+              <a class="dropdown-item" href="playertestimonials.html"><b><i class="fas fa-scroll"
+                    style="padding-right: 5px"></i>PLAYER TESTIMONIALS</b></a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i class="fas fa-user-cog"
+                  style="padding-right: 5px"></i>SERVER PERSONNEL</b></a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                    min-width: 150px;
+                    background-color: #0f0f18;
+                    border-radius: 0;
+                  ">
+              <a class="dropdown-item" href="staff.html"><b><i class="fas fa-cogs" style="padding-right: 5px"></i>STAFF
+                  TEAM</b></a>
+              <a class="dropdown-item" href="groundkeepers.html"><b><i class="fas fa-hammer"
+                    style="padding-right: 5px"></i>BUILD TEAM</b></a>
+            </div>
+          </li>
+          <li>
+            <a href="gallery.html"><i class="fa fa-crop-alt" style="padding-right: 10px"></i><b>GALLERY</b></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px"></i><b>MAP</b></a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i class="fas fa-archive"
+                  style="padding-right: 5px"></i>RESOURCES</b></a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                    min-width: 150px;
+                    background-color: #0f0f18;
+                    border-radius: 0;
+                  ">
+              <a class="dropdown-item" href="#"><b><i class="fas fa-file-download"
+                    style="padding-right: 5px"></i>DOWNLOADS</b></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div id="non-collapsableContent" style="margin-left: 10vw; display: inline">
+        <div class="largeViewPort-ApplyNow">
+          <button class="btn" style="font-size: 14px; height: 100%">
+            <p>
+              <i class="fas fa-pencil-ruler" style="padding-right: 10px"></i><b>APPLY NOW</b>
+            </p>
+          </button>
         </div>
-        <div class="card" style="margin: 0 10px 20px 10px;">
-          <img class="card-img-top" src="css/images/groundkeepers/bbythatsdiamond.png" alt="bbythatsdiamond">
-          <div class="card-body">
-              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>bbythatsdiamond</b></p>
-              <p class="card-text" style="padding-left: 30px;">Ground Keeper Leader</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
-          </div>
-          </div>
-        <div class="card" style="margin: 0 10px 20px 10px;">
-              <img class="card-img-top" src="css/images/groundkeepers/Nador86.png" alt="Nador86">
-              <div class="card-body">
-                  <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Nador86</b></p>
-                  <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
-              </div>
+
+        <div class="joinDiscord">
+          <a href="https://discord.gg/2PHQwkHxbs">
+            <button class="btn" style="font-size: 14px; height: 100%">
+              <i class="fab fa-discord"></i>
+            </button>
+          </a>
         </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
+      </div>
+    </nav>
+  </div>
+
+  <!-- BODY HEADER SECTION -->
+  <div id="bodyHeader" class="container-fluid">
+    <div class="pageTitle">
+      <p">WOLFCRAFT'S<br> GROUND KEEPERS</p>
+    </div>
+    <div class="pageDescription">
+      <p>Learn all about the WolfCraft's Build Team which designs, builds and maintains the server's infrastructure for
+        the entire Community to enjoy.</p>
+    </div>
+  </div>
+
+  <!-- GROUND KEEPER ROLE DESCRIPTORS -->
+  <div
+    style="padding-left: 10vw; padding-right: 10vw; padding-top: 80px; padding-bottom: 100px; background-color: #0f0f18; min-height: 300px;">
+    <h2 style="color: white; padding-top: 20px;"><b>GROUND KEEPER ROLE DESCRIPTIONS</b></h2>
+    <div id="gkRD" class="d-flex align-items-start" style="font-size: 15px; letter-spacing: 1px; padding-top: 20px;">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical"
+        style="width: 300px;">
+        <button class="nav-link active" id="v-groundkeeperleader" data-bs-toggle="pill" data-bs-target="#v-gkl"
+          type="button" role="tab" aria-controls="v-gkl" aria-selected="true"><b>GROUND KEEPER LEADER</b></button>
+        <button class="nav-link" id="v-groundkeepers" data-bs-toggle="pill" data-bs-target="#v-gk" type="button"
+          role="tab" aria-controls="v-gk" aria-selected="false"><b>GROUND KEEPER</b></button>
+        <button class="nav-link" id="v-groundkeepertrainees" data-bs-toggle="pill" data-bs-target="#v-gkt" type="button"
+          role="tab" aria-controls="v-gkt" aria-selected="false"><b>GROUND KEEPER TRAINEE</b></button>
+      </div>
+      <div class="tab-content" id="v-groundkeeperleader" style="color: white; font-size: 15px; width: 100%;">
+        <div class="tab-pane fade show active" id="v-gkl" role="tabpanel" aria-labelledby="v-groundkeeperleader">Ground
+          Keeper Leaders are responsible for managing and coordinating the Ground Keepers and their action. They are
+          outside the influence of the Staff Team and are capable of making independant decisions when the team is
+          conflicted. The Ground Keeper Leaders also server as a bridge between Staff and the Ground Keepers for the
+          exchange of progress updates, world updates, and more.
+        </div>
+        <div class="tab-pane fade" id="v-gk" role="tabpanel" aria-labelledby="v-groundkeepers">Ground Keepers are
+          official members of the build-team. Following their time as a Ground Keeper-Trainee, they have increased
+          responsibility within the team and on the server now having access to basic CoreProtect commands such as /co
+          inspect which can be used to check shops or bases (only upon request by player or staff member) for theft or
+          griefing. As a ground keeper, they can take initiatives on projects with approval from the Ground Keeper
+          Leaders and help maitain or improve existing server infrastructure.</div>
+        <div class="tab-pane fade" id="v-gkt" role="tabpanel" aria-labelledby="v-groundkeepertrainees">Ground Keeper
+          Trainee's are the newest inductions into the Ground Keeper's. To be inducted, they needed to have demonstrated
+          creative skills and an intent to help the community. During their time as a Ground Keepers Trainee, they will
+          learn how the Ground Keepers work, help on projects and prove their value as a Ground Keepers by participating
+          in projects, suggesting ideas for new projects, etc. These people do not have access to CoreProtect commands.
+        </div>
+      </div>
+    </div>
+    <h2 style="color: white; padding-top: 40px;"><b>TEAM DESCRIPTIONS</b></h2>
+    <div id="gkTD" class="d-flex align-items-start" style="font-size: 15px; letter-spacing: 1px; padding-top: 20px;">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical"
+        style="width: 300px;">
+        <button class="nav-link active" id="v-overworldteam" data-bs-toggle="pill" data-bs-target="#v-ot" type="button"
+          role="tab" aria-controls="v-ot" aria-selected="true"><b><i class="fas fa-seedling"></i> OVERWORLD
+            TEAM</b></button>
+        <button class="nav-link" id="v-netherendteam" data-bs-toggle="pill" data-bs-target="#v-net" type="button"
+          role="tab" aria-controls="v-net" aria-selected="false"><b><i class="fas fa-fill"></i> NETHER/END
+            TEAM</b></button>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent" style="color: white; font-size: 15px; width: 100%;">
+        <div class="tab-pane fade show active" id="v-ot" role="tabpanel" aria-labelledby="v-overworldteam">
+          The Overworld Team is responsible for the designing, building and mantaining of Overworld Server
+          Infrastructures. These include Spwan, Shopping and Gaming Districts, and other communal areas and projects.
+        </div>
+        <div class="tab-pane fade" id="v-net" role="tabpanel" aria-labelledby="v-netherendteam">The Nether/End Team is
+          responsible for designing, building and mantaining of Overworld Server Infrastructures. These can inclide the
+          creation of a nether hub, nether highways connecting the four corners of the world, creation of nether roof
+          access points, end portal room, amongst other things.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUND KEEPERS CARDS -->
+  <div id="GKCardDeck" class="container-fluid"
+    style="padding-left: 10vw; padding-right: 10vw; padding-top: 10px; display: block; align-items: center; display: flex; flex-direction: column;">
+    <div class="card-deck justify-content-center">
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/xLocutus.png" alt="xLocutus">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>xLocutus</b></p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper Leader</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/bbythatsdiamond.png" alt="bbythatsdiamond">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>bbythatsdiamond</b></p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper Leader</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/Nador86.png" alt="Nador86">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>Nador86</b></p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
         <img class="card-img-top" src="css/images/groundkeepers/M_elonMusk.png" alt="M_elonMusk">
         <div class="card-body">
-            <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>M_elonMusk</b></p>
-            <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>M_elonMusk</b></p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
         </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
         <img class="card-img-top" src="css/images/groundkeepers/TacoBellez.png" alt="TacoBellez">
         <div class="card-body">
-            <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>TacoBellez</b></p>
-            <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-            <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>TacoBellez</b></p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
         </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/Jeremiah0730.png" alt="Jeremiah0730">
-            <div class="card-body">
-                <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Jeremiah0730</b></p>
-                <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
-            </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/Yargsnarph.png" alt="Yargsnarph">
-            <div class="card-body">
-            <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>Yargsnarph</b></p>
-            <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
-          </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/iMutson.png" alt="iMutson">
-            <div class="card-body">
-                <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;"><b>iMutson</b></p>
-                <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
-            </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/GhostFaceisCool.png" alt="GhostFaceisCool">
-            <div class="card-body">
-              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
-                <b>GhostFaceisCool</b></p>
-              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
-            </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/Captain_Ranger.png" alt="Captain_Ranger">
-            <div class="card-body">
-              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
-                <b>Captain_Ranger</b></p>
-              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
-            </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/Hunter_Killer68.png" alt="Hunter_Killer68">
-            <div class="card-body">
-              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
-                <b>Hunter_Killer68</b></p>
-              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
-            </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/More_Pepper.png" alt="More_Pepper">
-            <div class="card-body">
-              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
-                <b>More_Pepper</b>
-              </p>
-              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-            <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
-            </div>
-          </div>
-          <div class="card" style="margin: 0 10px 20px 10px;">
-            <img class="card-img-top" src="css/images/groundkeepers/jackieplayz1.png" alt="jackieplayz1">
-            <div class="card-body">
-              <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
-                <b>jackieplayz1</b>
-              </p>
-              <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
-              <p class="card-text" style="padding-left: 10px;"><b><mark style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
-            </div>
-          </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/Jeremiah0730.png" alt="Jeremiah0730">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>Jeremiah0730</b></p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/Yargsnarph.png" alt="Yargsnarph">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>Yargsnarph</b></p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/iMutson.png" alt="iMutson">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>iMutson</b></p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/GhostFaceisCool.png" alt="GhostFaceisCool">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>GhostFaceisCool</b>
+          </p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/Captain_Ranger.png" alt="Captain_Ranger">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>Captain_Ranger</b>
+          </p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/Hunter_Killer68.png" alt="Hunter_Killer68">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>Hunter_Killer68</b>
+          </p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/More_Pepper.png" alt="More_Pepper">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>More_Pepper</b>
+          </p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #fb6107; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-fill"></i> NETHER/END TEAM</b></mark></p>
+        </div>
+      </div>
+      <div class="card" style="margin: 0 10px 20px 10px;">
+        <img class="card-img-top" src="css/images/groundkeepers/jackieplayz1.png" alt="jackieplayz1">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: 700; font-size: x-large; line-height: 2px; padding-left: 20px;">
+            <b>jackieplayz1</b>
+          </p>
+          <p class="card-text" style="padding-left: 30px;">Ground Keeper</p>
+          <p class="card-text" style="padding-left: 10px;"><b><mark
+                style="background-color: #0E8FFF; color: white; border-radius: 15px; padding: 8px; font-size: 12px; letter-spacing: 1px;"><i
+                  class="fas fa-seedling"></i> OVERWORLD TEAM</b></mark></p>
+        </div>
       </div>
     </div>
+  </div>
 
 
-      <!-- Footer -->
-      <div class="mt-5 pt-5 footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5 col-xs-12 about-wolfcraft">
-              <p style="font-size: 22px;"><b>WOLFCRAFT</b></p>
-              <p class="pr-5 text-white-50" style="font-size: 15px;">A Minecraft-Focused Gaming Community.</p>
-            </div>
-            <div class="col-lg-3 col-xs-12 links">
-            </div>
-            <div class="col-lg-4 col-xs-12 getintouch">
-              <p class="mt-lg-0 mt-sm-4" style="font-size: 18px;"><b>STAY CONNECTED</b></p>
-              <a href="https://www.youtube.com/channel/UCQvi6iimR51SUcCRvGR6YYQ" class="fa fa-youtube" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
-              <a href="https://www.facebook.com/WolfCraft-MC-110649397468237/" class="fa fa-facebook" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
-              <a href="https://twitter.com/Wolf_CraftMC" class="fa fa-twitter" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
-              <a href="https://instagram.com/wolfcraft_mc?igshid=1bwgo6miq70f9" class="fa fa-instagram" style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
-            </div>
-            <div class="row mt-5">
-              <div class="col copyright" style="padding-left: 20px;">
-                <p class=""><small class="text-white-50"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" style="text-decoration: underline; color: white;">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</small></p>
-              </div>
-            </div>
+  <!-- Footer -->
+  <div class="mt-5 pt-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-wolfcraft">
+          <p style="font-size: 22px;"><b>WOLFCRAFT</b></p>
+          <p class="pr-5 text-white-50" style="font-size: 15px;">A Minecraft-Focused Gaming Community.</p>
+        </div>
+        <div class="col-lg-3 col-xs-12 links">
+        </div>
+        <div class="col-lg-4 col-xs-12 getintouch">
+          <p class="mt-lg-0 mt-sm-4" style="font-size: 18px;"><b>STAY CONNECTED</b></p>
+          <a href="https://www.youtube.com/channel/UCQvi6iimR51SUcCRvGR6YYQ" class="fa fa-youtube"
+            style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
+          <a href="https://www.facebook.com/WolfCraft-MC-110649397468237/" class="fa fa-facebook"
+            style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
+          <a href="https://twitter.com/Wolf_CraftMC" class="fa fa-twitter"
+            style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
+          <a href="https://instagram.com/wolfcraft_mc?igshid=1bwgo6miq70f9" class="fa fa-instagram"
+            style="font-size: 12px; width: 52px; height: 52px; padding: 20px; text-align: center; border-radius: 50%; text-decoration: none;"></a>
+        </div>
+        <div class="row mt-5">
+          <div class="col copyright" style="padding-left: 20px;">
+            <p class=""><small class="text-white-50"><a rel="license"
+                  href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br />This work is licensed under a <a
+                  rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                  style="text-decoration: underline; color: white;">Creative Commons
+                  Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</small></p>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 
-          <!-- SIDENAV-BUTTON SCRIPT -->
-          <script>
-            function openNav() {
-              document.getElementById("mySidenav").style.width = "250px";
-            }
-            
-            function closeNav() {
-              document.getElementById("mySidenav").style.width = "0";
-            }
-            </script>
+  <!-- SIDENAV-BUTTON SCRIPT -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
 
-        <!--Auto Drop Dropdown On Hover-->
-        <script>
-            const $dropdown = $(".dropdown");
-            const $dropdownToggle = $(".dropdown-toggle");
-            const $dropdownMenu = $(".dropdown-menu");
-            const showClass = "show";
-      
-            $(window).on("load resize", function() {
-              if (this.matchMedia("(min-width: 768px)").matches) {
-                $dropdown.hover(
-                  function() {
-                    const $this = $(this);
-                    $this.addClass(showClass);
-                    $this.find($dropdownToggle).attr("aria-expanded", "true");
-                    $this.find($dropdownMenu).addClass(showClass);
-                  },
-                  function() {
-                    const $this = $(this);
-                    $this.removeClass(showClass);
-                    $this.find($dropdownToggle).attr("aria-expanded", "false");
-                    $this.find($dropdownMenu).removeClass(showClass);
-                  }
-                );
-              } else {
-                $dropdown.off("mouseenter mouseleave");
-              }
-            });
-          </script>
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
 
-<!-- BOOTSTRAP JAVASCRIP -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!--Auto Drop Dropdown On Hover-->
+  <script>
+    const $dropdown = $(".dropdown");
+    const $dropdownToggle = $(".dropdown-toggle");
+    const $dropdownMenu = $(".dropdown-menu");
+    const showClass = "show";
+
+    $(window).on("load resize", function () {
+      if (this.matchMedia("(min-width: 768px)").matches) {
+        $dropdown.hover(
+          function () {
+            const $this = $(this);
+            $this.addClass(showClass);
+            $this.find($dropdownToggle).attr("aria-expanded", "true");
+            $this.find($dropdownMenu).addClass(showClass);
+          },
+          function () {
+            const $this = $(this);
+            $this.removeClass(showClass);
+            $this.find($dropdownToggle).attr("aria-expanded", "false");
+            $this.find($dropdownMenu).removeClass(showClass);
+          }
+        );
+      } else {
+        $dropdown.off("mouseenter mouseleave");
+      }
+    });
+  </script>
+
+  <!-- BOOTSTRAP JAVASCRIP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
