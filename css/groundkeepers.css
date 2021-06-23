@@ -311,7 +311,7 @@ a[aria-expanded="true"] {
   display: flex; 
   flex-direction: column; 
   overflow: hidden;
-  height: 56.2vw;
+  min-height: 56.2vw;
   background-attachment: fixed;
 }
 
