@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" href="css/features.css">
 
-  <title>Wolfcraft: FEATURES</title>
+  <title>WOLFCRAFT: FEATURES</title>
 </head>
 
 <body>
@@ -77,8 +77,21 @@
                 style="padding-right: 5px;"></i>GALLERY</b></a>
         </li>
         <li>
-          <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-map-marker-alt"
-                style="padding-right: 5px;"></i>MAP</b></a>
+          <a href="#livemaps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+            style="padding-left: 30px; color: white;"><b><i class="fas fa-map-marker-alt"
+                style="padding-right: 5px;"></i>LIVE MAP</b></a>
+          <ul class="collapse list-unstyled" id="livemaps">
+            <li>
+              <a class="dropdown-item" href="http://play.wolfcraftmc.com:8123/ " target=”_blank”
+                style="color: white; "><b><i class="fas fa-apple-alt" style="padding-right: 5px"></i>SURVIVAL
+                  MAP</b></a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="http://creative.wolfcraftmc.com:7455/" target=”_blank”
+                style="color: white; "><b><i class="fas fa-drafting-compass" style="padding-right: 5px"></i>CREATIVE
+                  MAP</b></a>
+            </li>
+          </ul>
         </li>
         <li>
           <a href="#resourcesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
@@ -157,8 +170,21 @@
           <li>
             <a href="gallery.html"><i class="fa fa-crop-alt" style="padding-right: 10px"></i><b>GALLERY</b></a>
           </li>
-          <li>
-            <a href="#"><i class="fas fa-map-marker-alt" style="padding-right: 10px"></i><b>MAP</b></a>
+          <li class="dropdown">
+            <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" style="font-weight: 400"><b><i class="fas fa-map-marker-alt"
+                  style="padding-right: 5px"></i>LIVE MAPS</b></a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="
+                            min-width: 150px;
+                            background-color: #0f0f18;
+                            border-radius: 0;
+                          ">
+              <a class="dropdown-item" href="http://play.wolfcraftmc.com:8123/" target=”_blank”><b><i
+                    class="fas fa-apple-alt" style="padding-right: 5px"></i>SURVIVAL MAP</b></a>
+              <a class="dropdown-item" href="http://creative.wolfcraftmc.com:7455/" target=”_blank”><b><i
+                    class="fas fa-drafting-compass" style="padding-right: 5px"></i>CREATIVE MAP</b></a>
+            </div>
           </li>
           <li class="dropdown">
             <a class="dropdownMain" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -179,7 +205,7 @@
 
       <div id="non-collapsableContent" style="margin-left: 10vw; display: inline">
         <div class="largeViewPort-ApplyNow">
-          <button class="btn" style="font-size: 14px; height: 100%">
+          <button class="btn" style="font-size: 14px; height: 100%" onclick="window.location.href='applynow.html'">
             <p>
               <i class="fas fa-pencil-ruler" style="padding-right: 10px"></i><b>APPLY NOW</b>
             </p>
@@ -197,19 +223,21 @@
     </nav>
   </div>
 
+  <!-- BODY HEADER SECTION -->
   <div id="bodyHeader" class="container-fluid">
     <div class="pageTitle">
       <p">LEARN MORE<br> ABOUT OUR COMMUNITY</p>
     </div>
     <div class="pageDescription">
-      <p>Learn about the Wolfcraft community and servers, what features we offer our players and the plugins we use to
-        enchance player experience.</p>
+      <p>Learn about the WolfCraft community and servers, what features we offer our players and the plugins we use to
+        enchance player experience, and more.</p>
     </div>
   </div>
 
-  <div id="bodyFeatures" class="container" style="margin-top: 40px;">
+  <!-- FEATURES SECTION -->
+  <div id="bodyFeatures" class="container" style="margin-top: 40px; padding-left: 5vw; padding-right: 5vw;">
     <h2 style="color: white; text-align: left; padding-top: 50px;"><b>THE WOLFCRAFT COMMUNITY</b></h2><br>
-    <p style="color: white; font-size: 18px; padding-bottom: 50px;">Joining Wolfcraft first-and-foremost makes you part
+    <p style="color: white; font-size: 18px; padding-bottom: 50px;">Joining WolfCraft first-and-foremost makes you part
       of our ever growing community. Our community is filled with enthusiets who are binded by their love for minecraft
       and desire to share their experiences with others or just to have fun along the way.</p>
     <div class="row row-cols-1 row-cols-md-2 g-4" style="color: white; padding-bottom: 50px;">
@@ -217,7 +245,7 @@
         <div class="card" style="border-left: #7768AE solid 10px;">
           <div class="card-body">
             <h5 class="card-title"><b><i class="fab fa-discord"></i> DISCORD ACCESS</b></h5>
-            <p class="card-text">Our official Discord Server is the central hub for Wolfcraft and all its members. This
+            <p class="card-text">Our official Discord Server is the central hub for WolfCraft and all its members. This
               is a happening place where you can relax, connect with other members, ask questions or even share your
               work for other to see. You will be able to access gaming channels dedicated to other games outside
               Minecraft. Furthermore, this is where you can communicate with staff to help us improve your experience on
@@ -230,7 +258,7 @@
           <div class="card-body">
             <h5 class="card-title"><b><i class="fas fa-users-cog"></i> DEDICATED STAFF TEAM</b></h5>
             <p class="card-text">When in a multiplayer environment, it is important to have a strong management team. At
-              Wolfcraft, you will find a dedicated staff team which actively moniters and protects the server from
+              WolfCraft, you will find a dedicated staff team which actively moniters and protects the server from
               malicious actions. The staff team is prodominatly made up of players who joined the server and have shown
               dedication to help others, support and maintain the community ensuring they have a player's perspective
               when making decisions. Learn more about staff and the people that manage our community <a
@@ -245,7 +273,7 @@
       <div class="card" style="min-width: 100%; margin-left: 1vw; margin-right: 1vw;">
         <div class="card-body">
           <h5 class="card-title"><b><i class="fas fa-globe"></i> INTERNATIONAL & DIVERSE COMMUNITY</b></h5>
-          <p class="card-text">The Wolfcraft community has over a hundred players thus far and is growing each Wolfcraft
+          <p class="card-text">The WolfCraft community has over a hundred players thus far and is growing each WolfCraft
             season. We are proud to also have a international community of players from different backgrounds and
             countries providing a diverse and unique playing experience.</p>
           <iframe title="[ Insert title here ]" aria-label="Map" id="datawrapper-chart-H62zR"
@@ -263,7 +291,7 @@
       <div id="serverListCards" class="container" style="align-content: center !important;">
         <div class="row row-cols-1 row-cols-md-3 g-4"
           style="justify-content: center; padding-left: 0; padding-right: 0;">
-          <div class="col" style="min-width: 400px; max-width: 400px; height: auto;">
+          <div class="col" style="min-width: 450px; max-width: 450px; height: auto;">
             <div class="card"
               style=" border: none; height: auto; background-color: transparent; min-width: 350px; max-width: 450px; overflow: hidden;">
               <img src="css/images/index/SurvivalHeader.png" class="card-img-top" alt="..."
@@ -302,7 +330,7 @@
               </div>
             </div>
           </div>
-          <div class="col" style="min-width: 400px; max-width: 400px; height: auto;">
+          <div class="col" style="min-width: 450px; max-width: 450px; height: auto;">
             <div class="card"
               style=" border: none; height: auto; background-color: transparent; min-width: 350px; max-width: 450px; overflow: hidden;">
               <img src="css/images/index/CreativeHeader.png" class="card-img-top" alt="..."
@@ -338,7 +366,7 @@
               </div>
             </div>
           </div>
-          <div class="col" style="min-width: 400px; max-width: 400px; height: auto;">
+          <div class="col" style="min-width: 450px; max-width: 450px; height: auto;">
             <div class="card"
               style=" border: none; height: auto; background-color: transparent; min-width: 350px; max-width: 450px; overflow: hidden;">
               <img src="css/images/index/SurvivalHeader.png" class="card-img-top" alt="..."
@@ -385,7 +413,8 @@
             <p class="card-text">To protect player builds from unwanted damage and distruction, we have equiped our
               servers with the CoreProtect plugin. CoreProtect is a fast, efficient, data logging and anti-griefing tool
               allowing us to rollback and restore any amount of damage. To learn more about the features CoreProtects
-              offers to ptoect your build, click <a href="https://www.spigotmc.org/resources/coreprotect.8631/" target=”_blank”
+              offers to ptoect your build, click <a href="https://www.spigotmc.org/resources/coreprotect.8631/"
+                target=”_blank”
                 style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px;"><b>here</b></a>.
             </p>
           </div>
@@ -410,7 +439,7 @@
         <div class="card" style="border-left: #1b998b solid 10px;">
           <div class="card-body">
             <h5 class="card-title"><b><i class="fas fa-credit-card"></i> PLAYER GENERATED ECONOMY</b></h5>
-            <p class="card-text">At Wolfcraft, we offer players a functional economy to buy and trade. Each season,
+            <p class="card-text">At WolfCraft, we offer players a functional economy to buy and trade. Each season,
               players are given the opportunity to build uniquly styled shops and stalls to sell their items in our
               desginated Shopping District. Players can choose to buy goods with the server's standard currency,
               diamonds, or trade their goods for other goods of value. The value of each item is shaped by its
@@ -460,7 +489,8 @@
                   style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px;"><b>Dynmap-WorldGuard</a></b>
               </li>
               <li><a
-                  href="https://www.spigotmc.org/resources/entitytrackerfixer-fix-1-14-4-1-16-2-entitytick-lag.70902/" target=”_blank”
+                  href="https://www.spigotmc.org/resources/entitytrackerfixer-fix-1-14-4-1-16-2-entitytick-lag.70902/"
+                  target=”_blank”
                   style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px;"><b>EntityTrackerFixer</a></b>
               </li>
               <li><a href="https://dev.bukkit.org/projects/essentials" target=”_blank”
@@ -530,10 +560,17 @@
         <div class="card" style="border-left: #bfdbf7 solid 10px;">
           <div class="card-body">
             <h5 class="card-title"><b><i class="fas fa-landmark"></i> HISTORY OF WOLFCRAFT</b></h5>
-            <p class="card-text" style="font-weight: normal;">Wolfcraft has had to conqure many challenges and
+            <p class="card-text" style="font-weight: normal;">WolfCraft has had to conqure many challenges and
               difficulties over its exisitance. Learn what made shaped our community into what it is today.</p>
-            <button type="button" class="btn btn-primary" disabled><a href=""
-                style="text-decoration: none; color: white;">READ MORE</a></button>
+            <button class="readMore" style="
+          padding: 12px;
+          border-radius: 20px;
+          border-color: cornflowerblue;
+          background-color: transparent;
+          color: white;
+        " onclick="window.location.href='#'">
+              READ MORE
+            </button>
           </div>
         </div>
       </div>
@@ -543,16 +580,68 @@
             <h5 class="card-title"><b><i class="fas fa-microphone-alt"></i> PLAYER OPINION</b></h5>
             <p class="card-text" style="font-weight: normal;">What better way to learn about a community than in the
               words of its members. See what our players have to say about our community.</p>
-            <button type="button" class="btn btn-primary" disabled><a href=""
-                style="text-decoration: none; color: white;">READ MORE</a></button>
+            <button class="readMore" style="
+          padding: 12px;
+          border-radius: 20px;
+          border-color: cornflowerblue;
+          background-color: transparent;
+          color: white;
+        " onclick="window.location.href='playertestimonials.html'">
+              READ MORE
+            </button>
           </div>
         </div>
       </div>
     </div>
+    <h2 style="margin-top: 35px; color: white; text-align: left;"><b>DONATIONS AND PERKS</b></h2><br>
+    <p style="font-weight: normal; color: white; font-size: 18px; padding-bottom: 20px;">We pride ourselves for
+      providing a rich and feature-filled gameplay experience for free. This is why we've made sure that the following
+      perks and roles are in <span style="border-bottom: 2px dotted #ffffff;">no way a pay to win option on this
+        server</span>. Any and all help we receive will go to increasing server performance, upgrading RAM or boosting
+      the Discord. We know not everyone can donate, but we are extremely grateful to our donators that keep our server
+      going!</p>
+
+    <div id="donateSection">
+        <h5 style="color: white; padding-top: 20px">
+          <b>HOW CAN YOU DONATE TO OUR COMMUNITY?</b>
+        </h5>
+        <ul
+          style="list-style-type: circle !important; color: white; text-transform: uppercase; font-weight: normal; padding-top: 10px;">
+          <li style="padding: 4px 0;">NITRO-BOOST
+            OUR DISCORD SERVER (EACH BOOST UNLOCKS THE NEXT PERK TIER)
+          </li>
+          <li style="padding: 4px 0;"><a href="https://www.patreon.com/TheWolfPackMC?fan_landing=true" target=”_blank”
+              style="color: #cefdff; border-bottom: 2px dotted #cefdff; text-decoration: none; letter-spacing: 1px; padding: 1px 0;">SUPPORT
+              US ON PATRON</a>
+          </li>
+        </ul>
+        <h5 style="color: white; padding-top: 20px">
+          <b>PERKS:</b>
+        </h5>
+        <p style="font-weight: normal; color: white; font-size: 16px;">The following perks are organised into ranks you will recieve within our discord server and in-game and are organised in the order of this assignment (For the Nitro-Boost Method):</p>
+        <ul
+          style="list-style-type: none !important; color: white; text-transform: uppercase; font-weight: normal; padding-top: 10px;">
+          <li style="padding: 6px 0; line-height: 35px; border-bottom: 0.5px solid rgb(70, 69, 69);">
+            <mark style="background-color: rgb(145, 145, 145); color: white; border-radius: 8px; padding: 5px;">@IRON</mark> : Gets accees to the /nick command in-game.
+          </li>
+          <li style="padding: 6px 0; line-height: 35px; border-bottom: 0.5px solid rgb(70, 69, 69);">
+            <mark style="background-color: rgb(187, 184, 0); color: white; border-radius: 8px; padding: 5px;">@GOLD</mark> :
+            Gets access to the /me command, the ability to use multiple colors/effects in chat along with <mark style="background-color: rgb(145, 145, 145); color: white; border-radius: 8px; padding: 5px;">@IRON</mark>  perks.
+          </li>
+          <li style="padding: 6px 0; line-height: 35px; border-bottom: 0.5px solid rgb(70, 69, 69);">
+            <mark style="background-color: rgb(0, 194, 120); color: white; border-radius: 8px; padding: 5px;">@EMERALD</mark> :
+            Can do particle effects in-game along with <mark style="background-color: rgb(145, 145, 145); color: white; border-radius: 8px; padding: 5px;">@IRON</mark> and <mark style="background-color: rgb(187, 184, 0); color: white; border-radius: 8px; padding: 5px;">@GOLD</mark>  perks.
+          </li>
+          <li style="padding: 6px 0; line-height: 35px;">
+            <mark style="background-color: rgb(0, 198, 224); color: white; border-radius: 8px; padding: 5px;">@DIAMOND</mark> :
+            Can get a pet to ride or fly on along with <mark style="background-color: rgb(145, 145, 145); color: white; border-radius: 8px; padding: 5px;">@IRON</mark> ,
+            <mark style="background-color: rgb(187, 184, 0); color: white; border-radius: 8px; padding: 5px;">@GOLD</mark>  and <mark style="background-color: rgb(0, 194, 120); color: white; border-radius: 8px; padding: 5px;">@EMERALD</mark>  perks.
+          </li>
+        </ul>
+    </div>
   </div>
 
-
-  <!-- Footer -->
+  <!-- FOOTER SECTION -->
   <div class="mt-5 pt-5 footer">
     <div class="container">
       <div class="row">
