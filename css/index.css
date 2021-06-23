@@ -337,7 +337,7 @@ a[aria-expanded="true"] {
   transform: translate(0, -5px) !important;
 }
 
-#serverListCards .row .col .card:hover{
+#serverListCards .row .col .card:hover img{
   transition: all 0.5s ease;
   transform: translatey(-10px) translatex(-5px) scale(1.05)
 }
