@@ -308,27 +308,26 @@ a[aria-expanded="true"] {
   background-attachment: fixed;
 }
 
-#bodyHeader .pageTitle{
-  text-align: left;
-  font-size: 60px; 
-  font-weight: 800; 
+#bodyHeader .pageTitle {
+  font-size: 3.90625vw;
+  font-weight: 800;
   color: white;
 }
 
-#bodyHeader .pageDescription{
+#bodyHeader .pageDescription {
   width: 75% !important;
-  font-size: 20px;
-  font-weight: 400; 
-  width: 40vw; 
+  font-size: 1.5vw;
+  font-weight: 400;
+  width: 40vw;
   color: white;
 }
-@media (max-width: 869px){
-  #bodyHeader .pageTitle{
-    font-size: 45px !important;
+@media (max-width: 869px) {
+  #bodyHeader .pageTitle {
+    font-size: 6vw !important;
   }
-  #bodyHeader .pageDescription{
-      font-size: 15px !important;
-      width: 80% !important;
+  #bodyHeader .pageDescription {
+    font-size: 3vw !important;
+    width: 80% !important;
   }
 }
 

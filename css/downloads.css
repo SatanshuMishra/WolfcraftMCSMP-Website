@@ -314,24 +314,24 @@ a[aria-expanded="true"] {
 }
 
 #bodyHeader .pageTitle {
-  font-size: 60px;
+  font-size: 3.90625vw;
   font-weight: 800;
   color: white;
 }
 
 #bodyHeader .pageDescription {
   width: 75% !important;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 400;
   width: 40vw;
   color: white;
 }
 @media (max-width: 869px) {
   #bodyHeader .pageTitle {
-    font-size: 45px !important;
+    font-size: 6vw !important;
   }
   #bodyHeader .pageDescription {
-    font-size: 15px !important;
+    font-size: 3vw !important;
     width: 80% !important;
   }
 }

@@ -27,6 +27,31 @@
   <title>HOME OF WOLFCRAFT</title>
 </head>
 
+<!-- CUSTOM SCROLL-WHEEL -->
+<style>
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #0f0f18; 
+    border-radius: 0;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0088FF;
+    border-radius: 0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0088FF; 
+  }
+</style>
+
 <body>
 <!-- SIDE-NAVEBAR -->
 <div id="mySidenav" class="sidenav" style="z-index: 1; background-color: #0f0f18;">
@@ -36,6 +61,10 @@
           <h3>INDEX</h3>
       </div>
       <ul class="list-unstyled components" style="background-color: #0f0f18; border: none;">
+          <li>
+              <a href="index.html" style="padding-left: 30px; color: white;"><b><i class="fa fa-home"
+                          style="padding-right: 5px;"></i>HOME</b></a>
+          </li>
           <li>
               <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
                   style="padding-left: 30px; color: white;"><b><i class="fas fa-sitemap"
@@ -50,7 +79,7 @@
                                   style="padding-right: 5px;"></i>RULES</b></a>
                   </li>
                   <li>
-                      <a href="#" style="padding-left: 30px; color: white;"><b><i class="fas fa-history"
+                      <a href="wolfcrafthistory.html" style="padding-left: 30px; color: white;"><b><i class="fas fa-history"
                                   style="padding-right: 5px;"></i>SERVER HISTORY</b></a>
                   </li>
                   <li>
@@ -149,7 +178,7 @@
                                   style="padding-right: 5px"></i>FEATURES</b></a>
                       <a class="dropdown-item" href="rules.html"><b><i class="fas fa-book"
                                   style="padding-right: 5px"></i>RULES</b></a>
-                      <a class="dropdown-item" href="#"><b><i class="fas fa-history"
+                      <a class="dropdown-item" href="wolfcrafthistory.html"><b><i class="fas fa-history"
                                   style="padding-right: 5px"></i>SERVER
                               HISTORY</b></a>
                       <a class="dropdown-item" href="playertestimonials.html"><b><i class="fas fa-scroll"
@@ -233,10 +262,10 @@
   <!-- HEADER SECTION -->
   <div id="bodyHeader" class="container-fluid">
     <div class="pageTitle">
-      <p style="font-size: 70px; color: #ffffff" class="animate__animated animate__fadeInDown">
+      <p style="color: #ffffff" class="animate__animated animate__fadeInDown">
         WELCOME TO WOLFCRAFT
       </p>
-      <p style="font-size: 30px" class="animate__animated animate__fadeInLeftBig">
+      <p class="pageDescription animate__animated animate__fadeInLeftBig">
         A MINECRAFT GAMING COMMUNITY
       </p>
     </div>

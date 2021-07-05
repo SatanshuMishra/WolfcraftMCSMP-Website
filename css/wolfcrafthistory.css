@@ -298,11 +298,11 @@ a[aria-expanded="true"] {
 
 #bodyHeader {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.95)),
-    url("BackdropFeatures.png");
+    url("images/gallery/Picture10.png");
   background-size: cover;
   padding-left: 5vw; 
   padding-right: 5vw; 
-  padding-top: 19vw; 
+  padding-top: 21vw; 
   padding-bottom: 3.90625vw;  
   display: block; 
   align-items: left; 
@@ -314,62 +314,31 @@ a[aria-expanded="true"] {
 }
 
 #bodyHeader .pageTitle {
-  font-size: 3.90625vw;
-  font-weight: 800;
-  color: white;
-}
-
-#bodyHeader .pageDescription {
-  width: 75% !important;
-  font-size: 1.5vw;
-  font-weight: 400;
-  width: 40vw;
-  color: white;
-}
-@media (max-width: 869px) {
-  #bodyHeader .pageTitle {
-    font-size: 6vw !important;
+    font-size: 3.90625vw;
+    font-weight: 800;
+    color: white;
   }
+  
   #bodyHeader .pageDescription {
-    font-size: 3vw !important;
-    width: 80% !important;
+    width: 75% !important;
+    font-size: 1.5vw;
+    font-weight: 400;
+    width: 40vw;
+    color: white;
   }
-}
-
-#bodyFeatures {
-  width: 100%;
-}
-
-#bodyFeatures .card {
-  margin: 10px 5px 5px 5px;
-  padding: 20px 10px 20px 10px;
-  min-width: 350px;
-  max-width: 810px;
-  background-color: #0f0f18;
-  border-left: #0088ff solid 10px;
-}
-
-#bodyFeatures .card .featureTitle {
-  padding: 0px 20px 0 20px;
-  font-size: 15px;
-  font-weight: 600;
-  color: white;
-}
-
-#bodyFeatures .card .featureText {
-  padding: 0px 20px 0 20px;
-  font-size: 15px;
-  color: white;
-}
-
-.readMore:hover{
-  transition: all 0.3s ease;
-  background-color: #0088FF !important;
-  color: white !important;
-}
+  @media (max-width: 869px) {
+    #bodyHeader .pageTitle {
+      font-size: 6vw !important;
+    }
+    #bodyHeader .pageDescription {
+      font-size: 3vw !important;
+      width: 80% !important;
+    }
+  }
 
 .footer {
   padding-left: 20px;
+  margin-top: 0 !important;
   background: #0e8fff;
   color: white;
   .about-wolfcraft {
